@@ -1,0 +1,22 @@
+# Chế độ domain (mặc định): HTTPS tự động cho SITE_DOMAIN.
+# www.SITE_DOMAIN và truy cập thẳng bằng IP đều chuyển hướng 301 về https://SITE_DOMAIN
+{
+	email {$ACME_EMAIL}
+	admin 127.0.0.1:2019
+}
+
+import /etc/caddy/site.caddy
+
+{$SITE_DOMAIN} {
+	import zuimo_site
+	# HSTS: trình duyệt chỉ dùng HTTPS trong 1 năm. Chưa bật includeSubDomains/preload để còn đường lùi.
+	header Strict-Transport-Security "max-age=31536000"
+}
+
+www.{$SITE_DOMAIN} {
+	redir https://{$SITE_DOMAIN}{uri} permanent
+}
+
+http://{$SERVER_IP} {
+	redir https://{$SITE_DOMAIN}{uri} permanent
+}

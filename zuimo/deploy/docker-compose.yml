@@ -1,0 +1,91 @@
+# ZUIMO – triển khai bản web tĩnh bằng Caddy.
+# Caddy phục vụ file tĩnh, nén zstd/gzip, và tự cấp chứng chỉ Let's Encrypt khi SITE_ADDRESS là domain.
+name: zuimo
+
+services:
+  web:
+    image: caddy:2-alpine            # bản Alpine nhỏ gọn; nâng cấp: docker compose pull && docker compose up -d
+    container_name: zuimo-web
+    restart: unless-stopped
+    env_file: .env
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"                # HTTP/3 (QUIC)
+    volumes:
+      - ./${CADDYFILE:-Caddyfile}:/etc/caddy/Caddyfile:ro   # chọn chế độ domain hoặc IP trong .env
+      - ./site.caddy:/etc/caddy/site.caddy:ro
+      - ./site:/srv:ro
+      - ./media:/media:ro              # MP3 luyện nghe; gắn ngoài /srv vì /srv là mount chỉ đọc, không tạo được điểm gắn con               # nội dung web, chỉ đọc trong container
+      - caddy_data:/data             # chứng chỉ TLS: PHẢI giữ lại, nếu mất sẽ xin cấp lại và dễ chạm rate limit
+      - caddy_config:/config
+      - ./logs:/var/log/caddy
+    read_only: true                  # hệ thống file container chỉ đọc, giảm bề mặt tấn công
+    tmpfs:
+      - /tmp
+    cap_drop: [ALL]
+    cap_add: [NET_BIND_SERVICE]      # chỉ cần quyền mở cổng < 1024
+    security_opt:
+      - no-new-privileges:true
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1:2019/config/"]   # admin API chỉ nghe trên localhost của container
+      interval: 30s
+      timeout: 5s
+      retries: 3
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+
+  db:
+    image: postgres:16-alpine
+    container_name: zuimo-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: zuimo
+      POSTGRES_DB: zuimo
+      # mật khẩu khai báo MỘT nơi duy nhất là deploy/.env, api dùng lại qua nội suy bên dưới
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Thiếu POSTGRES_PASSWORD trong .env}
+      POSTGRES_INITDB_ARGS: "--data-checksums"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U zuimo -d zuimo"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+
+  api:
+    build: ../server
+    container_name: zuimo-api
+    restart: unless-stopped
+    environment:
+      DATABASE_URL: postgres://zuimo:${POSTGRES_PASSWORD}@db:5432/zuimo
+      AUTH_SECRET: ${AUTH_SECRET:?Thiếu AUTH_SECRET trong .env}
+      PUBLIC_URL: https://${SITE_DOMAIN}
+      SESSION_DAYS: ${SESSION_DAYS:-30}
+      TRUST_PROXY: "1"
+      GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID:-}
+      GOOGLE_CLIENT_SECRET: ${GOOGLE_CLIENT_SECRET:-}
+      AZURE_SPEECH_KEY: ${AZURE_SPEECH_KEY:-}         # TTS (gen-audio.mjs) và chấm phát âm
+      AZURE_SPEECH_REGION: ${AZURE_SPEECH_REGION:-}
+      PEXELS_API_KEY: ${PEXELS_API_KEY:-}            # thư viện ảnh từ vựng (admin)
+      MEDIA_DIR: /app/media
+    depends_on:
+      db: { condition: service_healthy }
+    volumes:
+      - ../content/build:/app/content-build:ro   # cấp HSK, loại từ, câu ví dụ cho script nạp từ điển
+      - ./media:/app/media                       # gen-audio.mjs ghi MP3 vào đây (api ghi, web chỉ đọc)
+    expose: ["3000"]        # không publish ra ngoài: chỉ Caddy trong cùng network gọi được
+    security_opt: [no-new-privileges:true]
+    cap_drop: [ALL]
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+
+volumes:
+  caddy_data:
+  caddy_config:
+  pgdata:

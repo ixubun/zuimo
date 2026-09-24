@@ -1,0 +1,21 @@
+# Bí mật: KHÔNG BAO GIỜ commit
+.env
+.env.*
+!.env.example
+
+# Phụ thuộc và bản build (VPS tự build khi deploy)
+node_modules/
+web/dist/
+deploy/site/
+
+# Dữ liệu sinh ra khi chạy trên VPS
+deploy/media/*
+!deploy/media/.gitkeep
+deploy/logs/*
+!deploy/logs/.gitkeep
+deploy/releases/
+deploy/backups/
+
+__pycache__/
+*.pyc
+.DS_Store

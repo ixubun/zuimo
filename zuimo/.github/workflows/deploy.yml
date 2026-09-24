@@ -1,0 +1,73 @@
+# Triển khai Zuimó lên VPS mỗi khi push lên main.
+# Trên VPS, /opt/zuimo là bản clone của repo này (gốc repo = thư mục zuimo/), compose chạy trong /opt/zuimo/deploy.
+# Workflow KHÔNG tạo hay sửa deploy/.env: file đó do người vận hành giữ trên VPS.
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Không để hai lần deploy chạy chồng lên nhau trên cùng một VPS
+concurrency:
+  group: deploy-production
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Deploy qua SSH
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.ZUIMO_VPS }}
+          username: ${{ secrets.VPS_USER }}
+          key: ${{ secrets.VPS_SSH_KEY }}
+          port: ${{ secrets.VPS_PORT || 22 }}   # mặc định 22; VPS đã chuyển SSH sang 1812 thì thêm secret VPS_PORT
+          command_timeout: 25m                  # lần đầu build image api (ffmpeg, PyMuPDF) mất vài phút
+          script: |
+            set -Eeuo pipefail
+            APP_DIR=/opt/zuimo
+            cd "$APP_DIR"
+            [ -d .git ] || { echo "[x] $APP_DIR chưa phải bản clone git của repo"; exit 1; }
+
+            echo "[+] Lấy mã mới"
+            git pull --ff-only origin main
+            echo "    commit: $(git log -1 --format='%h %s')"
+
+            cd "$APP_DIR/deploy"
+            # .env chỉ được kiểm tra, không bao giờ bị ghi
+            [ -f .env ] || { echo "[x] Thiếu deploy/.env trên VPS"; exit 1; }
+
+            echo "[+] Build giao diện (Vite) trong container Node, VPS không cần cài Node"
+            docker run --rm -u "$(id -u):$(id -g)" \
+              -e HOME=/tmp -e npm_config_cache=/tmp/.npm \
+              -v "$APP_DIR/web:/app" -w /app node:22-alpine \
+              sh -c "npm ci --no-audit --no-fund && npm run build"
+            [ -s "$APP_DIR/web/dist/index.html" ] || { echo "[x] Build web không ra dist/index.html"; exit 1; }
+
+            echo "[+] Lưu bản web hiện tại để rollback, rồi thay bằng bản mới"
+            mkdir -p releases
+            [ -f site/index.html ] && cp site/index.html "releases/index-$(date +%Y%m%d-%H%M%S).html"
+            ls -1t releases/index-*.html 2>/dev/null | tail -n +11 | xargs -r rm -f || true
+            # --delay-updates: ghi tạm rồi đổi tên hàng loạt, người dùng không tải phải file dở dang
+            rsync -a --delete --delay-updates "$APP_DIR/web/dist/" site/
+
+            echo "[+] Build lại api (npm ci trong Dockerfile), cập nhật service; migration tự chạy khi api khởi động"
+            docker compose pull -q web db
+            docker compose up -d --build --remove-orphans
+            # Caddyfile được bind-mount nên up -d không tự nhận thay đổi: reload nóng
+            docker compose exec -T web caddy reload --config /etc/caddy/Caddyfile --adapter caddyfile
+
+            echo "[+] Chờ api healthy"
+            for i in $(seq 1 30); do
+              st=$(docker inspect -f '{{.State.Health.Status}}' zuimo-api 2>/dev/null || echo none)
+              [ "$st" = healthy ] && break
+              sleep 5
+            done
+            docker compose ps
+            [ "$st" = healthy ] || { echo "[x] api chưa healthy ($st)"; docker compose logs --tail 80 api; exit 1; }
+
+            docker image prune -f >/dev/null
+            echo "[+] Deploy xong"

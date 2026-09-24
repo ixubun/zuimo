@@ -1,0 +1,48 @@
+# Tên mục phát âm (HSK 2.0) – khoá là tiền tố tiếng Trung trong mục lục
+汉语拼音的声母和韵母(1) ‖ Thanh mẫu và vận mẫu (1)
+汉语的声调（四声） ‖ Bốn thanh điệu
+汉语的音节 ‖ Cấu tạo âm tiết
+两个三声音节的连读变调 ‖ Biến điệu khi hai thanh 3 đi liền nhau
+汉语拼音的声母和韵母(2) ‖ Thanh mẫu và vận mẫu (2)
+汉语的轻声 ‖ Thanh nhẹ
+拼音规则(1) ‖ Quy tắc pinyin (1): cách đánh dấu thanh và cách viết rút gọn
+发音辨析: 声母j q x和z c s ‖ Phân biệt phát âm j, q, x với z, c, s
+发音辨析: 韵母i u ü ‖ Phân biệt vận mẫu i, u, ü
+“不”的变调 ‖ Biến điệu của 不
+拼音规则(2) ‖ Quy tắc pinyin (2): ü và vận mẫu bắt đầu bằng ü khi ghép với j, q, x
+发音辨析: 声母zh ch sh r ‖ Phân biệt phát âm zh, ch, sh, r
+发音辨析: 前鼻音韵母n和后鼻音韵母ng ‖ Phân biệt vận mẫu mũi trước -n và mũi sau -ng
+“一”的变调 ‖ Biến điệu của 一
+拼音规则(3) ‖ Quy tắc pinyin (3): cách dùng y và w
+儿化的发音 ‖ Cách phát âm âm cuốn lưỡi (儿化)
+发音辨析: 以i、u、ü开头的韵母 ‖ Phân biệt vận mẫu bắt đầu bằng i, u, ü
+声母送气音和不送气音发音的区别 ‖ Phân biệt thanh mẫu bật hơi và không bật hơi
+拼音规则(4) ‖ Quy tắc pinyin (4): dấu cách âm (')
+双音节词语的声调搭配(1) ‖ Kết hợp thanh điệu từ hai âm tiết (1): thanh 1 đứng đầu
+双音节词语的声调搭配(2) ‖ Kết hợp thanh điệu từ hai âm tiết (2): thanh 2 đứng đầu
+双音节词语的声调搭配(3) ‖ Kết hợp thanh điệu từ hai âm tiết (3): thanh 3 đứng đầu
+双音节词语的声调搭配(4) ‖ Kết hợp thanh điệu từ hai âm tiết (4): thanh 4 đứng đầu
+轻声音节的读法 ‖ Cách đọc âm tiết thanh nhẹ
+叠音词的读法 ‖ Cách đọc từ láy (叠音词)
+带后缀词的读法 ‖ Cách đọc từ có hậu tố -们, -子, -头
+轻声的功能 ‖ Chức năng của thanh nhẹ
+三音节词语的声调搭配(1) ‖ Kết hợp thanh điệu từ ba âm tiết (1): thanh 1 đứng đầu
+三音节词语的声调搭配(2) ‖ Kết hợp thanh điệu từ ba âm tiết (2): thanh 2 đứng đầu
+三音节词语的声调搭配(3) ‖ Kết hợp thanh điệu từ ba âm tiết (3): thanh 3 đứng đầu
+三音节词语的声调搭配(4) ‖ Kết hợp thanh điệu từ ba âm tiết (4): thanh 4 đứng đầu
+# quyển 2 (HSK标准教程 2)
+双音节词语的重音 ‖ Trọng âm của từ hai âm tiết: dạng vừa–mạnh và mạnh–nhẹ
+三音节词语的重音 ‖ Trọng âm của từ ba âm tiết: vừa–nhẹ–mạnh, vừa–mạnh–nhẹ, mạnh–nhẹ–nhẹ
+四音节词语的重音 ‖ Trọng âm của từ bốn âm tiết: không có và có thanh nhẹ
+句子的语法重音(1) ‖ Trọng âm ngữ pháp của câu (1): nhấn vị ngữ, nhấn bổ ngữ
+句子的语法重音(2) ‖ Trọng âm ngữ pháp của câu (2): nhấn định ngữ, nhấn trạng ngữ
+句子的逻辑重音 ‖ Trọng âm logic của câu
+汉语的基本句调 ‖ Ngữ điệu cơ bản của câu tiếng Trung
+陈述句的句调 ‖ Ngữ điệu câu trần thuật
+是非疑问句的句调 ‖ Ngữ điệu câu hỏi có/không
+特指问句的句调 ‖ Ngữ điệu câu hỏi dùng đại từ nghi vấn
+正反问句的句调 ‖ Ngữ điệu câu hỏi chính phản
+选择问句的句调 ‖ Ngữ điệu câu hỏi lựa chọn
+祈使句的句调 ‖ Ngữ điệu câu cầu khiến
+感叹句的句调 ‖ Ngữ điệu câu cảm thán
+用“吧”和“吗”构成的疑问句的句调 ‖ Ngữ điệu câu hỏi dùng 吧 và 吗

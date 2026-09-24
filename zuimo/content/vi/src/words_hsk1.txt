@@ -1,0 +1,529 @@
+# ZUIMO – nghĩa tiếng Việt từ vựng HSK 1 (tự biên soạn). Định dạng: từ ‖ nghĩa
+爱 ‖ yêu, thích
+爱好 ‖ sở thích; yêu thích
+八 ‖ tám
+爸爸 ‖ bố, ba
+吧 ‖ nhé, nhỉ (trợ từ đề nghị, phỏng đoán)
+白 ‖ trắng
+白天 ‖ ban ngày
+百 ‖ trăm
+班 ‖ lớp học; ca làm việc
+半 ‖ một nửa; rưỡi
+半年 ‖ nửa năm
+半天 ‖ nửa ngày; mãi, rất lâu
+帮 ‖ giúp
+帮忙 ‖ giúp đỡ, giúp một tay
+包 ‖ túi, gói; gói lại
+包子 ‖ bánh bao
+杯 ‖ cốc, ly (lượng từ)
+杯子 ‖ cái cốc, cái ly
+北 ‖ phía bắc
+北边 ‖ phía bắc
+北京 ‖ Bắc Kinh
+本 ‖ quyển, cuốn (lượng từ)
+本子 ‖ quyển vở
+比 ‖ so với, hơn
+别 ‖ đừng; khác
+别的 ‖ cái khác, thứ khác
+别人 ‖ người khác
+病 ‖ bệnh; bị ốm
+病人 ‖ người bệnh
+不大 ‖ không… lắm
+不对 ‖ không đúng, sai
+不客气 ‖ không có gì, đừng khách sáo
+不用 ‖ không cần
+不 ‖ không
+菜 ‖ món ăn; rau
+茶 ‖ trà
+差 ‖ kém, thiếu (差五分八点: tám giờ kém năm)
+常 ‖ thường
+常常 ‖ thường xuyên
+唱 ‖ hát
+唱歌 ‖ hát
+车 ‖ xe
+车票 ‖ vé xe, vé tàu
+车上 ‖ trên xe
+车站 ‖ bến xe, nhà ga
+吃 ‖ ăn
+吃饭 ‖ ăn cơm
+出 ‖ ra
+出来 ‖ đi ra (hướng về phía người nói)
+出去 ‖ đi ra ngoài
+穿 ‖ mặc (áo); đi (giày)
+床 ‖ giường
+次 ‖ lần
+从 ‖ từ (nơi chốn, thời điểm)
+错 ‖ sai
+打 ‖ đánh; gọi (điện); chơi (bóng)
+打车 ‖ bắt taxi
+打电话 ‖ gọi điện thoại
+打开 ‖ mở ra; bật
+打球 ‖ chơi bóng
+大 ‖ to, lớn; (tuổi) lớn
+大学 ‖ đại học
+大学生 ‖ sinh viên
+到 ‖ đến
+得到 ‖ nhận được, đạt được
+地 ‖ (trợ từ) một cách…, đứng trước động từ
+的 ‖ của; (trợ từ kết cấu)
+等 ‖ đợi, chờ
+地点 ‖ địa điểm
+地方 ‖ nơi, chỗ
+地上 ‖ trên mặt đất, dưới sàn
+地图 ‖ bản đồ
+弟弟 ‖ em trai
+第 ‖ thứ (chỉ số thứ tự)
+点 ‖ giờ; điểm, chấm; gọi (món)
+电 ‖ điện
+电话 ‖ điện thoại
+电脑 ‖ máy tính
+电视 ‖ ti vi, truyền hình
+电视机 ‖ máy thu hình, ti vi
+电影 ‖ phim
+电影院 ‖ rạp chiếu phim
+东 ‖ phía đông
+东边 ‖ phía đông
+东西 ‖ đồ vật, đồ đạc
+动 ‖ động đậy, cử động
+动作 ‖ động tác
+都 ‖ đều
+读 ‖ đọc
+读书 ‖ đọc sách; đi học
+对 ‖ đúng; với, đối với
+对不起 ‖ xin lỗi
+多 ‖ nhiều; bao (nhiêu, lâu, lớn)
+多少 ‖ bao nhiêu
+饿 ‖ đói
+儿子 ‖ con trai
+二 ‖ hai
+饭 ‖ cơm, bữa ăn
+饭店 ‖ nhà hàng; khách sạn
+房间 ‖ phòng
+房子 ‖ nhà, căn nhà
+放 ‖ đặt, để; thả
+放假 ‖ nghỉ lễ, được nghỉ
+放学 ‖ tan học
+飞 ‖ bay
+飞机 ‖ máy bay
+非常 ‖ rất, vô cùng
+分 ‖ phút; xu (đơn vị tiền); chia
+风 ‖ gió
+干 ‖ làm (việc); khô
+干净 ‖ sạch sẽ
+干什么 ‖ làm gì
+高 ‖ cao
+高兴 ‖ vui, vui mừng
+告诉 ‖ nói cho biết, bảo
+哥哥 ‖ anh trai
+歌 ‖ bài hát
+个 ‖ cái, chiếc (lượng từ chung)
+给 ‖ cho; đưa
+跟 ‖ với, cùng; theo
+工人 ‖ công nhân
+工作 ‖ làm việc; công việc
+关 ‖ đóng; tắt
+关上 ‖ đóng lại, tắt đi
+贵 ‖ đắt; quý
+国 ‖ nước, quốc gia
+国家 ‖ quốc gia, đất nước
+国外 ‖ nước ngoài
+过 ‖ qua, đi qua; trải qua
+还 ‖ còn, vẫn
+还是 ‖ hay là; vẫn
+还有 ‖ còn có; ngoài ra
+孩子 ‖ đứa trẻ; con cái
+汉语 ‖ tiếng Hán, tiếng Trung
+汉字 ‖ chữ Hán
+好 ‖ tốt, hay; khỏe
+好吃 ‖ ngon
+好看 ‖ đẹp; hay (phim, sách)
+好听 ‖ hay, dễ nghe
+好玩儿 ‖ vui, thú vị
+号 ‖ ngày (trong tháng); số
+喝 ‖ uống
+和 ‖ và; với
+很 ‖ rất
+后 ‖ sau
+后边 ‖ phía sau
+后天 ‖ ngày kia
+花 ‖ hoa; tiêu (tiền, thời gian)
+话 ‖ lời nói
+坏 ‖ hỏng; xấu
+回 ‖ về, quay lại; lần
+回答 ‖ trả lời
+回到 ‖ trở về (nơi nào đó)
+回家 ‖ về nhà
+回来 ‖ quay về (đây)
+回去 ‖ quay về (đó)
+会 ‖ biết (làm gì); có thể; sẽ
+火车 ‖ tàu hỏa
+机场 ‖ sân bay
+机票 ‖ vé máy bay
+鸡蛋 ‖ trứng gà
+几 ‖ mấy
+记 ‖ ghi lại; nhớ
+记得 ‖ nhớ
+记住 ‖ nhớ kỹ
+家 ‖ nhà, gia đình; (lượng từ cho cửa hàng, công ty)
+家里 ‖ trong nhà, ở nhà
+家人 ‖ người nhà
+间 ‖ gian, phòng (lượng từ)
+见 ‖ gặp; thấy
+见面 ‖ gặp mặt
+教 ‖ dạy
+叫 ‖ gọi; tên là
+教学楼 ‖ tòa nhà giảng đường
+姐姐 ‖ chị gái
+介绍 ‖ giới thiệu
+今年 ‖ năm nay
+今天 ‖ hôm nay
+进 ‖ vào
+进来 ‖ đi vào (đây)
+进去 ‖ đi vào (đó)
+九 ‖ chín
+就 ‖ thì, liền; chính là
+觉得 ‖ cảm thấy, thấy rằng
+开 ‖ mở; lái (xe)
+开车 ‖ lái xe
+开会 ‖ họp
+开玩笑 ‖ nói đùa
+看 ‖ xem, nhìn; đọc
+看病 ‖ khám bệnh
+看到 ‖ nhìn thấy
+看见 ‖ nhìn thấy
+考 ‖ thi, kiểm tra
+考试 ‖ thi; kỳ thi
+渴 ‖ khát
+课 ‖ bài học; tiết học
+课本 ‖ sách giáo khoa
+课文 ‖ bài khóa
+口 ‖ miệng; (lượng từ đếm người trong gia đình)
+块 ‖ miếng; đồng (tiền, khẩu ngữ)
+快 ‖ nhanh
+来 ‖ đến
+来到 ‖ đến (nơi nào đó)
+老 ‖ già, cũ
+老人 ‖ người già
+老师 ‖ giáo viên
+了 ‖ (trợ từ) rồi, đã
+累 ‖ mệt
+冷 ‖ lạnh
+里 ‖ trong
+里边 ‖ bên trong
+两 ‖ hai (dùng trước lượng từ)
+零 ‖ số không
+六 ‖ sáu
+楼 ‖ tòa nhà; tầng
+楼上 ‖ trên lầu
+楼下 ‖ dưới lầu
+路 ‖ đường
+路口 ‖ ngã đường, giao lộ
+路上 ‖ trên đường
+妈妈 ‖ mẹ
+马路 ‖ đường cái, đường phố
+马上 ‖ ngay lập tức
+吗 ‖ (trợ từ hỏi) … không?
+买 ‖ mua
+慢 ‖ chậm
+忙 ‖ bận
+毛 ‖ hào (một phần mười đồng); lông
+没 ‖ không, chưa (có)
+没关系 ‖ không sao
+没什么 ‖ không có gì
+没事儿 ‖ không sao; rảnh rỗi
+没有 ‖ không có; chưa
+妹妹 ‖ em gái
+门 ‖ cửa
+门口 ‖ cửa ra vào
+门票 ‖ vé vào cửa
+们 ‖ (hậu tố số nhiều) các, những
+米饭 ‖ cơm (gạo)
+面包 ‖ bánh mì
+面条儿 ‖ mì sợi
+名字 ‖ tên
+明白 ‖ hiểu; rõ ràng
+明年 ‖ năm sau
+明天 ‖ ngày mai
+拿 ‖ cầm, lấy
+哪 ‖ nào
+哪里 ‖ ở đâu
+哪儿 ‖ ở đâu
+哪些 ‖ những… nào
+那 ‖ kia, đó; vậy thì
+那边 ‖ bên kia
+那里 ‖ ở đó
+那儿 ‖ ở đó
+那些 ‖ những… đó
+奶 ‖ sữa
+奶奶 ‖ bà nội
+男 ‖ nam
+男孩儿 ‖ bé trai, cậu bé
+男朋友 ‖ bạn trai
+男人 ‖ đàn ông
+男生 ‖ nam sinh
+南 ‖ phía nam
+南边 ‖ phía nam
+难 ‖ khó
+呢 ‖ (trợ từ) còn… thì sao; đang…
+能 ‖ có thể
+你 ‖ bạn
+你们 ‖ các bạn
+年 ‖ năm
+您 ‖ ông, bà, ngài (kính trọng)
+牛奶 ‖ sữa bò
+女 ‖ nữ
+女儿 ‖ con gái
+女孩儿 ‖ bé gái, cô bé
+女朋友 ‖ bạn gái
+女人 ‖ phụ nữ
+女生 ‖ nữ sinh
+旁边 ‖ bên cạnh
+跑 ‖ chạy
+朋友 ‖ bạn bè
+票 ‖ vé
+七 ‖ bảy
+起 ‖ dậy
+起床 ‖ thức dậy
+起来 ‖ đứng dậy, dậy
+汽车 ‖ ô tô
+前 ‖ trước
+前边 ‖ phía trước
+前天 ‖ hôm kia
+钱 ‖ tiền
+钱包 ‖ ví tiền
+请 ‖ mời; xin, làm ơn
+请假 ‖ xin nghỉ
+请进 ‖ mời vào
+请问 ‖ xin hỏi
+请坐 ‖ mời ngồi
+球 ‖ quả bóng
+去 ‖ đi
+去年 ‖ năm ngoái
+热 ‖ nóng
+人 ‖ người
+认识 ‖ quen biết
+认真 ‖ chăm chỉ, nghiêm túc
+日 ‖ ngày
+日期 ‖ ngày tháng
+肉 ‖ thịt
+三 ‖ ba
+山 ‖ núi
+商场 ‖ trung tâm thương mại
+商店 ‖ cửa hàng
+上 ‖ trên; lên
+上班 ‖ đi làm
+上边 ‖ phía trên
+上车 ‖ lên xe
+上次 ‖ lần trước
+上课 ‖ vào học, lên lớp
+上网 ‖ lên mạng
+上午 ‖ buổi sáng
+上学 ‖ đi học
+少 ‖ ít
+谁 ‖ ai
+身上 ‖ trên người
+身体 ‖ cơ thể; sức khỏe
+什么 ‖ cái gì
+生病 ‖ bị ốm
+生气 ‖ tức giận
+生日 ‖ sinh nhật
+十 ‖ mười
+时候 ‖ lúc, khi
+时间 ‖ thời gian
+事 ‖ việc, chuyện
+试 ‖ thử
+是 ‖ là
+是不是 ‖ có phải không
+手 ‖ tay
+手机 ‖ điện thoại di động
+书 ‖ sách
+书包 ‖ cặp sách
+书店 ‖ hiệu sách
+树 ‖ cây
+水 ‖ nước
+水果 ‖ hoa quả, trái cây
+睡 ‖ ngủ
+睡觉 ‖ đi ngủ
+说 ‖ nói
+说话 ‖ nói chuyện
+四 ‖ bốn
+送 ‖ tặng; đưa, tiễn
+岁 ‖ tuổi
+他 ‖ anh ấy, ông ấy
+他们 ‖ họ, bọn họ
+她 ‖ cô ấy, bà ấy
+她们 ‖ họ (nữ)
+太 ‖ quá
+天 ‖ ngày; trời
+天气 ‖ thời tiết
+听 ‖ nghe
+听到 ‖ nghe thấy
+听见 ‖ nghe thấy
+听写 ‖ nghe viết, chính tả
+同学 ‖ bạn học
+图书馆 ‖ thư viện
+外 ‖ ngoài
+外边 ‖ bên ngoài
+外国 ‖ nước ngoài
+外语 ‖ ngoại ngữ
+玩儿 ‖ chơi
+晚 ‖ muộn; buổi tối
+晚饭 ‖ bữa tối
+晚上 ‖ buổi tối
+网上 ‖ trên mạng
+网友 ‖ bạn trên mạng
+忘 ‖ quên
+忘记 ‖ quên
+问 ‖ hỏi
+我 ‖ tôi
+我们 ‖ chúng tôi, chúng ta
+五 ‖ năm (số 5)
+午饭 ‖ bữa trưa
+西 ‖ phía tây
+西边 ‖ phía tây
+洗 ‖ rửa, giặt
+洗手间 ‖ nhà vệ sinh
+喜欢 ‖ thích
+下 ‖ dưới; xuống
+下班 ‖ tan làm
+下边 ‖ phía dưới
+下车 ‖ xuống xe
+下次 ‖ lần sau
+下课 ‖ tan học, hết tiết
+下午 ‖ buổi chiều
+下雨 ‖ mưa
+先 ‖ trước, trước tiên
+先生 ‖ ông, ngài; chồng
+现在 ‖ bây giờ
+想 ‖ muốn; nghĩ; nhớ
+小 ‖ nhỏ
+小孩儿 ‖ trẻ con
+小姐 ‖ cô (gọi phụ nữ trẻ)
+小朋友 ‖ bạn nhỏ, các cháu
+小时 ‖ tiếng, giờ đồng hồ
+小学 ‖ tiểu học
+小学生 ‖ học sinh tiểu học
+笑 ‖ cười
+写 ‖ viết
+谢谢 ‖ cảm ơn
+新 ‖ mới
+新年 ‖ năm mới
+星期 ‖ tuần; thứ (trong tuần)
+星期日 ‖ Chủ nhật
+星期天 ‖ Chủ nhật
+行 ‖ được, ổn
+休息 ‖ nghỉ ngơi
+学 ‖ học
+学生 ‖ học sinh
+学习 ‖ học tập
+学校 ‖ trường học
+学院 ‖ học viện
+要 ‖ muốn; cần; sẽ
+爷爷 ‖ ông nội
+也 ‖ cũng
+页 ‖ trang
+一 ‖ một
+衣服 ‖ quần áo
+医生 ‖ bác sĩ
+医院 ‖ bệnh viện
+一半 ‖ một nửa
+一会儿 ‖ một lát
+一块儿 ‖ cùng nhau
+一下儿 ‖ một chút; thử (làm gì)
+一样 ‖ giống nhau
+一边 ‖ một bên; vừa… vừa…
+一点儿 ‖ một chút
+一起 ‖ cùng nhau
+一些 ‖ một vài, một ít
+用 ‖ dùng
+有 ‖ có
+有的 ‖ có cái, có người
+有名 ‖ nổi tiếng
+有时候 ‖ có lúc, đôi khi
+有些 ‖ có một số; hơi
+有用 ‖ có ích
+右 ‖ phải (bên phải)
+右边 ‖ bên phải
+雨 ‖ mưa
+元 ‖ đồng, tệ (đơn vị tiền)
+远 ‖ xa
+月 ‖ tháng; mặt trăng
+再 ‖ lại, nữa
+再见 ‖ tạm biệt
+在 ‖ ở; đang
+在家 ‖ ở nhà
+早 ‖ sớm; chào buổi sáng
+早饭 ‖ bữa sáng
+早上 ‖ sáng sớm
+怎么 ‖ thế nào, sao
+站 ‖ đứng; trạm, bến
+找 ‖ tìm
+找到 ‖ tìm thấy
+这 ‖ này, đây
+这边 ‖ bên này
+这里 ‖ ở đây
+这儿 ‖ ở đây
+这些 ‖ những… này
+着 ‖ (trợ từ) đang, chỉ trạng thái kéo dài
+真 ‖ thật
+真的 ‖ thật sự
+正 ‖ đang; ngay, đúng
+正在 ‖ đang
+知道 ‖ biết
+知识 ‖ kiến thức
+中 ‖ giữa, trong
+中国 ‖ Trung Quốc
+中间 ‖ ở giữa
+中文 ‖ tiếng Trung
+中午 ‖ buổi trưa
+中学 ‖ trung học
+中学生 ‖ học sinh trung học
+重 ‖ nặng
+重要 ‖ quan trọng
+住 ‖ ở, sống
+准备 ‖ chuẩn bị
+桌子 ‖ cái bàn
+字 ‖ chữ
+子 ‖ con; (hậu tố danh từ)
+走 ‖ đi (bộ); rời đi
+走路 ‖ đi bộ
+最 ‖ nhất
+最好 ‖ tốt nhất; tốt hơn hết là
+最后 ‖ cuối cùng
+昨天 ‖ hôm qua
+左 ‖ trái (bên trái)
+左边 ‖ bên trái
+坐 ‖ ngồi; đi (xe, tàu)
+坐下 ‖ ngồi xuống
+做 ‖ làm
+边 ‖ bên, cạnh
+不要 ‖ đừng; không cần
+超市 ‖ siêu thị
+出租车 ‖ taxi
+大家 ‖ mọi người
+店 ‖ cửa hàng, quán
+分钟 ‖ phút
+公司 ‖ công ty
+狗 ‖ con chó
+件 ‖ chiếc, việc (lượng từ cho quần áo, sự việc)
+饺子 ‖ sủi cảo
+可以 ‖ có thể, được
+卖 ‖ bán
+猫 ‖ con mèo
+便宜 ‖ rẻ
+漂亮 ‖ đẹp
+千 ‖ nghìn
+它 ‖ nó (chỉ vật, con vật)
+它们 ‖ chúng nó (chỉ vật, con vật)
+喂 ‖ a lô (nghe điện thoại); này
+问题 ‖ vấn đề; câu hỏi
+雪 ‖ tuyết
+椅子 ‖ cái ghế
+有点儿 ‖ hơi, có chút
+怎么样 ‖ thế nào
+只 ‖ chỉ; con (lượng từ cho động vật)
+做饭 ‖ nấu cơm
+苹果 ‖ quả táo
+女士 ‖ bà, quý bà
+些 ‖ một số, vài
+玩 ‖ chơi

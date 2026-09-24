@@ -1,0 +1,177 @@
+# Ngữ pháp theo bài (ZUIMO biên soạn). khoá: phiên bản-bài-thứ tự ‖ tên || giải thích ‖ mã ví dụ chuẩn (mã:từ khoá; …) ‖ ví dụ riêng (câu=dịch ¦ …)
+20-3-1 ‖ Đại từ nghi vấn 什么 || 什么 nghĩa là "gì, cái gì", đứng đúng vào vị trí của thông tin cần hỏi, không đảo lên đầu câu. ‖ ‖ 你叫什么名字？=Bạn tên là gì? ¦ 这是什么？=Đây là cái gì? ¦ 你买什么？=Bạn mua gì?
+20-3-2 ‖ Câu chữ 是 || A 是 B: A là B. Phủ định đặt 不 trước 是: A 不是 B. ‖ 一36 ‖ 我是学生。=Tôi là học sinh. ¦ 她不是老师。=Cô ấy không phải giáo viên.
+20-3-3 ‖ Câu hỏi với 吗 || Thêm 吗 vào cuối câu trần thuật để hỏi có/không, trật tự từ giữ nguyên. ‖ 一45 ‖ 你是中国人吗？=Bạn là người Trung Quốc à?
+20-4-1 ‖ Đại từ nghi vấn 谁, 哪 || 谁 hỏi người (ai), 哪 hỏi lựa chọn (nào) và thường đi với lượng từ hoặc 国: 哪国人. ‖ ‖ 她是谁？=Cô ấy là ai? ¦ 你是哪国人？=Bạn là người nước nào? ¦ 谁是你的汉语老师？=Ai là giáo viên tiếng Trung của bạn?
+20-4-2 ‖ Trợ từ kết cấu 的 || Định ngữ + 的 + danh từ để chỉ sở hữu hoặc bổ nghĩa: 我的书. Với người thân, bạn bè hay nơi mình thuộc về thường bỏ 的: 我妈妈. ‖ 一20 ‖ 这是我的书。=Đây là sách của tôi. ¦ 她是我的汉语老师。=Cô ấy là giáo viên tiếng Trung của tôi.
+20-4-3 ‖ Trợ từ nghi vấn 呢 (1) || Danh từ/đại từ + 呢？ dùng để hỏi lại cùng câu hỏi vừa nói, nghĩa là "còn … thì sao?". ‖ ‖ 我是中国人，你呢？=Tôi là người Trung Quốc, còn bạn? ¦ 我很好，你呢？=Tôi khỏe, còn bạn?
+20-5-1 ‖ Đại từ nghi vấn 几 || 几 hỏi số lượng nhỏ (thường dưới 10), sau 几 phải có lượng từ: 几口人, 几岁. ‖ ‖ 你家有几口人？=Nhà bạn có mấy người? ¦ 你女儿几岁了？=Con gái bạn mấy tuổi rồi?
+20-5-2 ‖ Số đếm dưới 100 || Ghép theo hàng chục: 十一 (11), 二十 (20), 二十五 (25), 九十九 (99). ‖ 一07 ‖ 我今年二十岁。=Năm nay tôi hai mươi tuổi.
+20-5-3 ‖ 了 chỉ sự thay đổi || 了 ở cuối câu cho biết một tình huống mới đã xuất hiện, khác với trước đó. ‖ 一40 ‖ 她女儿今年二十岁了。=Con gái cô ấy năm nay đã hai mươi tuổi rồi.
+20-5-4 ‖ 多 + 大 để hỏi tuổi || 多大 dùng hỏi tuổi của người lớn hoặc người ngang hàng; hỏi trẻ nhỏ thường dùng 几岁. ‖ ‖ 你今年多大？=Năm nay bạn bao nhiêu tuổi? ¦ 你爸爸多大了？=Bố bạn bao nhiêu tuổi rồi?
+20-6-1 ‖ Động từ năng nguyện 会 (1) || 会 + động từ: biết làm việc gì nhờ học tập, rèn luyện. Phủ định: 不会. ‖ 一02 ‖ 我会说汉语。=Tôi biết nói tiếng Trung. ¦ 她不会做中国菜。=Cô ấy không biết nấu món Trung Quốc.
+20-6-2 ‖ Câu vị ngữ tính từ || Chủ ngữ + (很) + tính từ. Không dùng 是 trước tính từ; 很 thường có mặt để câu tự nhiên. ‖ 一30 ‖ 中国菜很好吃。=Món Trung Quốc rất ngon.
+20-6-3 ‖ Đại từ nghi vấn 怎么 (1) || 怎么 + động từ hỏi cách thức: làm thế nào, bằng cách nào. ‖ ‖ 这个字怎么写？=Chữ này viết thế nào? ¦ 这个字怎么读？=Chữ này đọc thế nào?
+20-7-1 ‖ Cách nói ngày tháng (1) || Thứ tự từ lớn đến nhỏ: tháng + ngày + thứ: 九月一号星期三. Khẩu ngữ dùng 号, văn viết dùng 日. ‖ 一44 ‖ 今天几号？=Hôm nay ngày mấy? ¦ 明天星期几？=Ngày mai thứ mấy?
+20-7-2 ‖ Câu vị ngữ danh từ || Danh từ chỉ ngày tháng, tuổi, giá cả có thể làm vị ngữ trực tiếp, không cần 是. Phủ định phải thêm 不是. ‖ 二54 ‖ 今天九月一号。=Hôm nay là ngày 1 tháng 9. ¦ 明天不是星期六。=Ngày mai không phải thứ Bảy.
+20-7-3 ‖ Câu liên động (1): 去 + nơi chốn + việc làm || Hai động từ nối tiếp cùng chủ ngữ, vế sau cho biết mục đích của việc đi. ‖ ‖ 我去学校看书。=Tôi đến trường đọc sách. ¦ 明天你去哪儿做什么？=Ngày mai bạn đi đâu làm gì?
+20-8-1 ‖ Động từ năng nguyện 想 || 想 + động từ: muốn làm gì. Phủ định: 不想. ‖ 一03 ‖ 我想喝茶。=Tôi muốn uống trà. ¦ 我不想吃米饭。=Tôi không muốn ăn cơm.
+20-8-2 ‖ Đại từ nghi vấn 多少 || 多少 hỏi số lượng bất kỳ (thường lớn hơn 10) và có thể bỏ lượng từ. Hỏi giá: … 多少钱？ ‖ ‖ 这个杯子多少钱？=Cái cốc này bao nhiêu tiền? ¦ 你们学校有多少学生？=Trường các bạn có bao nhiêu học sinh?
+20-8-3 ‖ Lượng từ 个, 口 || 个 là lượng từ dùng chung phổ biến nhất; 口 dùng đếm số người trong gia đình. ‖ 一08 ‖ 我家有三口人。=Nhà tôi có ba người. ¦ 我想买一个杯子。=Tôi muốn mua một cái cốc.
+20-8-4 ‖ Cách nói số tiền || Khẩu ngữ dùng 块 (đồng), 毛 (hào), 分 (xu); đơn vị cuối cùng thường được lược bỏ. ‖ 一43 ‖ 这个杯子二十八块。=Cái cốc này hai mươi tám đồng.
+20-9-1 ‖ Động từ 在 || Người/vật + 在 + nơi chốn: ai/cái gì ở đâu. Phủ định: 不在. ‖ ‖ 我的猫在椅子下面。=Con mèo của tôi ở dưới gầm ghế. ¦ 爸爸不在家。=Bố không có ở nhà.
+20-9-2 ‖ Đại từ nghi vấn 哪儿 || 哪儿 hỏi nơi chốn (ở đâu), đứng ở vị trí của từ chỉ nơi chốn trong câu. ‖ ‖ 你在哪儿？=Bạn đang ở đâu? ¦ 你儿子在哪儿工作？=Con trai bạn làm việc ở đâu?
+20-9-3 ‖ Giới từ 在 || 在 + nơi chốn + động từ: làm gì ở đâu. Cụm 在 + nơi chốn đứng trước động từ, khác tiếng Việt. ‖ 一16 ‖ 我在医院工作。=Tôi làm việc ở bệnh viện.
+20-9-4 ‖ Trợ từ nghi vấn 呢 (2) || Danh từ + 呢？ đứng một mình (không có câu phía trước) dùng để hỏi vị trí: … đâu rồi? ‖ ‖ 我的书呢？=Sách của tôi đâu rồi? ¦ 小猫呢？=Con mèo nhỏ đâu rồi?
+20-10-1 ‖ Câu chữ 有 chỉ sự tồn tại || Nơi chốn + 有 + người/vật: ở đâu có gì. Phủ định luôn dùng 没有. ‖ 一37 ‖ 桌子上有一本书。=Trên bàn có một quyển sách. ¦ 前面没有人。=Phía trước không có ai.
+20-10-2 ‖ Liên từ 和 || 和 nối hai danh từ hoặc đại từ (và). Không dùng 和 để nối hai câu. ‖ 一19 ‖ 桌子上有电脑和书。=Trên bàn có máy tính và sách.
+20-10-3 ‖ Động từ năng nguyện 能 || 能 + động từ: có thể (do điều kiện, hoàn cảnh cho phép). Hỏi xin phép: 能…吗？ ‖ 一02 ‖ 我能坐这儿吗？=Tôi ngồi đây được không?
+20-10-4 ‖ Câu cầu khiến với 请 || 请 + động từ: mời, xin hãy… Dùng để mời hoặc đề nghị một cách lịch sự. ‖ 一34 ‖ 请坐。=Mời ngồi. ¦ 请喝茶。=Mời uống trà.
+20-11-1 ‖ Cách nói giờ || 点 (giờ), 分 (phút), 半 (rưỡi), 差 (kém). Ví dụ: 八点半, 十点十分, 差五分九点. ‖ 一44 ‖ 现在几点？=Bây giờ mấy giờ? ¦ 现在十点十分。=Bây giờ là mười giờ mười phút.
+20-11-2 ‖ Từ chỉ thời gian làm trạng ngữ || Từ chỉ thời gian đứng trước động từ, có thể đứng trước hoặc sau chủ ngữ, không đứng cuối câu như tiếng Việt. ‖ 一28 ‖ 我中午去吃饭。=Buổi trưa tôi đi ăn cơm. ¦ 明天我们去看电影。=Ngày mai chúng ta đi xem phim.
+20-11-3 ‖ Danh từ 前 || Thời điểm + 前: trước thời điểm đó. ‖ ‖ 我们三点前回家。=Chúng tôi về nhà trước ba giờ. ¦ 星期五前我在北京。=Trước thứ Sáu tôi ở Bắc Kinh.
+20-12-1 ‖ Đại từ nghi vấn 怎么样 || Đứng cuối câu để hỏi tình trạng, ý kiến: … thế nào? Cũng dùng để gợi ý: … được không? ‖ ‖ 明天天气怎么样？=Thời tiết ngày mai thế nào? ¦ 我们去看电影，怎么样？=Chúng ta đi xem phim, được không?
+20-12-2 ‖ Câu vị ngữ chủ vị || Vị ngữ của câu là một cụm chủ vị nhỏ: 我 + (身体 + 很好). ‖ ‖ 我身体很好。=Tôi sức khỏe rất tốt. ¦ 北京天气很冷。=Thời tiết Bắc Kinh rất lạnh.
+20-12-3 ‖ Phó từ chỉ mức độ 太 || 太 + tính từ + 了: quá… (khen hoặc chê). Dạng phủ định 不太 + tính từ: không… lắm. ‖ 一09 ‖ 今天太热了。=Hôm nay nóng quá. ¦ 我不太忙。=Tôi không bận lắm.
+20-12-4 ‖ Động từ năng nguyện 会 (2) || 会 + động từ: sẽ, có khả năng xảy ra (dự đoán). Phủ định: 不会. ‖ ‖ 明天会下雨吗？=Ngày mai có mưa không? ¦ 他今天不会来。=Hôm nay anh ấy sẽ không đến.
+20-13-1 ‖ Thán từ 喂 || 喂 dùng khi nghe hoặc gọi điện thoại (a lô), đọc thanh 2 (wéi) khi nghe máy. ‖ 二36 ‖ 喂，你在哪儿？=A lô, bạn đang ở đâu?
+20-13-2 ‖ 在……呢 chỉ hành động đang diễn ra || (正)在 + động từ + (tân ngữ) + 呢: đang làm gì. ‖ 一42 ‖ 他在学做中国菜呢。=Anh ấy đang học nấu món Trung Quốc. ¦ 我在看电视呢。=Tôi đang xem ti vi.
+20-13-3 ‖ Cách đọc số điện thoại || Đọc từng chữ số một; số 1 thường đọc là yāo để tránh nhầm với 七. ‖ ‖ 我的电话是 13810573126。=Số điện thoại của tôi là 13810573126.
+20-13-4 ‖ Trợ từ ngữ khí 吧 || Cuối câu dùng 吧 để đề nghị (…nhé) hoặc phỏng đoán (…phải không). ‖ 一22 ‖ 我们去看电影吧。=Chúng ta đi xem phim nhé. ¦ 你是老师吧？=Bạn là giáo viên phải không?
+20-14-1 ‖ 了 chỉ việc đã xảy ra hoặc hoàn thành || Động từ + 了 (+ số lượng) + tân ngữ. Phủ định: 没 + động từ, bỏ 了. ‖ 一41 ‖ 她买了很多衣服。=Cô ấy đã mua rất nhiều quần áo. ¦ 我没看见他。=Tôi không nhìn thấy anh ấy.
+20-14-2 ‖ Danh từ 后 || Thời điểm/sự việc + 后: sau thời điểm, sau khi làm việc đó. ‖ ‖ 下午五点后我回家。=Sau năm giờ chiều tôi về nhà. ¦ 吃饭后我们去商店。=Ăn cơm xong chúng ta đi cửa hàng.
+20-14-3 ‖ Trợ từ ngữ khí 啊 || Đặt cuối câu để bày tỏ cảm xúc (ngạc nhiên, khen ngợi), làm câu nói mềm mại hơn. ‖ 二34:啊 ‖ 这些衣服真漂亮啊！=Những bộ quần áo này đẹp thật đấy!
+20-14-4 ‖ Phó từ 都 || 都 (đều) đứng sau chủ ngữ số nhiều, trước động từ, bao quát toàn bộ những gì nói ở trước. ‖ 一10 ‖ 我们都是学生。=Chúng tôi đều là học sinh.
+20-15-1 ‖ Câu 是……的 nhấn mạnh thời gian, nơi chốn, cách thức || Dùng cho việc đã xảy ra: 是 + phần cần nhấn mạnh + động từ + 的. Có thể lược 是 trong câu khẳng định. ‖ 二60 ‖ 我是坐飞机来的。=Tôi đến bằng máy bay. ¦ 你是什么时候来北京的？=Bạn đến Bắc Kinh lúc nào?
+20-15-2 ‖ Cách nói ngày tháng (2) || Đầy đủ theo thứ tự năm + tháng + ngày + thứ. Năm đọc từng chữ số: 二〇二六年. ‖ 一44 ‖ 今天是二〇二六年九月一号星期三。=Hôm nay là thứ Tư ngày 1 tháng 9 năm 2026.
+30-2-1 ‖ Trật tự từ cơ bản của tiếng Trung || Chủ ngữ + vị ngữ (+ tân ngữ). Từ chỉ thời gian, nơi chốn và phó từ đứng trước động từ; định ngữ đứng trước danh từ. ‖ ‖ 我叫李文。=Tôi tên là Lý Văn. ¦ 我学习汉语。=Tôi học tiếng Trung. ¦ 她是我的老师。=Cô ấy là giáo viên của tôi.
+30-3-1 ‖ Câu chữ 是 || A 是 B: A là B. Phủ định: A 不是 B. ‖ 一36 ‖ 我是中国人。=Tôi là người Trung Quốc.
+30-3-2 ‖ Trợ từ kết cấu 的 || Định ngữ + 的 + danh từ: 我的手机. Với quan hệ thân thuộc thường bỏ 的: 我妈妈, 我们学校. ‖ 一20 ‖ 这是我的手机。=Đây là điện thoại của tôi.
+30-3-3 ‖ Câu hỏi có/không với 吗 || Câu trần thuật + 吗？ Trả lời bằng cách lặp lại động từ/tính từ hoặc 对, 不. ‖ 一45 ‖ 你是老师吗？=Bạn là giáo viên à? ¦ 你忙吗？=Bạn có bận không?
+30-4-1 ‖ Câu chữ 有 (1) || Người + 有 + vật: sở hữu. Phủ định luôn là 没有, không nói 不有. ‖ 一37 ‖ 我有两个孩子。=Tôi có hai đứa con. ¦ 他没有哥哥。=Anh ấy không có anh trai.
+30-4-2 ‖ Cách nói số đếm || Từ 0 đến 99 ghép theo hàng chục; 百 (trăm), 千 (nghìn). 二 dùng khi đếm số, 两 dùng trước lượng từ. ‖ 一07 ‖ 我们公司有一百二十个人。=Công ty chúng tôi có một trăm hai mươi người.
+30-4-3 ‖ Trợ từ ngữ khí 呢 (1) || Danh từ/đại từ + 呢？: còn … thì sao? dùng để hỏi lại câu hỏi vừa nói. ‖ ‖ 我有一个女儿，你呢？=Tôi có một con gái, còn bạn?
+30-4-4 ‖ Lượng từ và cấu trúc số + lượng + (danh) || Giữa số từ và danh từ phải có lượng từ: 两个孩子, 一口人. Khi đã rõ, danh từ có thể lược. ‖ 一08 ‖ 我有两个孩子。=Tôi có hai đứa con.
+30-5-1 ‖ Cách nói thời gian (1): ngày, tháng, thứ || Tháng + ngày + thứ: 五月三号星期六. Hỏi: 几月几号？星期几？ ‖ 一44 ‖ 今天几月几号？=Hôm nay ngày mấy tháng mấy? ¦ 今天星期六。=Hôm nay thứ Bảy.
+30-5-2 ‖ Câu vị ngữ danh từ || Ngày tháng, thứ, tuổi có thể làm vị ngữ trực tiếp mà không cần 是. ‖ 二54 ‖ 今天星期天。=Hôm nay Chủ nhật.
+30-5-3 ‖ Động từ năng nguyện 会 || 会 + động từ: biết làm việc gì nhờ học. Phủ định: 不会. ‖ 一02 ‖ 我会做饺子。=Tôi biết làm sủi cảo.
+30-6-1 ‖ Động từ năng nguyện 想 || 想 + động từ: muốn làm gì. Phủ định: 不想. ‖ 一03 ‖ 我想吃包子。=Tôi muốn ăn bánh bao.
+30-6-2 ‖ Câu liên động (1) || Một chủ ngữ với hai cụm động từ nối tiếp; vế sau thường nói mục đích hoặc cách thức. ‖ ‖ 我去超市买东西。=Tôi đi siêu thị mua đồ. ¦ 他坐出租车去饭店。=Anh ấy đi taxi đến khách sạn.
+30-6-3 ‖ Đại từ nghi vấn 怎么 || 怎么 + động từ: làm thế nào, bằng cách nào. ‖ ‖ 去西安饭店怎么走？=Đến khách sạn Tây An đi thế nào? ¦ 这个字怎么读？=Chữ này đọc thế nào?
+30-7-1 ‖ Cách nói thời gian (2): giờ, phút || 点 (giờ), 分 (phút), 半 (rưỡi): 六点半. Buổi trong ngày đứng trước giờ: 晚上六点半. ‖ 一44 ‖ 我晚上六点半下班。=Sáu giờ rưỡi tối tôi tan làm.
+30-7-2 ‖ Trợ từ ngữ khí 吧 (1) || Cuối câu dùng 吧 để đề nghị, rủ rê: …nhé, …đi. ‖ 一22 ‖ 我们一起去吧。=Chúng ta cùng đi nhé.
+30-7-3 ‖ Vị trí của phó từ và từ chỉ thời gian làm trạng ngữ || Phó từ đứng ngay trước động từ; từ chỉ thời gian đứng trước hoặc sau chủ ngữ nhưng luôn trước động từ. ‖ 一28 ‖ 我明天也上班。=Ngày mai tôi cũng đi làm. ¦ 早上八点我上课。=Tám giờ sáng tôi vào học.
+30-7-4 ‖ Trợ từ ngữ khí 呢 (2) || Đặt cuối câu để cho biết hành động đang diễn ra, thường đi với 在/正在. ‖ 一42 ‖ 我在上课呢。=Tôi đang học.
+30-8-1 ‖ Từ phương vị || 上, 下, 里, 外, 前, 后 (và dạng thêm 边) đặt sau danh từ để chỉ vị trí: 桌子上, 学校外边. ‖ 一01 ‖ 猫在桌子下。=Con mèo ở dưới gầm bàn.
+30-8-2 ‖ Giới từ 在 || 在 + nơi chốn + động từ: làm gì ở đâu. ‖ 一16 ‖ 我爸爸也在医院工作。=Bố tôi cũng làm việc ở bệnh viện.
+30-8-3 ‖ Động từ năng nguyện 能 || 能 + động từ: có thể (do khả năng hoặc hoàn cảnh cho phép). Hỏi xin phép: 能…吗？ ‖ 一02 ‖ 你明天能来吗？=Ngày mai bạn đến được không?
+30-9-1 ‖ Câu tồn hiện (1) || Nơi chốn + 有 + người/vật: ở đâu có gì. ‖ 一37 ‖ 学校前边有一个书店。=Phía trước trường có một hiệu sách.
+30-9-2 ‖ Thứ tự khi từ chỉ thời gian và nơi chốn cùng làm trạng ngữ || Chủ ngữ + thời gian + 在 + nơi chốn + động từ. Thời gian luôn đứng trước nơi chốn. ‖ ‖ 我明天上午在学校学习。=Sáng mai tôi học ở trường. ¦ 他晚上在家看电视。=Buổi tối anh ấy xem ti vi ở nhà.
+30-9-3 ‖ 第 chỉ số thứ tự || 第 + số từ (+ lượng từ): thứ…, lần thứ… ‖ ‖ 这是我第一次来北京。=Đây là lần đầu tiên tôi đến Bắc Kinh. ¦ 我的学校在第三个路口。=Trường tôi ở ngã rẽ thứ ba.
+30-10-1 ‖ Cách nói số tiền || 块 (đồng), 毛 (hào) trong khẩu ngữ, 元 trong văn viết. Hỏi giá: 多少钱？ ‖ 一43 ‖ 苹果多少钱一斤？=Táo bao nhiêu tiền một cân?
+30-10-2 ‖ Câu vị ngữ tính từ || Chủ ngữ + (很/真/太…) + tính từ, không dùng 是. ‖ 一30 ‖ 这儿的苹果真便宜！=Táo ở đây rẻ thật!
+30-10-3 ‖ Đại từ nghi vấn 怎么样 || … 怎么样？ hỏi tình trạng hoặc ý kiến: … thế nào? ‖ ‖ 这件衣服怎么样？=Bộ quần áo này thế nào? ¦ 你觉得这个店怎么样？=Bạn thấy cửa hàng này thế nào?
+30-11-1 ‖ Câu hỏi chính phản || Ghép dạng khẳng định và phủ định của động từ/tính từ: 是不是, 忙不忙. Không thêm 吗. ‖ 一48 ‖ 你是不是大学生？=Bạn có phải sinh viên không?
+30-11-2 ‖ Phó từ thời gian 在, 正在 || 在/正在 + động từ: đang làm gì; cuối câu thường có 呢. ‖ 一11 ‖ 他正在睡觉。=Anh ấy đang ngủ.
+30-11-3 ‖ Động từ năng nguyện 要 || 要 + động từ: muốn, cần, sắp sửa làm gì (ý muốn mạnh, chắc chắn hơn 想). ‖ 一03 ‖ 我要去找工作。=Tôi sẽ đi tìm việc.
+30-12-1 ‖ Câu không chủ vị || Câu không có chủ ngữ, thường dùng tả thời tiết, hiện tượng tự nhiên: 下雨了。下雪了。 ‖ 一31 ‖ 下雪了！=Tuyết rơi rồi!
+30-12-2 ‖ Trợ từ ngữ khí 了 (1) || 了 cuối câu cho biết tình huống đã thay đổi hoặc điều mới đã xảy ra. ‖ 一40 ‖ 昨天下雪了。=Hôm qua tuyết đã rơi. ¦ 我生病了。=Tôi bị ốm rồi.
+30-12-3 ‖ Mẫu câu 太……了 || 太 + tính từ + 了: quá…, dùng để cảm thán. ‖ ‖ 今天太冷了！=Hôm nay lạnh quá! ¦ 这个手机太贵了。=Chiếc điện thoại này đắt quá.
+30-13-1 ‖ Động từ năng nguyện 可以 || 可以 + động từ: được phép, có thể. Hỏi xin phép: 可以…吗？; từ chối lịch sự: 不可以/不行. ‖ ‖ 我可以坐这儿吗？=Tôi ngồi đây được không? ¦ 你可以用我的电脑。=Bạn có thể dùng máy tính của tôi.
+30-13-2 ‖ Cấu trúc động từ + 一下 || Động từ + 一下: làm thử, làm một chút, giúp câu nói nhẹ nhàng hơn. ‖ 二11 ‖ 请等一下。=Xin chờ một chút. ¦ 我看一下。=Để tôi xem một chút.
+30-13-3 ‖ Câu có hai tân ngữ (1) || Động từ + người + vật: 给我一杯茶. Tân ngữ chỉ người đứng trước tân ngữ chỉ vật. ‖ 二61 ‖ 请给我一杯茶。=Cho tôi một cốc trà.
+30-14-1 ‖ Trợ từ động thái 了 (2) || Động từ + 了 + số lượng + tân ngữ: đã làm xong việc gì. Phủ định: 没 + động từ. ‖ 一41 ‖ 我看了一个电影。=Tôi đã xem một bộ phim. ¦ 我没看电影。=Tôi không xem phim.
+30-14-2 ‖ Từ ly hợp (1) || Một số động từ hai âm tiết gồm động từ + tân ngữ (睡觉, 上课, 说话, 见面). Thành phần khác chen vào giữa: 睡了一个小时觉. ‖ 三05 ‖ 我昨天睡了八个小时觉。=Hôm qua tôi ngủ tám tiếng. ¦ 我们上了两个小时课。=Chúng tôi học hai tiếng.
+30-14-3 ‖ Phó từ phạm vi 都 || 都 (đều) đứng trước động từ, bao quát toàn bộ người/vật nói ở phía trước. ‖ 一10 ‖ 我们都喜欢这个电影。=Chúng tôi đều thích bộ phim này.
+30-15-1 ‖ Câu phức đẳng lập ……，还/也…… || Vế sau dùng 还 (còn, ngoài ra) hoặc 也 (cũng) để bổ sung thông tin. 还, 也 đứng trước động từ. ‖ 一13; 一39 ‖ 我想去北京，还想去西安。=Tôi muốn đi Bắc Kinh, còn muốn đi Tây An nữa. ¦ 他会说汉语，也会写汉字。=Anh ấy biết nói tiếng Trung, cũng biết viết chữ Hán.
+# ---------------- HSK 2.0 quyển 2
+20b2-1-1 ‖ Trợ động từ 要 || 要 + động từ: muốn, sẽ làm gì (ý định rõ ràng). Phủ định thường dùng 不想, không dùng 不要 (不要 là "đừng"). ‖ 一03 ‖ 我要去北京旅游。=Tôi sẽ đi du lịch Bắc Kinh. ¦ 你要喝什么？=Bạn muốn uống gì?
+20b2-1-2 ‖ Phó từ chỉ mức độ 最 || 最 + tính từ/động từ tâm lý: nhất. 最 đứng trước từ được bổ nghĩa. ‖ ‖ 九月去北京旅游最好。=Tháng chín đi du lịch Bắc Kinh là tốt nhất. ¦ 我最喜欢踢足球。=Tôi thích đá bóng nhất.
+20b2-1-3 ‖ Cách nói số ước lượng: 几, 多 || 几 thay cho một số nhỏ (几个人: vài người); số + 多 + lượng từ: hơn… (二十多岁: hơn hai mươi tuổi). ‖ 二73 ‖ 我们班有二十多个学生。=Lớp chúng tôi có hơn hai mươi học sinh. ¦ 他买了几个苹果。=Anh ấy mua vài quả táo.
+20b2-2-1 ‖ Câu hỏi với 是不是 || Đặt 是不是 trước vị ngữ, đầu câu hoặc cuối câu để hỏi xác nhận một điều mình đoán. ‖ 二78 ‖ 你是不是生病了？=Có phải bạn bị ốm không? ¦ 你每天跑步，是不是？=Bạn chạy bộ mỗi ngày, đúng không?
+20b2-2-2 ‖ Đại từ 每 || 每 + (số) + lượng từ + danh từ: mỗi. Thường có 都 phía sau. ‖ ‖ 我每天六点起床。=Mỗi ngày tôi dậy lúc sáu giờ. ¦ 每个人都很忙。=Ai cũng rất bận.
+20b2-2-3 ‖ Đại từ nghi vấn 多 || 多 + tính từ (高, 大, 长, 远) dùng để hỏi mức độ: cao bao nhiêu, bao nhiêu tuổi… ‖ ‖ 你多高？=Bạn cao bao nhiêu? ¦ 你家离学校多远？=Nhà bạn cách trường bao xa?
+20b2-3-1 ‖ Cụm chữ 的 || Danh từ/đại từ/tính từ + 的 thay cho cả cụm danh từ khi người nghe đã biết đang nói về vật gì. ‖ ‖ 左边那个红色的是我的。=Cái màu đỏ bên trái là của tôi. ¦ 这个手表是新的。=Chiếc đồng hồ này là đồng hồ mới.
+20b2-3-2 ‖ 一下 || Động từ + 一下: làm thử, làm một chút, giúp lời nói nhẹ nhàng hơn. ‖ 二11 ‖ 你看一下这个报纸。=Bạn xem tờ báo này một chút. ¦ 请等一下。=Xin đợi một chút.
+20b2-3-3 ‖ Phó từ ngữ khí 真 || 真 + tính từ: thật là…, dùng để cảm thán, nhấn mạnh cảm xúc. ‖ ‖ 这个房间真大！=Căn phòng này rộng thật! ¦ 你丈夫真好！=Chồng bạn tốt thật!
+20b2-4-1 ‖ Câu 是……的 nhấn mạnh người làm || 是 + người thực hiện + động từ + 的: nhấn mạnh ai là người làm việc đã xảy ra. ‖ 二60 ‖ 这个工作是他帮我介绍的。=Công việc này là anh ấy giới thiệu giúp tôi. ¦ 这个蛋糕是妈妈做的。=Chiếc bánh này là mẹ làm.
+20b2-4-2 ‖ Cách nói thời gian: ……的时候 || Cụm từ/mệnh đề + 的时候: khi, lúc… Đứng trước động từ chính. ‖ ‖ 我生日的时候，朋友送我一个手表。=Vào sinh nhật tôi, bạn tặng tôi một chiếc đồng hồ. ¦ 吃饭的时候不要说话。=Khi ăn cơm đừng nói chuyện.
+20b2-4-3 ‖ Phó từ thời gian 已经 || 已经 + động từ/tính từ + 了: đã (việc đã hoàn thành hoặc tình huống đã thay đổi). ‖ ‖ 他已经开始工作了。=Anh ấy đã bắt đầu đi làm rồi. ¦ 已经晚上十点了。=Đã mười giờ tối rồi.
+20b2-5-1 ‖ Phó từ 就 || 就 nhấn mạnh sự khẳng định, chọn lựa dứt khoát: chính là, cứ… ‖ 二74 ‖ 就买这件吧。=Mua luôn chiếc này đi. ¦ 我家就在前面。=Nhà tôi ngay phía trước.
+20b2-5-2 ‖ Phó từ ngữ khí 还 (1) || 还 + tính từ: tạm được, khá (mức độ vừa phải, không quá cao). ‖ ‖ 这件衣服还可以。=Chiếc áo này cũng tạm được. ¦ 考试还不错。=Bài thi cũng khá ổn.
+20b2-5-3 ‖ Phó từ chỉ mức độ 有点儿 || 有点儿 + tính từ: hơi…, thường mang ý không hài lòng. Khác 一点儿 (đứng sau tính từ khi so sánh). ‖ ‖ 这件衣服有点儿贵。=Chiếc áo này hơi đắt. ¦ 外面有点儿冷。=Bên ngoài hơi lạnh.
+20b2-6-1 ‖ Đại từ nghi vấn 怎么 (hỏi nguyên nhân) || 怎么 + (不/没) + động từ: sao lại…, thường kèm sự ngạc nhiên. ‖ ‖ 你怎么不吃了？=Sao bạn không ăn nữa? ¦ 他怎么没来？=Sao anh ấy không đến?
+20b2-6-2 ‖ Lặp lượng từ || Lượng từ lặp lại (个个, 天天, 件件) nghĩa là "mỗi, tất cả", thường đi với 都. ‖ 三11 ‖ 他天天游泳。=Ngày nào anh ấy cũng bơi. ¦ 这些衣服件件都很漂亮。=Chiếc áo nào cũng đẹp.
+20b2-6-3 ‖ Cặp liên từ 因为……，所以…… || Vế trước nêu nguyên nhân, vế sau nêu kết quả; có thể dùng một trong hai từ. ‖ 二68 ‖ 因为下雨，所以我们没去打篮球。=Vì trời mưa nên chúng tôi không đi chơi bóng rổ.
+20b2-7-1 ‖ Phó từ ngữ khí 还 (2) || 还 + động từ/tính từ: vẫn còn (tình huống chưa thay đổi). ‖ ‖ 他还在公司。=Anh ấy vẫn còn ở công ty. ¦ 现在还早。=Bây giờ vẫn còn sớm.
+20b2-7-2 ‖ Phó từ thời gian 就 || 就 nhấn mạnh việc xảy ra sớm, nhanh hoặc ngay sau một việc khác. ‖ ‖ 坐公共汽车十分钟就到了。=Đi xe buýt mười phút là đến. ¦ 他七点就来了。=Mới bảy giờ anh ấy đã đến.
+20b2-7-3 ‖ Động từ 离 || A 离 B + 远/近/khoảng cách: A cách B bao xa. ‖ 二27 ‖ 我家离公司很远。=Nhà tôi cách công ty rất xa. ¦ 机场离这儿多远？=Sân bay cách đây bao xa?
+20b2-7-4 ‖ Trợ từ ngữ khí 呢 || 呢 cuối câu nhấn mạnh sự thật, làm câu nói mềm mại (…đấy, …mà). ‖ ‖ 他还在教室呢。=Anh ấy vẫn còn ở phòng học đấy. ¦ 路还远着呢。=Đường còn xa lắm đấy.
+20b2-8-1 ‖ Câu hỏi ……，好吗？ || Nêu đề nghị rồi thêm 好吗 để hỏi ý kiến người nghe một cách lịch sự. ‖ 二75 ‖ 我们明天再去，好吗？=Mai chúng ta lại đi, được không?
+20b2-8-2 ‖ Phó từ 再 || 再 + động từ: lại, nữa (việc sẽ lặp lại hoặc sẽ làm sau). ‖ ‖ 让我想想再告诉你。=Để tôi nghĩ rồi sẽ nói với bạn. ¦ 请再说一次。=Xin nói lại một lần nữa.
+20b2-8-3 ‖ Câu kiêm ngữ || A + 让/叫/请 + B + động từ: A bảo/mời B làm gì; B vừa là tân ngữ vừa là chủ ngữ của động từ sau. ‖ 三57 ‖ 妈妈让我去买东西。=Mẹ bảo tôi đi mua đồ. ¦ 他请我吃饭。=Anh ấy mời tôi ăn cơm.
+20b2-8-4 ‖ Lặp động từ || AA, A一A (động từ một âm tiết), ABAB (hai âm tiết): làm thử, làm một chút. ‖ 二04 ‖ 你等等我。=Bạn đợi tôi một chút. ¦ 我们休息休息吧。=Chúng ta nghỉ ngơi một chút nhé.
+20b2-9-1 ‖ Bổ ngữ kết quả || Động từ + 完/懂/错/见…: nói kết quả của hành động. Phủ định: 没 + động từ + bổ ngữ. ‖ 二49 ‖ 题太多，我没做完。=Nhiều bài quá, tôi làm không xong. ¦ 你听懂了吗？=Bạn nghe hiểu chưa?
+20b2-9-2 ‖ Giới từ 从 || 从 + nơi chốn/thời gian: từ… (điểm bắt đầu). ‖ 二24 ‖ 我从九点开始上班。=Tôi bắt đầu làm việc từ chín giờ. ¦ 他从北京来。=Anh ấy đến từ Bắc Kinh.
+20b2-9-3 ‖ 第 + số chỉ thứ tự || 第 + số từ (+ lượng từ): thứ… ‖ 二72 ‖ 这是我第一次来中国。=Đây là lần đầu tôi đến Trung Quốc.
+20b2-10-1 ‖ Câu cầu khiến 不要……了 / 别……了 || Khuyên hoặc bảo người khác dừng việc đang làm: đừng… nữa. ‖ ‖ 别找了，手机在桌子上呢。=Đừng tìm nữa, điện thoại ở trên bàn kìa. ¦ 不要看电视了。=Đừng xem ti vi nữa.
+20b2-10-2 ‖ Giới từ 对 || 对 + người/vật + tính từ/động từ: đối với… ‖ 二25 ‖ 西瓜对身体很好。=Dưa hấu rất tốt cho sức khỏe. ¦ 老师对我们很好。=Thầy cô đối xử với chúng tôi rất tốt.
+20b2-11-1 ‖ Cụm động từ làm định ngữ || Cụm động từ + 的 + danh từ: người/vật gắn với hành động đó. ‖ 三45 ‖ 唱歌的那个人是我姐姐。=Người đang hát kia là chị tôi. ¦ 我买的西瓜很便宜。=Quả dưa hấu tôi mua rất rẻ.
+20b2-11-2 ‖ Câu chữ 比 (1) || A 比 B + tính từ (+ số lượng): A… hơn B (bao nhiêu). ‖ 一18 ‖ 他比我大三岁。=Anh ấy lớn hơn tôi ba tuổi. ¦ 这个比那个便宜。=Cái này rẻ hơn cái kia.
+20b2-11-3 ‖ Trợ động từ 可能 || 可能 + động từ: có thể, có lẽ (phỏng đoán). ‖ 二01 ‖ 明天可能下雨。=Ngày mai có thể mưa. ¦ 他可能不来了。=Có lẽ anh ấy không đến nữa.
+20b2-12-1 ‖ Bổ ngữ trạng thái || Động từ + 得 + tính từ: đánh giá, miêu tả hành động. Có tân ngữ thì lặp động từ: 说汉语说得很好. ‖ 二51 ‖ 你穿得太少了。=Bạn mặc ít quá. ¦ 他跑得很快。=Anh ấy chạy rất nhanh.
+20b2-12-2 ‖ Câu chữ 比 (2) || A 比 B + tính từ + 一点儿/多了: hơn một chút / hơn nhiều. Không dùng 很, 太 trong câu so sánh 比. ‖ 二59 ‖ 今天比昨天冷一点儿。=Hôm nay lạnh hơn hôm qua một chút. ¦ 这个房间比那个大多了。=Phòng này rộng hơn phòng kia nhiều.
+20b2-13-1 ‖ Trợ từ động thái 着 || Động từ + 着: trạng thái đang kéo dài (门开着: cửa đang mở). ‖ 二70 ‖ 门开着呢。=Cửa đang mở. ¦ 他手里拿着一个铅笔。=Trong tay anh ấy đang cầm một chiếc bút chì.
+20b2-13-2 ‖ Câu hỏi tu từ 不是……吗 || Dùng để nhấn mạnh một điều mà người nói cho là đúng: chẳng phải… sao? ‖ 三76 ‖ 你不是认识她吗？=Chẳng phải bạn quen cô ấy sao?
+20b2-13-3 ‖ Giới từ 往 || 往 + phương hướng/nơi chốn + động từ: đi về phía… ‖ 二22 ‖ 往前走，到路口往右走。=Đi thẳng, đến ngã rẽ thì rẽ phải.
+20b2-14-1 ‖ Trợ từ động thái 过 || Động từ + 过: đã từng làm gì. Phủ định: 没(有) + động từ + 过. ‖ 二71 ‖ 你看过那个电影吗？=Bạn đã xem bộ phim đó chưa? ¦ 我没去过北京。=Tôi chưa từng đến Bắc Kinh.
+20b2-14-2 ‖ Cặp liên từ 虽然……，但是…… || Vế trước nêu sự thật, vế sau chuyển ý ngược lại: tuy… nhưng… ‖ 二65 ‖ 虽然很累，但是我很高兴。=Tuy rất mệt nhưng tôi rất vui.
+20b2-14-3 ‖ Bổ ngữ động lượng 次 || Động từ + số + 次: làm bao nhiêu lần. ‖ 二52 ‖ 这个电影我看过两次。=Bộ phim này tôi đã xem hai lần.
+20b2-15-1 ‖ Trạng thái sắp xảy ra: 要……了 || (就/快)要 + động từ + 了: sắp… rồi. ‖ 二81 ‖ 新年就要到了。=Sắp đến năm mới rồi. ¦ 火车快要开了。=Tàu sắp chạy rồi.
+20b2-15-2 ‖ 都……了 || 都 + thời gian/số lượng + 了: đã… rồi (nhấn mạnh là muộn hoặc nhiều). ‖ 三79 ‖ 都十二点了，快睡觉吧。=Đã mười hai giờ rồi, ngủ đi thôi.
+# ---------------- HSK 3.0 quyển 2
+30b2-1-1 ‖ Trợ từ ngữ khí 吧 (2) || Cuối câu dùng 吧 để phỏng đoán, cần người nghe xác nhận: …phải không? ‖ 二79 ‖ 你是新来的同学吧？=Bạn là học sinh mới đến phải không?
+30b2-1-2 ‖ Câu 是……的 || Nhấn mạnh thời gian, nơi chốn, cách thức hoặc người làm của việc đã xảy ra. ‖ 二60 ‖ 我们是昨天去吃北京烤鸭的。=Chúng tôi đi ăn vịt quay Bắc Kinh hôm qua.
+30b2-1-3 ‖ Câu kiêm ngữ || A + 请/让/叫 + B + động từ: A mời/bảo B làm gì. ‖ 三57 ‖ 她请我们吃了北京烤鸭。=Cô ấy mời chúng tôi ăn vịt quay Bắc Kinh. ¦ 老师让我们回家休息。=Cô giáo bảo chúng tôi về nhà nghỉ.
+30b2-2-1 ‖ Mẫu câu 还是……吧 || Dùng khi đã cân nhắc và chọn một phương án: hay là… đi. ‖ 二45 ‖ 还是打车去北大吧。=Hay là bắt taxi đến Đại học Bắc Kinh đi.
+30b2-2-2 ‖ Dùng 多 để nói số ước chừng || Số tròn + 多 + lượng từ (二十多个) hoặc số + lượng từ + 多 (一个多小时): hơn… ‖ 二73 ‖ 我们学校有一万多个学生。=Trường chúng tôi có hơn mười nghìn sinh viên. ¦ 坐车要一个多小时。=Đi xe mất hơn một tiếng.
+30b2-2-3 ‖ Động từ, cụm động từ, cụm chủ vị làm định ngữ || Đứng trước 的 để bổ nghĩa cho danh từ: 我住的酒店 (khách sạn tôi ở). ‖ 三45 ‖ 我们坐的公交车很快。=Chiếc xe buýt chúng tôi đi rất nhanh.
+30b2-3-1 ‖ Bổ ngữ kết quả || Động từ + 完/懂/错/好/到…: kết quả của hành động. ‖ 二49 ‖ 我没看懂这个词。=Tôi đọc không hiểu từ này. ¦ 你的作业写完了吗？=Bài tập của bạn viết xong chưa?
+30b2-3-2 ‖ Lặp động từ (1) || AA, A一A: làm một chút, làm thử. ‖ 二04 ‖ 你看看这本书。=Bạn xem thử quyển sách này.
+30b2-3-3 ‖ Lặp động từ (2) || ABAB (động từ hai âm tiết) và AAB (từ ly hợp: 散散步, 跑跑步); việc đã làm dùng A了A. ‖ ‖ 周末我们去旅游旅游吧。=Cuối tuần chúng ta đi du lịch một chút nhé. ¦ 我听了听，没听懂。=Tôi nghe thử rồi mà không hiểu.
+30b2-4-1 ‖ Trợ từ động thái 过 || Động từ + 过: đã từng. Phủ định: 没 + động từ + 过. ‖ 二71 ‖ 你去过西安吗？=Bạn đã từng đến Tây An chưa?
+30b2-4-2 ‖ Câu phức nhân quả 因为……，所以…… || Vế trước nêu nguyên nhân, vế sau nêu kết quả. ‖ 二68 ‖ 因为她穿红色的很好看，所以我也想买一件。=Vì cô ấy mặc màu đỏ rất đẹp nên tôi cũng muốn mua một chiếc.
+30b2-4-3 ‖ Cụm chữ 的 || Tính từ/danh từ/cụm động từ + 的 thay cho danh từ đã biết: 红色的 (cái màu đỏ). ‖ ‖ 你穿红色的很好看。=Bạn mặc cái màu đỏ rất đẹp. ¦ 这条裤子是我的。=Chiếc quần này là của tôi.
+30b2-5-1 ‖ Bổ ngữ xu hướng đơn (1) || Động từ + 来/去: 来 là hướng về phía người nói, 去 là hướng ra xa người nói. ‖ 二50 ‖ 请进来！=Mời vào! ¦ 他上去了。=Anh ấy đã đi lên rồi.
+30b2-5-2 ‖ Bổ ngữ xu hướng đơn (2) || Có tân ngữ chỉ nơi chốn thì đặt trước 来/去: 进教室来, 回家去. ‖ ‖ 爷爷回家来了。=Ông đã về nhà rồi. ¦ 我们进酒店去吧。=Chúng ta vào khách sạn đi.
+30b2-5-3 ‖ Mẫu câu 都……了 || 都 + thời gian/số lượng/tình huống + 了: đã… rồi (nhấn mạnh mức độ). ‖ 三79 ‖ 都八点了，我们快走吧。=Đã tám giờ rồi, chúng ta đi nhanh thôi.
+30b2-6-1 ‖ Lặp tính từ || AA (大大的) và AABB (高高兴兴): miêu tả sinh động, thường kèm 的 hoặc 地. ‖ 二08 ‖ 小雪有一双大大的眼睛。=Tiểu Tuyết có đôi mắt to tròn. ¦ 大家高高兴兴地唱歌。=Mọi người vui vẻ ca hát.
+30b2-6-2 ‖ Cụm cố định 什么的 || Đặt sau một vài ví dụ để nói còn nữa: vân vân… ‖ 二43 ‖ 我买了蛋糕、水果什么的。=Tôi mua bánh ngọt, hoa quả, vân vân.
+30b2-6-3 ‖ Trợ từ kết cấu 地 || Trạng ngữ + 地 + động từ: miêu tả cách thức làm việc. ‖ 一20:地 ‖ 她高兴地打开了礼物。=Cô ấy vui vẻ mở món quà.
+30b2-7-1 ‖ Câu phức rút gọn 一……就…… || Hai việc xảy ra liền nhau: vừa… là… ‖ 二69 ‖ 他一下课就去打篮球。=Vừa tan học là anh ấy đi chơi bóng rổ.
+30b2-7-2 ‖ Bổ ngữ trạng thái (1) || Động từ + 得 + tính từ: đánh giá hành động. Phủ định đặt 不 trước tính từ. ‖ 二51 ‖ 他跑得很快。=Anh ấy chạy rất nhanh. ¦ 我游得不好。=Tôi bơi không giỏi.
+30b2-7-3 ‖ Bổ ngữ trạng thái (2) || Có tân ngữ: (động từ) + tân ngữ + động từ + 得 + tính từ, hoặc đưa tân ngữ lên trước. ‖ ‖ 他篮球打得很好。=Anh ấy chơi bóng rổ rất giỏi. ¦ 她踢足球踢得不错。=Cô ấy đá bóng khá tốt.
+30b2-8-1 ‖ Câu so sánh (1) || A 比 B + tính từ: A… hơn B. ‖ 一38 ‖ 这个蛋糕比那个好吃。=Chiếc bánh này ngon hơn chiếc kia.
+30b2-8-2 ‖ Câu so sánh (2) || A 比 B + tính từ + số lượng / 一点儿 / 多了: nói rõ mức chênh lệch. ‖ 二58 ‖ 我妻子比我小两岁。=Vợ tôi kém tôi hai tuổi.
+30b2-8-3 ‖ Câu phức chuyển ý 虽然……，但是…… || Tuy… nhưng…: vế sau trái với điều vế trước gợi ra. ‖ 二65 ‖ 虽然你忘了，但是我记得。=Tuy bạn quên, nhưng tôi vẫn nhớ.
+30b2-9-1 ‖ Câu so sánh (3) || A 没有 B (那么/这么) + tính từ: A không… bằng B. ‖ 二59 ‖ 奶茶没有咖啡那么贵。=Trà sữa không đắt bằng cà phê.
+30b2-9-2 ‖ Động từ 离 || A 离 B + 远/近: khoảng cách không gian; 离 + mốc thời gian + 还有…: còn bao lâu nữa. ‖ 二27 ‖ 奶茶店离这儿很近。=Tiệm trà sữa cách đây rất gần. ¦ 离开学还有一周。=Còn một tuần nữa là khai giảng.
+30b2-9-3 ‖ Bổ ngữ thời lượng (1) || Động từ + khoảng thời gian: làm trong bao lâu. Có tân ngữ thì lặp động từ hoặc đặt tân ngữ sau thời lượng. ‖ 三51 ‖ 我等了你二十分钟。=Tôi đã đợi bạn hai mươi phút. ¦ 他学汉语学了一年。=Anh ấy học tiếng Trung được một năm.
+30b2-10-1 ‖ Câu vị ngữ chủ vị || Chủ ngữ + (chủ ngữ nhỏ + vị ngữ): 他个子很高 (anh ấy dáng người cao). ‖ 三53 ‖ 我头有点儿疼。=Tôi hơi đau đầu. ¦ 这个考试题很多。=Bài thi này có rất nhiều câu.
+30b2-10-2 ‖ Câu hỏi lựa chọn || A 还是 B？: hỏi chọn một trong hai, không thêm 吗. ‖ 一47 ‖ 你考试是明天还是后天？=Bạn thi ngày mai hay ngày kia?
+30b2-10-3 ‖ Mẫu 要/快/快要/就要……了 || Sắp… rồi. 就要 có thể đi với từ chỉ thời gian cụ thể; 快要 thì không. ‖ 二81 ‖ 就要考试了。=Sắp thi rồi. ¦ 明天就要开学了。=Ngày mai là khai giảng rồi.
+30b2-11-1 ‖ Trợ từ động thái 着 (1) || Động từ + 着: hành động hoặc trạng thái đang kéo dài. ‖ 二70 ‖ 他在床上躺着。=Anh ấy đang nằm trên giường. ¦ 门开着。=Cửa đang mở.
+30b2-11-2 ‖ Trợ từ động thái 着 (2) || Động từ 1 + 着 + động từ 2: làm việc 2 trong trạng thái của việc 1 (vừa… vừa…). ‖ ‖ 他笑着说："我没事。"=Anh ấy cười nói: "Tôi không sao." ¦ 我们走着去药店吧。=Chúng ta đi bộ đến hiệu thuốc nhé.
+30b2-11-3 ‖ Phó từ chỉ mức độ 最 || 最 + tính từ/động từ tâm lý: nhất, hơn tất cả người hoặc vật cùng loại. ‖ ‖ 我最喜欢吃中国菜。=Tôi thích ăn món Trung Quốc nhất.
+30b2-12-1 ‖ Câu so sánh (4) || A 比 B + tính từ + 多了 / 得多: A… hơn B nhiều. ‖ 三58 ‖ 这里比北京冷多了。=Ở đây lạnh hơn Bắc Kinh nhiều.
+30b2-12-2 ‖ Câu so sánh (5) || A 比 B + động từ + 得 + tính từ, hoặc A + động từ + 得 + 比 B + tính từ: so sánh cách làm. ‖ ‖ 他跑得比我快。=Anh ấy chạy nhanh hơn tôi.
+30b2-12-3 ‖ Câu so sánh (6) || A 比 B + 更/还 + tính từ: A còn… hơn B (B vốn đã…). ‖ ‖ 今天比昨天更冷。=Hôm nay còn lạnh hơn hôm qua.
+30b2-13-1 ‖ Câu hai tân ngữ (2) || Động từ + người + vật với các động từ 教, 告诉, 问, 送, 给. ‖ 二61 ‖ 王老师教我们中文。=Cô Vương dạy chúng tôi tiếng Trung. ¦ 他送了我一本书。=Anh ấy tặng tôi một quyển sách.
+30b2-13-2 ‖ Câu so sánh (7) || A 跟 B 一样 (+ tính từ): A giống / bằng B. Phủ định: A 跟 B 不一样. ‖ ‖ 我的笔跟你的一样。=Bút của tôi giống bút của bạn. ¦ 他跟我一样高。=Anh ấy cao bằng tôi.
+30b2-13-3 ‖ Câu so sánh (8) || A 有 B (这么/那么) + tính từ: A… bằng B; A 比 B + tính từ + 一点儿: hơn một chút. ‖ ‖ 弟弟有哥哥那么高了。=Em trai đã cao bằng anh trai rồi. ¦ 中文课比英语课难一点儿。=Giờ tiếng Trung khó hơn giờ tiếng Anh một chút.
+30b2-14-1 ‖ Câu tồn hiện (2) || Nơi chốn + động từ + 着 + người/vật: ở đâu có ai/cái gì trong trạng thái nào. ‖ 二56 ‖ 门口站着一个小孩儿。=Ở cửa có một đứa bé đang đứng.
+30b2-14-2 ‖ Phó từ chỉ mức độ 多 || 多 + tính từ + 啊: …biết bao, thật là… (cảm thán). ‖ 二13 ‖ 一个人过年多没意思啊！=Một mình đón Tết thật chán biết bao!
+30b2-14-3 ‖ Bổ ngữ xu hướng kép || Động từ + 上/下/进/出/回/过/起 + 来/去: 走进来, 跑出去. Tân ngữ chỉ nơi chốn đặt trước 来/去. ‖ 三47 ‖ 他从楼上走下来了。=Anh ấy từ trên lầu đi xuống. ¦ 小狗跑进房间去了。=Chú chó chạy vào phòng rồi.
+30b2-15-1 ‖ Bổ ngữ động lượng (1) || Động từ + số + 次/遍/下: làm bao nhiêu lần. ‖ 二52 ‖ 我去过两次中国。=Tôi đã đến Trung Quốc hai lần.
+30b2-15-2 ‖ Bổ ngữ động lượng (2) || Tân ngữ là đại từ thì đứng trước bổ ngữ (见过他一次); là địa danh thì đứng trước hoặc sau (去过北京一次 / 去过一次北京). ‖ 三50 ‖ 我想再去一次中国。=Tôi muốn đến Trung Quốc thêm một lần nữa. ¦ 我见过她一次。=Tôi đã gặp cô ấy một lần.
+30b2-15-3 ‖ Câu chữ 有 (2) || 有 + số lượng: đạt tới, khoảng (chiều cao, cân nặng, thời gian…). ‖ 二55 ‖ 这个鸟有一米长。=Con chim này dài khoảng một mét. ¦ 他有一米八高。=Anh ấy cao tới một mét tám.

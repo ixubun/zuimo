@@ -1,0 +1,49 @@
+# ZUIMO – giải thích ngữ pháp HSK 1 (tự biên soạn). Định dạng: mã ‖ tên || giải thích
+一01 ‖ Danh từ phương vị || Đứng sau danh từ để chỉ vị trí: 桌子上 (trên bàn), 房间里 (trong phòng). Dạng có 边 như 上边, 前边 dùng được độc lập hoặc sau 的: 饭店的前边.
+一02 ‖ Động từ năng nguyện 会, 能 || 会 là biết làm nhờ học mà có (会说中文). 能 là có khả năng hoặc điều kiện cho phép (明天能来). Phủ định dùng 不.
+一03 ‖ Động từ năng nguyện 想, 要 || Cả hai chỉ mong muốn, dự định. 想 nhẹ nhàng hơn (muốn), 要 mạnh và chắc chắn hơn (muốn, sẽ).
+一04 ‖ Đại từ nghi vấn || Đặt đúng vào vị trí của thông tin cần hỏi, không đảo lên đầu câu. 几 thường hỏi số nhỏ (dưới 10), 多少 hỏi số bất kỳ.
+一05 ‖ Đại từ nhân xưng || Thêm 们 để chỉ số nhiều: 我们, 他们. 您 là cách nói kính trọng của 你.
+一06 ‖ Đại từ chỉ thị || 这 chỉ gần, 那 chỉ xa. 这儿/这里 và 那儿/那里 chỉ nơi chốn, 这些/那些 chỉ số nhiều. 有的…有的… nghĩa là "có người thì…, có người thì…".
+一07 ‖ Số từ || 二 dùng khi đếm và trong số (十二), 两 dùng trước lượng từ (两个人). 半 là một nửa: 八点半 (tám giờ rưỡi), 半个小时 (nửa tiếng).
+一08 ‖ Lượng từ cho danh từ || Giữa số từ và danh từ bắt buộc có lượng từ: 三本书. 个 là lượng từ dùng chung phổ biến nhất.
+一09 ‖ Phó từ chỉ mức độ || Đứng trước tính từ hoặc động từ chỉ tâm lý. 太…了 thường đi thành cặp nghĩa là "quá". 很 trong câu tính từ đôi khi chỉ để câu tự nhiên, không nhấn mạnh "rất".
+一10 ‖ Phó từ chỉ phạm vi, cùng nhau: 都, 一块儿, 一起 || 都 (đều) đứng sau chủ ngữ số nhiều và trước động từ. 一起, 一块儿 (cùng nhau) cũng đứng trước động từ.
+一11 ‖ Phó từ chỉ thời gian || 在/正/正在 + động từ diễn tả hành động đang diễn ra, thường có 呢 cuối câu. 马上 là ngay lập tức, 先 là trước tiên, 有时 là có lúc.
+一12 ‖ Phó từ chỉ tần suất, lặp lại: 常, 常常, 再 || 常, 常常 là thường xuyên. 再 là "lại, nữa", dùng cho hành động sẽ lặp lại trong tương lai.
+一13 ‖ Phó từ liên kết: 还, 也 || 也 (cũng) và 还 (còn, ngoài ra) luôn đứng sau chủ ngữ, trước động từ, không đứng đầu câu như "also" trong tiếng Anh.
+一14 ‖ Phó từ phủ định: 别, 不, 没, 没有 || 不 phủ định hiện tại, tương lai, thói quen. 没/没有 phủ định việc đã xảy ra hoặc sự sở hữu. 别 dùng để khuyên hoặc cấm (đừng).
+一15 ‖ Giới từ 从 || 从 + thời gian hoặc nơi chốn chỉ điểm bắt đầu, hay đi cùng 到: 从星期一到星期五.
+一16 ‖ Giới từ 在 || 在 + nơi chốn đặt trước động từ để chỉ nơi hành động diễn ra: 在北京学中文.
+一17 ‖ Giới từ 跟, 和 || 跟/和 + người chỉ đối tượng cùng tham gia hoặc hướng tới của hành động. Từ phủ định đặt trước 跟/和: 我没和姐姐一起去.
+一18 ‖ Giới từ 比 || A 比 B + tính từ: A… hơn B. Không dùng 很, 非常 trước tính từ trong kiểu so sánh này.
+一19 ‖ Liên từ 跟, 还是, 和 || 和/跟 nối hai danh từ (và). 还是 dùng trong câu hỏi lựa chọn (hay là). Không dùng 和 để nối hai mệnh đề.
+一20 ‖ Trợ từ kết cấu 的, 地 || Định ngữ + 的 + danh từ (你的衣服). Trạng ngữ + 地 + động từ (高兴地说). Cả hai chữ đều đọc là de.
+一21 ‖ Trợ từ động thái 了 || Động từ + 了 cho biết hành động đã hoàn thành. Phủ định dùng 没 + động từ và bỏ 了.
+一22 ‖ Trợ từ ngữ khí 吧, 了, 吗, 呢 || 吧 để đề nghị hoặc phỏng đoán. 了 cuối câu báo tình hình đã thay đổi. 吗 tạo câu hỏi có/không. 呢 dùng trong câu hỏi hoặc chỉ hành động đang diễn ra.
+一23 ‖ Cụm số lượng || Số từ + lượng từ: 一个, 两杯. Cụm này đứng trước danh từ để chỉ số lượng.
+一24 ‖ Chủ ngữ || Danh từ, đại từ hoặc cụm danh từ đứng đầu câu làm chủ ngữ.
+一25 ‖ Vị ngữ || Động từ hoặc tính từ làm vị ngữ. Câu có vị ngữ là tính từ không cần 是: 今天不冷.
+一26 ‖ Tân ngữ || Danh từ, đại từ hoặc cụm danh từ đứng sau động từ làm tân ngữ.
+一27 ‖ Định ngữ || Đứng trước danh từ để bổ nghĩa. Tính từ hai âm tiết thường thêm 的 (干净的房间), tính từ một âm tiết thường không cần (新书包).
+一28 ‖ Trạng ngữ || Phó từ, tính từ, từ chỉ thời gian hoặc nơi chốn đứng trước động từ. Trật tự hay gặp: chủ ngữ + thời gian + nơi chốn + động từ.
+一29 ‖ Câu vị ngữ động từ || Chủ ngữ + động từ (+ tân ngữ). Phủ định đặt 不 hoặc 没 trước động từ.
+一30 ‖ Câu vị ngữ tính từ || Chủ ngữ + (很) + tính từ. Không đặt 是 giữa chủ ngữ và tính từ.
+一31 ‖ Câu không chủ vị || Câu chỉ gồm một từ hoặc cụm từ, dùng để tả hiện tượng tự nhiên hoặc để cảnh báo: 下雨了！车！
+一32 ‖ Câu trần thuật || Câu kể lại sự việc, kết thúc bằng dấu chấm.
+一33 ‖ Câu nghi vấn || Có bốn kiểu: hỏi có/không với 吗, hỏi bằng đại từ nghi vấn, hỏi lựa chọn với 还是, hỏi chính phản (V不V, V没V).
+一34 ‖ Câu cầu khiến || Dùng để mời, yêu cầu hoặc ngăn cản: 请进！别说了！
+一35 ‖ Câu cảm thán || Bày tỏ cảm xúc, thường dùng 太…了 hoặc 真….
+一36 ‖ Câu chữ 是 || Diễn tả sự đồng nhất hoặc phân loại (A là B), giải thích đặc điểm (…是…的), hoặc sự tồn tại (nơi chốn + 是 + sự vật).
+一37 ‖ Câu chữ 有 (1) || Diễn tả sở hữu (người + 有 + vật) hoặc tồn tại (nơi chốn + 有 + vật). Phủ định luôn dùng 没有, không nói 不有.
+一38 ‖ Câu so sánh (1) || A 比 B + tính từ: A hơn B. A 没有 B + tính từ: A không bằng B.
+一39 ‖ Câu phức đẳng lập || Hai vế ngang hàng, có thể không cần từ nối, hoặc dùng 一边…一边… (vừa… vừa…) và …也… (cũng).
+一40 ‖ Trạng thái thay đổi với 了 || 了 cuối câu cho biết tình hình đã khác trước: 雨小了 (mưa đã nhỏ đi). Phủ định: 没 + động từ hoặc tính từ.
+一41 ‖ Trạng thái hoàn thành với 了 || Động từ + 了 (+ số lượng) + tân ngữ: 买了两个面包. Phủ định: 没 + động từ, bỏ 了.
+一42 ‖ Trạng thái tiếp diễn || 在/正/正在 + động từ (+ 呢) diễn tả hành động đang diễn ra. Chỉ dùng 呢 ở cuối câu cũng được.
+一43 ‖ Cách nói số tiền || Khẩu ngữ dùng 块 (đồng), 毛 (hào), 分 (xu), văn viết dùng 元. Đơn vị cuối cùng thường được lược bỏ: 九块三.
+一44 ‖ Cách nói thời gian || Ngày tháng viết theo thứ tự năm, tháng, ngày (ngược với tiếng Việt). Giờ dùng 点 (giờ), 分 (phút), 半 (rưỡi), 差 (kém).
+一45 ‖ Hỏi bằng 吗 || Thêm 吗 vào cuối câu trần thuật, giữ nguyên trật tự từ.
+一46 ‖ Hỏi bằng đại từ nghi vấn || Đặt đại từ nghi vấn vào đúng vị trí thông tin cần hỏi và không thêm 吗.
+一47 ‖ Hỏi bằng 还是 || A 还是 B? dùng để hỏi lựa chọn, không thêm 吗 ở cuối câu.
+一48 ‖ Hỏi bằng dạng chính phản || Động từ/tính từ + 不 + động từ/tính từ (贵不贵). Với việc đã xảy ra dùng V没V hoặc …了没有. Không thêm 吗.

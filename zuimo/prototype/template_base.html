@@ -1,0 +1,1247 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>HànLộ – Học tiếng Trung theo HSK 3.0</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@700&display=swap" rel="stylesheet">
+<style>
+/* ---------- Design tokens: 3 màu chủ đạo (ngọc, son, nắng) + tông trung tính ---------- */
+:root{
+  --jade:#12B886;--jade-d:#0B8A64;--jade-soft:#E2F6EE;--jade-ink:#07563F;
+  --verm:#F25C3C;--verm-d:#C43F20;--verm-soft:#FDE8E2;--verm-ink:#8A2A13;
+  --sun:#FFC233;--sun-d:#D8980A;--sun-soft:#FFF3D1;--sun-ink:#7A5300;
+  --blue-soft:#E6EFFD;
+  --ink:#1B2430;--ink-2:#4B5664;--ink-3:#6F7A88;
+  --paper:#F4F8F6;--surface:#FFFFFF;--surface-2:#ECF2EF;--line:#D9E3DF;--line-2:#BFCDC7;
+  --t1:#2F72D6;--t2:#0C9A6E;--t3:#C07F00;--t4:#DB4324;--t5:#7F8995;
+  --radius:14px;--radius-l:22px;
+  --f-ui:'Be Vietnam Pro',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+  --f-zh:'Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif;
+  --f-zh-d:'Noto Serif SC','Songti SC','SimSun',serif;
+  color-scheme:light;
+}
+/* Dark mode: theo hệ thống, trừ khi người dùng ép light; hoặc ép dark bằng nút */
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ __DARK__ } }
+:root[data-theme="dark"]{ __DARK__ }
+
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--paper);color:var(--ink);font-family:var(--f-ui);font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased}
+button{font-family:inherit}
+.zh{font-family:var(--f-zh)}
+.zh-d{font-family:var(--f-zh-d)}
+:focus-visible{outline:3px solid var(--t1);outline-offset:2px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* ---------- Khung ứng dụng ---------- */
+.shell{display:grid;grid-template-columns:248px minmax(0,1fr);min-height:100vh}
+.side{position:sticky;top:0;height:100vh;padding:24px 16px;border-right:2px solid var(--line);background:var(--surface);display:flex;flex-direction:column;gap:24px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:22px;letter-spacing:-.01em;color:var(--ink)}
+.mark{width:40px;height:40px;border-radius:12px;background:var(--jade);color:#fff;display:grid;place-items:center;font-family:var(--f-zh-d);font-size:24px;font-weight:700;box-shadow:0 3px 0 var(--jade-d)}
+.navlist{display:flex;flex-direction:column;gap:6px}
+.navbtn{display:flex;align-items:center;gap:12px;padding:10px 14px;border-radius:12px;border:2px solid transparent;background:none;color:var(--ink-2);font-weight:600;font-size:15px;cursor:pointer;text-align:left}
+.navbtn svg{width:22px;height:22px;flex:none}
+.navbtn:hover{background:var(--surface-2)}
+.navbtn[aria-current="page"]{background:var(--jade-soft);border-color:var(--jade);color:var(--jade-ink)}
+.side-foot{margin-top:auto;font-size:13px;color:var(--ink-3);line-height:1.5}
+.top{position:sticky;top:0;z-index:5;display:flex;align-items:center;justify-content:flex-end;gap:10px;padding:14px 28px;background:var(--paper)}
+.brand-m{display:none;margin-right:auto}
+.chip{display:inline-flex;align-items:center;gap:6px;height:40px;padding:0 12px;border-radius:999px;font-weight:700;font-size:15px;background:var(--surface);border:2px solid var(--line)}
+.chip svg{width:18px;height:18px}
+.chip .lbl{font-weight:500;color:var(--ink-3);font-size:13px}
+.chip.streak svg{color:var(--verm)}
+.chip.xp svg{color:var(--t3)}
+.icon-btn{width:40px;height:40px;flex:none;border-radius:12px;border:2px solid var(--line);background:var(--surface);color:var(--ink-2);display:grid;place-items:center;cursor:pointer;font-weight:700;font-size:13px}
+.icon-btn svg{width:20px;height:20px}
+.icon-btn:hover{border-color:var(--line-2)}
+main{max-width:920px;margin:0 auto;padding:12px 28px 64px;outline:none}
+main:focus,main:focus-visible{outline:none}
+.bnav{display:none}
+@media (max-width:860px){
+  .shell{grid-template-columns:minmax(0,1fr)}
+  .side{display:none}
+  .brand-m{display:flex}
+  .top{padding:10px 16px;gap:8px}
+  main{padding:8px 16px 110px}
+  .chip .lbl{display:none}
+  .bnav{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:10;background:var(--surface);border-top:2px solid var(--line);padding:6px 6px calc(6px + env(safe-area-inset-bottom));justify-content:space-around}
+  .bnav .navbtn{flex:1;flex-direction:column;align-items:center;gap:2px;padding:6px 2px;font-size:11px;border-radius:10px;text-align:center}
+}
+/* Chế độ tập trung khi làm bài: ẩn điều hướng như Duolingo */
+body.focus .side,body.focus .top,body.focus .bnav{display:none}
+body.focus .shell{grid-template-columns:minmax(0,1fr)}
+body.focus main{max-width:720px;padding:0 28px}
+@media (max-width:860px){body.focus main{padding:0 16px}}
+
+/* ---------- Nút bấm "nổi khối" ---------- */
+.btn{--c:var(--jade);--cd:var(--jade-d);--fg:#fff;display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 22px;border:0;border-radius:var(--radius);background:var(--c);color:var(--fg);font-weight:700;font-size:16px;cursor:pointer;box-shadow:0 4px 0 var(--cd);transition:transform .08s,box-shadow .08s;text-decoration:none}
+.btn:active:not(:disabled){transform:translateY(4px);box-shadow:0 0 0 var(--cd)}
+.btn:disabled{background:var(--surface-2);color:var(--ink-3);box-shadow:0 4px 0 var(--line);cursor:not-allowed}
+.btn svg{width:18px;height:18px}
+.btn-ghost{--c:var(--surface);--cd:var(--line);--fg:var(--jade-ink);border:2px solid var(--line)}
+.btn-verm{--c:var(--verm);--cd:var(--verm-d)}
+.btn-sm{min-height:38px;padding:0 14px;font-size:14px;border-radius:12px}
+.btn-block{width:100%}
+
+/* ---------- Trang chủ ---------- */
+.hero{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:28px;align-items:center;padding:28px;border-radius:var(--radius-l);background:var(--surface);border:2px solid var(--line)}
+.hello{margin:0 0 6px;color:var(--ink-3);font-weight:600}
+.hero h1{margin:0 0 22px;font-size:clamp(28px,4.2vw,40px);line-height:1.15;letter-spacing:-.02em;font-weight:800;max-width:15ch}
+.hero-actions{display:flex;flex-wrap:wrap;gap:12px}
+.hero-char{margin:0;display:flex;flex-direction:column;align-items:center;gap:10px}
+.hero-char figcaption{display:flex;align-items:baseline;gap:8px;color:var(--ink-2);font-size:15px}
+.gbox{position:relative;width:200px;height:200px}
+.gbox .grid{position:absolute;inset:0;width:100%;height:100%}
+.grid rect{fill:var(--surface-2);stroke:var(--verm);stroke-width:1.2}
+.grid line{stroke:var(--verm);stroke-opacity:.4;stroke-width:.5;stroke-dasharray:2 2}
+.gbox .writer{position:absolute;inset:0}
+@media (max-width:640px){.hero{grid-template-columns:1fr;padding:20px}.hero-char{order:-1}}
+
+.row3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:18px 0 32px}
+@media (max-width:760px){.row3{grid-template-columns:1fr}}
+.card{background:var(--surface);border:2px solid var(--line);border-radius:18px;padding:18px}
+.stat{display:flex;align-items:center;gap:14px}
+.stat .big{font-size:26px;font-weight:800;line-height:1.1}
+.stat .sub{color:var(--ink-3);font-size:14px}
+.ring{width:60px;height:60px;flex:none}
+.ring circle{fill:none;stroke-width:8}
+.ring .bg{stroke:var(--surface-2)}
+.ring .fg{stroke:var(--jade);stroke-linecap:round;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset .6s}
+.badge-ic{width:56px;height:56px;border-radius:16px;display:grid;place-items:center;flex:none}
+.badge-ic svg{width:28px;height:28px}
+.bi-verm{background:var(--verm-soft);color:var(--verm)}
+.bi-sun{background:var(--sun-soft);color:var(--t3)}
+.bi-jade{background:var(--jade-soft);color:var(--jade)}
+.bi-blue{background:var(--blue-soft);color:var(--t1)}
+h2.sec{font-size:20px;margin:0 0 14px;letter-spacing:-.01em}
+.levels{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}
+.lvl{position:relative;padding:16px;border-radius:18px;border:2px solid var(--line);background:var(--surface);text-align:left;color:inherit;font-size:inherit}
+.lvl .n{display:block;font-size:22px;font-weight:800}
+.lvl .m{font-size:13px;color:var(--ink-3);line-height:1.5;margin-top:4px}
+.lvl.on{border-color:var(--jade);box-shadow:0 4px 0 var(--jade-d);cursor:pointer;background:var(--jade-soft)}
+.lvl.on .n{color:var(--jade-ink)}
+.lvl.on .m{color:var(--jade-ink)}
+.lvl.off{cursor:default}
+.lvl.off .n{color:var(--ink-3)}
+.lvl .tag{font-size:12px;font-weight:700;padding:2px 8px;border-radius:999px;background:var(--surface-2);color:var(--ink-3);display:inline-flex;align-items:center;gap:4px;margin-bottom:8px}
+.lvl.on .tag{background:var(--jade);color:#fff}
+.tag svg{width:12px;height:12px}
+
+/* ---------- Danh sách bài ---------- */
+.lhead{display:flex;align-items:center;gap:14px;margin:8px 0 18px}
+.lhead h1{margin:0;font-size:26px;letter-spacing:-.02em;line-height:1.2}
+.lhead .zh-d{color:var(--verm)}
+.lead{color:var(--ink-2);margin:0 0 20px;max-width:65ch}
+.units{display:flex;flex-direction:column;gap:12px}
+.unit{display:flex;align-items:center;gap:16px;padding:14px 18px;border-radius:18px;border:2px solid var(--line);background:var(--surface);color:inherit;text-align:left;width:100%;font-size:inherit}
+.unit.on{cursor:pointer;border-color:var(--jade);box-shadow:0 4px 0 var(--jade-d)}
+.unit.off{cursor:default}
+.unit .zhb{width:64px;height:64px;border-radius:16px;display:grid;place-items:center;font-family:var(--f-zh-d);font-size:21px;font-weight:700;background:var(--surface-2);color:var(--ink-3);flex:none}
+.unit.on .zhb{background:var(--verm-soft);color:var(--verm)}
+.unit .grow{flex:1;min-width:0}
+.unit .ut{font-weight:700;font-size:17px}
+.unit .us{color:var(--ink-3);font-size:14px}
+.unit .end{color:var(--ink-3);flex:none}
+.unit .end svg{width:22px;height:22px}
+.pbar{height:10px;border-radius:99px;background:var(--surface-2);overflow:hidden;margin-top:8px}
+.pbar span{display:block;height:100%;background:var(--jade);border-radius:99px}
+
+/* ---------- Bài học ---------- */
+.tabs{display:flex;gap:8px;overflow-x:auto;padding:2px 2px 8px;margin-bottom:18px;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:none;padding:8px 16px;border-radius:999px;border:2px solid var(--line);background:var(--surface);color:var(--ink-2);font-weight:600;font-size:14px;cursor:pointer;white-space:nowrap}
+.tab[aria-selected="true"]{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.py{font-weight:600}
+.t1{color:var(--t1)}.t2{color:var(--t2)}.t3{color:var(--t3)}.t4{color:var(--t4)}.t5{color:var(--t5)}
+.tones{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px}
+.tone{padding:16px;border-radius:18px;border:2px solid var(--line);background:var(--surface);text-align:left;color:inherit;cursor:pointer;box-shadow:0 3px 0 var(--line);font-size:inherit}
+.tone:hover{border-color:var(--line-2)}
+.contour{width:60px;height:46px;display:block;margin-bottom:6px}
+.contour .lv{stroke:var(--line);stroke-width:1}
+.contour .cv{fill:none;stroke:currentColor;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+.contour .dt{fill:currentColor}
+.tone .syl{font-size:28px;font-weight:800}
+.tone .zh{font-size:22px;margin-left:6px;color:var(--ink)}
+.tone .nm{font-size:13px;color:var(--ink-2);margin-top:4px;font-weight:600}
+.tone .gl{font-size:13px;color:var(--ink-3)}
+.note{margin-top:20px;padding:16px 18px;border-radius:16px;background:var(--sun-soft);color:var(--sun-ink)}
+.note h3{margin:0 0 6px;font-size:16px}
+.note p{margin:4px 0}
+.vgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+.vcard{position:relative;padding:16px;border-radius:18px;border:2px solid var(--line);background:var(--surface)}
+.vcard .h{font-family:var(--f-zh);font-size:34px;line-height:1.25;padding-right:44px}
+.vcard .py{font-size:17px}
+.vcard .m{margin-top:2px;font-weight:600}
+.vcard .hv{font-size:13px;color:var(--ink-3)}
+.vcard .nt{font-size:13px;color:var(--ink-2);margin-top:10px;padding-top:10px;border-top:2px dashed var(--line)}
+.vcard .spk{position:absolute;top:12px;right:12px}
+.spk-b{color:var(--jade)}
+.rad{font-family:var(--f-zh-d);font-size:44px;color:var(--verm);line-height:1.1}
+.rex{display:flex;gap:6px;margin-top:10px;flex-wrap:wrap}
+.rex span{font-family:var(--f-zh);font-size:20px;padding:2px 10px;border-radius:10px;background:var(--surface-2)}
+.gblock{padding:20px;border-radius:18px;border:2px solid var(--line);background:var(--surface);margin-bottom:14px}
+.gblock h3{margin:0 0 6px;font-size:18px}
+.gblock .desc{margin:0;color:var(--ink-2)}
+.formula{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:14px 0}
+.fx{padding:6px 12px;border-radius:10px;background:var(--surface-2);font-weight:600;font-size:15px}
+.fx.k{background:var(--verm-soft);color:var(--verm-ink);font-family:var(--f-zh);font-size:18px;padding:3px 12px}
+.fl{font-size:13px;color:var(--ink-3);font-weight:600;min-width:74px}
+.exs{list-style:none;margin:14px 0 0;padding:14px 0 0;border-top:2px dashed var(--line);display:flex;flex-direction:column;gap:12px}
+.exs li{display:flex;gap:12px;align-items:flex-start}
+.exs .zh{font-size:20px;display:block}
+.exs .p{color:var(--ink-2);font-size:14px;display:block}
+.exs .tr{color:var(--ink-3);font-size:14px;display:block}
+.dtools{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
+.pill{display:inline-flex;align-items:center;gap:6px;padding:7px 14px;border-radius:999px;border:2px solid var(--line);background:var(--surface);color:var(--ink-2);font-weight:600;font-size:14px;cursor:pointer}
+.pill[aria-pressed="true"]{border-color:var(--jade);color:var(--jade-ink);background:var(--jade-soft)}
+.pill svg{width:16px;height:16px}
+.dlg{display:flex;flex-direction:column;gap:12px}
+.line{display:flex;gap:10px;align-items:flex-end;max-width:88%}
+.line.b{align-self:flex-end;flex-direction:row-reverse}
+.av{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;font-family:var(--f-zh);font-weight:700;font-size:15px;flex:none}
+.line.a .av{background:var(--sun-soft);color:var(--sun-ink)}
+.line.b .av{background:var(--jade-soft);color:var(--jade-ink)}
+.bubble{padding:10px 16px;border-radius:18px;background:var(--surface);border:2px solid var(--line);cursor:pointer;text-align:left;color:inherit;font-size:inherit}
+.line.b .bubble{background:var(--jade-soft);border-color:var(--jade-soft)}
+.bubble.playing{border-color:var(--sun)}
+.bubble .zh{font-size:22px;display:block;line-height:1.35}
+.bubble .p{display:block;font-size:14px;color:var(--ink-2)}
+.bubble .tr{display:block;font-size:14px;color:var(--ink-3)}
+.hide-py .bubble .p{display:none}
+.hide-tr .bubble .tr{display:none}
+.wchars{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px}
+.wchar{position:relative;width:54px;height:54px;border-radius:14px;border:2px solid var(--line);background:var(--surface);font-family:var(--f-zh);font-size:26px;color:var(--ink);cursor:pointer;box-shadow:0 3px 0 var(--line)}
+.wchar[aria-pressed="true"]{border-color:var(--verm);color:var(--verm);box-shadow:0 3px 0 var(--verm-d)}
+.wchar .dot{position:absolute;top:-6px;right:-6px;width:20px;height:20px;border-radius:50%;background:var(--jade);color:#fff;display:grid;place-items:center}
+.wchar .dot svg{width:12px;height:12px}
+.wstage{display:grid;grid-template-columns:auto minmax(0,1fr);gap:28px;align-items:start}
+.gbox.lg{width:300px;height:300px}
+.winfo .zh{font-size:15px}
+.winfo .big-py{font-size:30px}
+.winfo .m{font-size:18px;font-weight:600;margin:2px 0 12px}
+.winfo .meta{color:var(--ink-3);font-size:14px;margin-bottom:16px}
+.wbtns{display:flex;flex-wrap:wrap;gap:10px}
+.wstatus{min-height:26px;font-weight:600;margin-top:14px;color:var(--ink-2)}
+.wstatus.ok{color:var(--jade-ink)}
+.wstatus.bad{color:var(--verm-ink)}
+@media (max-width:640px){.wstage{grid-template-columns:1fr}.gbox.lg{width:min(300px,100%);height:auto;aspect-ratio:1;margin:0 auto}}
+.cta-end{margin-top:28px;padding:18px 20px;border-radius:18px;background:var(--jade-soft);display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.cta-end p{margin:0;flex:1;min-width:200px;color:var(--jade-ink);font-weight:600}
+
+/* ---------- Luyện tập ---------- */
+.prac{min-height:100vh;min-height:100dvh;display:flex;flex-direction:column}
+.prac-top{display:flex;align-items:center;gap:14px;padding:18px 0 8px}
+.bar{flex:1;height:16px;border-radius:99px;background:var(--surface-2);overflow:hidden}
+.bar span{display:block;height:100%;background:var(--jade);border-radius:99px;transition:width .35s ease}
+.prac-count{font-weight:700;color:var(--ink-3);font-size:14px;min-width:40px;text-align:right}
+.prac-body{flex:1;padding:12px 0 28px}
+.kind{display:inline-block;font-size:13px;font-weight:700;color:var(--verm);margin-top:8px}
+.prac-q{font-size:24px;margin:2px 0 20px;letter-spacing:-.01em;line-height:1.3}
+.stim{display:flex;align-items:center;gap:16px;margin-bottom:24px;flex-wrap:wrap}
+.stim .zh{font-size:60px;line-height:1.1}
+.stim .quote{font-size:20px;font-weight:600;padding:10px 16px;border-radius:14px;background:var(--surface);border:2px solid var(--line)}
+.speaker{width:92px;height:92px;border-radius:26px;background:var(--jade);color:#fff;border:0;box-shadow:0 5px 0 var(--jade-d);cursor:pointer;display:grid;place-items:center}
+.speaker:active{transform:translateY(5px);box-shadow:none}
+.speaker svg{width:44px;height:44px}
+.opts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+@media (max-width:520px){.opts{grid-template-columns:1fr}}
+.opt{display:flex;align-items:center;gap:12px;min-height:62px;padding:10px 16px;border-radius:16px;border:2px solid var(--line);background:var(--surface);box-shadow:0 4px 0 var(--line);font-weight:600;font-size:17px;color:var(--ink);cursor:pointer;text-align:left}
+.opt .k{width:28px;height:28px;border-radius:8px;border:2px solid var(--line);display:grid;place-items:center;font-size:13px;color:var(--ink-3);flex:none;font-family:var(--f-ui)}
+.opt.zh-o{font-family:var(--f-zh);font-size:26px;font-weight:500}
+.opt.py-o{font-size:22px}
+.opt:hover:not(:disabled){border-color:var(--line-2)}
+.opt.sel{border-color:var(--t1);background:var(--blue-soft);box-shadow:0 4px 0 var(--t1)}
+.opt.right{border-color:var(--jade);background:var(--jade-soft);box-shadow:0 4px 0 var(--jade)}
+.opt.wrong{border-color:var(--verm);background:var(--verm-soft);box-shadow:0 4px 0 var(--verm)}
+.opt.done{opacity:.35;box-shadow:none;cursor:default}
+.opt:disabled{cursor:default}
+.shake{animation:shake .35s}
+@keyframes shake{25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
+.match{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.match .col{display:flex;flex-direction:column;gap:10px}
+.match .opt{justify-content:center;text-align:center}
+.aline{min-height:70px;border-bottom:2px solid var(--line);display:flex;flex-wrap:wrap;align-content:flex-start;gap:8px;padding:8px 0;margin-bottom:26px}
+.bank{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.tile{padding:8px 16px;border-radius:14px;border:2px solid var(--line);background:var(--surface);box-shadow:0 3px 0 var(--line);font-family:var(--f-zh);font-size:24px;color:var(--ink);cursor:pointer}
+.tile.used{background:var(--surface-2);color:transparent;box-shadow:none;cursor:default}
+.inp{width:100%;min-height:58px;padding:12px 16px;border-radius:14px;border:2px solid var(--line);background:var(--surface);color:var(--ink);font-family:var(--f-ui);font-weight:600;font-size:20px}
+.inp:focus{border-color:var(--t1);outline:none}
+.err{color:var(--verm-ink);font-size:14px;margin-top:8px;min-height:20px;font-weight:600}
+.hint{color:var(--ink-3);font-size:14px}
+.checkbar{position:sticky;bottom:0;margin:0 -28px;padding:16px 28px calc(16px + env(safe-area-inset-bottom));background:var(--paper);border-top:2px solid var(--line);display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+@media (max-width:860px){.checkbar{margin:0 -16px;padding-left:16px;padding-right:16px}}
+.checkbar .btn{min-width:170px;margin-left:auto}
+.checkbar.ok{background:var(--jade-soft);border-color:var(--jade-soft)}
+.checkbar.bad{background:var(--verm-soft);border-color:var(--verm-soft)}
+.checkbar.bad .btn{--c:var(--verm);--cd:var(--verm-d)}
+.fb{flex:1;min-width:220px}
+.fb strong{display:block;font-size:20px}
+.fb p{margin:4px 0 0;font-size:14px}
+.checkbar.ok .fb{color:var(--jade-ink)}
+.checkbar.bad .fb{color:var(--verm-ink)}
+.done-screen{text-align:center;padding:56px 0 40px}
+.done-screen .zh-d{font-size:104px;color:var(--verm);line-height:1}
+.done-screen h1{margin:16px 0 4px;font-size:28px}
+.done-screen p{color:var(--ink-2);margin:0}
+.dstats{display:flex;justify-content:center;gap:12px;margin:28px 0;flex-wrap:wrap}
+.dstat{min-width:124px;border-radius:16px;border:2px solid var(--c);overflow:hidden;background:var(--surface)}
+.dstat .l{padding:6px;font-size:13px;font-weight:700;color:#fff;background:var(--c)}
+.dstat .v{padding:12px;font-size:24px;font-weight:800}
+.done-btns{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+
+/* ---------- Thẻ ghi nhớ ---------- */
+.fc-wrap{max-width:460px;margin:0 auto}
+.fc-meta{display:flex;justify-content:space-between;color:var(--ink-3);font-size:14px;font-weight:600}
+.fc{display:block;perspective:1200px;height:320px;margin:12px 0 22px;cursor:pointer;background:none;border:0;width:100%;padding:0;color:inherit}
+.fc-in{position:relative;width:100%;height:100%;transition:transform .45s;transform-style:preserve-3d}
+.fc.flip .fc-in{transform:rotateY(180deg)}
+.face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:24px;border:2px solid var(--line);background:var(--surface);box-shadow:0 5px 0 var(--line);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;padding:20px}
+.face.back{transform:rotateY(180deg)}
+.face .h{font-size:72px;font-family:var(--f-zh);line-height:1.2}
+.face .py{font-size:26px}
+.face .m{font-size:20px;font-weight:700}
+.face .hv{font-size:14px;color:var(--ink-3)}
+.face .tap{position:absolute;bottom:14px;font-size:13px;color:var(--ink-3)}
+.rates{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+.rates .btn{flex-direction:column;gap:0;min-height:58px;padding:0 4px;font-size:15px}
+.rates small{font-weight:500;font-size:12px;opacity:.92}
+.r-again{--c:var(--verm);--cd:var(--verm-d)}
+.r-hard{--c:#E3A008;--cd:#A87605}
+.r-easy{--c:#2F72D6;--cd:#1F4F99}
+.fc-note{margin-top:16px;font-size:13px;color:var(--ink-3);text-align:center}
+.empty{text-align:center;padding:36px 20px}
+.empty .zh-d{font-size:64px;color:var(--jade);line-height:1}
+.empty p{color:var(--ink-2)}
+
+/* ---------- Thống kê ---------- */
+.sgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:12px;margin-bottom:16px}
+.chart{display:flex;align-items:stretch;gap:10px;height:190px}
+.colb{flex:1;display:flex;flex-direction:column;align-items:center;gap:6px}
+.colb .bw{flex:1;width:100%;display:flex;align-items:flex-end;justify-content:center}
+.colb .b{width:100%;max-width:44px;border-radius:10px 10px 4px 4px;background:var(--jade)}
+.colb.today .b{background:var(--verm)}
+.colb .v{font-size:12px;font-weight:700;color:var(--ink-2)}
+.colb .d{font-size:12px;color:var(--ink-3)}
+.chars-done{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 18px}
+.chars-done span{font-family:var(--f-zh);font-size:24px;width:48px;height:48px;border-radius:12px;display:grid;place-items:center;background:var(--jade-soft);color:var(--jade-ink)}
+.muted{color:var(--ink-3)}
+
+.toast{position:fixed;left:50%;bottom:96px;transform:translate(-50%,16px);background:var(--ink);color:var(--paper);padding:10px 16px;border-radius:12px;font-weight:600;font-size:14px;opacity:0;pointer-events:none;transition:.25s;max-width:90vw;z-index:50;text-align:center}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="shell">
+  <aside class="side">
+    <div class="brand"><span class="mark" aria-hidden="true">汉</span>HànLộ</div>
+    <nav class="navlist" id="sideNav" aria-label="Điều hướng chính"></nav>
+    <p class="side-foot" id="sideFoot"></p>
+  </aside>
+  <div class="main-col">
+    <header class="top">
+      <div class="brand brand-m"><span class="mark" aria-hidden="true">汉</span>HànLộ</div>
+      <div id="topRight" style="display:flex;gap:8px;align-items:center"></div>
+    </header>
+    <main id="view" tabindex="-1"></main>
+  </div>
+  <nav class="bnav" id="bottomNav" aria-label="Điều hướng"></nav>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>/* Hanzi Writer v3.7.3, MIT License, (c) David Chanin */
+__HANZI_WRITER__</script>
+<script>
+(function () {
+'use strict';
+
+/* =====================================================================
+   HànLộ – Prototype giai đoạn 0
+   - SPA thuần JS (bản chính thức dùng Next.js); router trạng thái nội bộ,
+     không dùng hash để chạy ổn trong iframe của trang đã publish.
+   - Mọi tương tác dùng event delegation qua data-act → không mất listener
+     khi render lại innerHTML.
+   - Tiến độ lưu localStorage (bọc try/catch); bản chính thức lưu PostgreSQL.
+   ===================================================================== */
+
+/* Dữ liệu nét chữ nhúng sẵn (Make Me a Hanzi / hanzi-writer-data, Arphic PL)
+   vì trang publish không được phép fetch ra ngoài. */
+const CHAR_DATA = __CHAR_DATA__;
+
+const $ = (s, r = document) => r.querySelector(s);
+const $$ = (s, r = document) => Array.from(r.querySelectorAll(s));
+const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const view = $('#view');
+
+/* ---------- Lưu trữ an toàn ---------- */
+const store = {
+  get(k, d) { try { const v = localStorage.getItem('hanlo:' + k); return v ? JSON.parse(v) : d; } catch (e) { return d; } },
+  set(k, v) { try { localStorage.setItem('hanlo:' + k, JSON.stringify(v)); } catch (e) { /* storage bị chặn: vẫn chạy trong RAM */ } },
+  del(k) { try { localStorage.removeItem('hanlo:' + k); } catch (e) {} }
+};
+const DEFAULT_P = { xp: 0, streak: 0, lastDay: null, days: {}, answered: 0, correct: 0, seen: {}, practiced: false, charsDone: {} };
+const S = {
+  lang: store.get('lang', 'vi'),
+  theme: store.get('theme', null),
+  p: Object.assign({}, DEFAULT_P, store.get('progress', {})),
+  srs: store.get('srs', {}),
+  route: 'home', tab: 'pinyin', wchar: '你',
+  showPy: true, showTr: true,
+  heroW: null, writer: null
+};
+const saveP = () => store.set('progress', S.p);
+
+/* Chuỗi song ngữ: tr('vi','en'); nội dung song ngữ: L({vi,en}) */
+const tr = (vi, en) => (S.lang === 'vi' ? vi : en);
+const L = o => (o == null ? '' : typeof o === 'string' ? o : (o[S.lang] ?? o.vi));
+
+/* Ngày theo giờ địa phương (không dùng toISOString vì lệch UTC) */
+function dayKey(d = new Date()) {
+  const z = n => String(n).padStart(2, '0');
+  return `${d.getFullYear()}-${z(d.getMonth() + 1)}-${z(d.getDate())}`;
+}
+const reducedMotion = () => window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+const cssv = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim() || '#444';
+const num = n => n.toLocaleString(S.lang === 'vi' ? 'vi-VN' : 'en-US');
+const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+
+/* ---------- Icon (vẽ tay, stroke) ---------- */
+const ICONS = {
+  home: 'M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z',
+  book: 'M4 19V6a2 2 0 0 1 2-2h14v14H6a2 2 0 0 0-2 2 2 2 0 0 0 2 2h14',
+  target: 'M12 3a9 9 0 1 0 0 18 9 9 0 1 0 0-18M12 8a4 4 0 1 0 0 8 4 4 0 1 0 0-8M12 11.5v1',
+  cards: 'M8 4h11a2 2 0 0 1 2 2v11M4 8h11a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z',
+  chart: 'M5 20V11M11 20V5M17 20v-6M3 20h18',
+  flame: 'M12 3c1 3.5 6 5.5 6 11a6 6 0 0 1-12 0c0-2.5 1.2-4 2.5-5 0 2.2 1 3.5 2.5 3.5 0-3.5-1-6.5 1-9.5z',
+  bolt: 'M13 2L4 14h7l-1 8 9-12h-7z',
+  sun: 'M12 8a4 4 0 1 0 0 8 4 4 0 1 0 0-8M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4',
+  moon: 'M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z',
+  volume: 'M4 9v6h4l5 4V5L8 9zM16.5 9a4 4 0 0 1 0 6M19 6.5a8 8 0 0 1 0 11',
+  x: 'M6 6l12 12M18 6L6 18',
+  lock: 'M6 11h12v10H6zM8 11V8a4 4 0 0 1 8 0v3',
+  check: 'M5 12.5l4.5 4.5L19 7',
+  play: 'M7 5l12 7-12 7z',
+  pen: 'M4 20l4-1 11-11-3-3L5 16zM14 6l3 3',
+  eye: 'M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12zM12 9a3 3 0 1 0 0 6 3 3 0 1 0 0-6',
+  back: 'M15 5l-7 7 7 7',
+  chev: 'M9 5l7 7-7 7',
+  refresh: 'M20 11a8 8 0 1 0-2.3 5.7M20 5v6h-6'
+};
+const ic = (n, cls = '') => `<svg class="${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="${ICONS[n]}"/></svg>`;
+
+/* ---------- Nội dung mẫu HSK 1 – Bài 1 (tự biên soạn, không lấy từ giáo trình) ---------- */
+const LEVELS = [
+  { n: '1', words: 500, chars: 300 }, { n: '2', words: 772, chars: 300 }, { n: '3', words: 973, chars: 300 },
+  { n: '4', words: 1000, chars: 300 }, { n: '5', words: 1071, chars: 300 }, { n: '6', words: 1140, chars: 300 },
+  { n: '7–9', words: 5636, chars: 1200 }
+];
+const UNITS = [
+  { id: 1, zh: '你好', title: { vi: 'Chào hỏi và giới thiệu', en: 'Greetings and introductions' }, open: true },
+  { id: 2, zh: '家人', title: { vi: 'Gia đình', en: 'Family' } },
+  { id: 3, zh: '数字', title: { vi: 'Số đếm và tuổi', en: 'Numbers and age' } },
+  { id: 4, zh: '时间', title: { vi: 'Ngày giờ', en: 'Dates and time' } },
+  { id: 5, zh: '买东西', title: { vi: 'Mua sắm', en: 'Shopping' } },
+  { id: 6, zh: '吃饭', title: { vi: 'Ăn uống', en: 'Food and drink' } }
+];
+/* Đường nét thanh điệu theo thang 5 bậc (Chao): 55, 35, 214, 51 */
+const TONES = [
+  { n: 1, syl: 'mā', h: '妈', g: { vi: 'mẹ', en: 'mother' }, nm: { vi: 'Thanh 1: cao và bằng', en: 'Tone 1: high and level' }, pts: '4,6 56,6' },
+  { n: 2, syl: 'má', h: '麻', g: { vi: 'tê, cây gai', en: 'numb, hemp' }, nm: { vi: 'Thanh 2: đi lên', en: 'Tone 2: rising' }, pts: '4,24 56,6' },
+  { n: 3, syl: 'mǎ', h: '马', g: { vi: 'con ngựa', en: 'horse' }, nm: { vi: 'Thanh 3: xuống thấp rồi lên', en: 'Tone 3: dipping' }, pts: '4,20 26,40 56,14' },
+  { n: 4, syl: 'mà', h: '骂', g: { vi: 'mắng', en: 'to scold' }, nm: { vi: 'Thanh 4: rơi mạnh xuống', en: 'Tone 4: sharp fall' }, pts: '4,6 56,40' },
+  { n: 5, syl: 'ma', h: '吗', g: { vi: 'trợ từ hỏi', en: 'question particle' }, nm: { vi: 'Thanh nhẹ: ngắn và nhẹ', en: 'Neutral: short and light' }, pts: null }
+];
+/* py: [âm tiết, thanh] – thanh 5 = thanh nhẹ. Dấu cách nằm trong chuỗi âm tiết khi cần tách từ. */
+const VOCAB = [
+  { h: '你好', py: [['nǐ ', 3], ['hǎo', 3]], vi: 'xin chào', en: 'hello', hv: 'nhĩ hảo', note: { vi: 'Hai thanh 3 đi liền nhau: âm đầu đọc thành thanh 2, nghe như ní hǎo.', en: 'Two 3rd tones in a row: the first becomes a 2nd tone, sounding like ní hǎo.' } },
+  { h: '你', py: [['nǐ', 3]], vi: 'bạn, anh, chị', en: 'you', hv: 'nhĩ' },
+  { h: '我', py: [['wǒ', 3]], vi: 'tôi, mình', en: 'I, me', hv: 'ngã' },
+  { h: '好', py: [['hǎo', 3]], vi: 'tốt, khỏe', en: 'good, well', hv: 'hảo' },
+  { h: '是', py: [['shì', 4]], vi: 'là', en: 'to be', hv: 'thị' },
+  { h: '不', py: [['bù', 4]], vi: 'không', en: 'not', hv: 'bất', note: { vi: 'Đứng trước thanh 4 thì đọc thành bú, ví dụ 不是 bú shì.', en: 'Before a 4th tone it is read bú, as in 不是 bú shì.' } },
+  { h: '吗', py: [['ma', 5]], vi: '… không? (trợ từ hỏi)', en: 'yes/no question particle', hv: 'ma' },
+  { h: '呢', py: [['ne', 5]], vi: 'còn … thì sao?', en: 'and …? (particle)', hv: 'ni' },
+  { h: '叫', py: [['jiào', 4]], vi: 'gọi, tên là', en: 'to be called', hv: 'khiếu' },
+  { h: '什么', py: [['shén', 2], ['me', 5]], vi: 'cái gì', en: 'what', hv: 'thập ma' },
+  { h: '名字', py: [['míng', 2], ['zi', 5]], vi: 'tên', en: 'name', hv: 'danh tự' },
+  { h: '老师', py: [['lǎo', 3], ['shī', 1]], vi: 'giáo viên', en: 'teacher', hv: 'lão sư' },
+  { h: '学生', py: [['xué', 2], ['sheng', 5]], vi: 'học sinh', en: 'student', hv: 'học sinh' },
+  { h: '人', py: [['rén', 2]], vi: 'người', en: 'person', hv: 'nhân' },
+  { h: '中国', py: [['Zhōng', 1], ['guó', 2]], vi: 'Trung Quốc', en: 'China', hv: 'Trung Quốc' },
+  { h: '谢谢', py: [['xiè', 4], ['xie', 5]], vi: 'cảm ơn', en: 'thank you', hv: 'tạ tạ' },
+  { h: '不客气', py: [['bú ', 2], ['kè', 4], ['qi', 5]], vi: 'không có gì', en: "you're welcome", hv: 'bất khách khí' },
+  { h: '再见', py: [['zài', 4], ['jiàn', 4]], vi: 'tạm biệt', en: 'goodbye', hv: 'tái kiến' }
+];
+const RADICALS = [
+  { r: '亻', nm: { vi: 'Nhân đứng', en: 'Person (side form)' }, m: { vi: 'người; dạng của 人 khi đứng bên trái', en: 'person; the left-side form of 人' }, ex: ['你', '他', '们'] },
+  { r: '女', nm: { vi: 'Nữ', en: 'Woman' }, m: { vi: 'phụ nữ', en: 'woman' }, ex: ['好', '妈', '她'] },
+  { r: '子', nm: { vi: 'Tử', en: 'Child' }, m: { vi: 'con, đứa trẻ', en: 'child' }, ex: ['字', '学', '孩'] },
+  { r: '口', nm: { vi: 'Khẩu', en: 'Mouth' }, m: { vi: 'miệng; hay gặp ở trợ từ, âm thanh', en: 'mouth; common in particles and sounds' }, ex: ['吗', '呢', '叫'] },
+  { r: '讠', nm: { vi: 'Ngôn đứng', en: 'Speech (side form)' }, m: { vi: 'lời nói', en: 'speech, words' }, ex: ['谢', '认', '识'] },
+  { r: '日', nm: { vi: 'Nhật', en: 'Sun' }, m: { vi: 'mặt trời, ngày', en: 'sun, day' }, ex: ['是', '明', '早'] }
+];
+const GRAMMAR = [
+  {
+    t: { vi: 'Câu với 是: A là B', en: '是 sentences: A is B' },
+    d: { vi: '是 nối hai danh từ, giống "là" trong tiếng Việt. Muốn phủ định thì đặt 不 ngay trước 是.', en: '是 links two nouns, like "is". To negate, put 不 right before 是.' },
+    f: [[{ vi: 'Khẳng định', en: 'Positive' }, ['A', '是', 'B']], [{ vi: 'Phủ định', en: 'Negative' }, ['A', '不是', 'B']]],
+    ex: [
+      { h: '我是学生。', p: 'Wǒ shì xuésheng.', vi: 'Tôi là học sinh.', en: 'I am a student.' },
+      { h: '我不是老师。', p: 'Wǒ bú shì lǎoshī.', vi: 'Tôi không phải giáo viên.', en: 'I am not a teacher.' }
+    ]
+  },
+  {
+    t: { vi: 'Câu hỏi có/không với 吗', en: 'Yes/no questions with 吗' },
+    d: { vi: 'Thêm 吗 vào cuối một câu trần thuật là thành câu hỏi. Trật tự các từ khác giữ nguyên.', en: 'Add 吗 to the end of a statement to make a question. Word order stays the same.' },
+    f: [[{ vi: 'Cấu trúc', en: 'Pattern' }, [{ vi: 'Câu trần thuật', en: 'Statement' }, '吗', '？']]],
+    ex: [
+      { h: '你是老师吗？', p: 'Nǐ shì lǎoshī ma?', vi: 'Bạn là giáo viên à?', en: 'Are you a teacher?' },
+      { h: '你是中国人吗？', p: 'Nǐ shì Zhōngguó rén ma?', vi: 'Bạn là người Trung Quốc phải không?', en: 'Are you Chinese?' }
+    ]
+  },
+  {
+    t: { vi: 'Hỏi bằng 什么: từ để hỏi không đảo lên đầu câu', en: 'Asking with 什么: no word-order change' },
+    d: { vi: '什么 đứng đúng vào chỗ của thông tin cần hỏi. Câu trả lời chỉ cần thay 什么 bằng thông tin đó.', en: '什么 sits exactly where the missing information goes. To answer, replace 什么 with that information.' },
+    f: [[{ vi: 'Hỏi', en: 'Ask' }, [{ vi: 'Chủ ngữ', en: 'Subject' }, '叫', '什么', '名字']], [{ vi: 'Đáp', en: 'Answer' }, [{ vi: 'Chủ ngữ', en: 'Subject' }, '叫', { vi: 'Tên', en: 'Name' }]]],
+    ex: [
+      { h: '你叫什么名字？', p: 'Nǐ jiào shénme míngzi?', vi: 'Bạn tên là gì?', en: "What's your name?" },
+      { h: '我叫大明。', p: 'Wǒ jiào Dàmíng.', vi: 'Mình tên là Đại Minh.', en: "I'm Daming." }
+    ]
+  },
+  {
+    t: { vi: 'Hỏi lại ngắn gọn với 呢', en: 'Bouncing a question back with 呢' },
+    d: { vi: 'Sau khi trả lời, dùng "danh từ + 呢？" để hỏi ngược lại cùng câu hỏi đó.', en: 'After answering, use "noun + 呢？" to ask the same question back.' },
+    f: [[{ vi: 'Cấu trúc', en: 'Pattern' }, [{ vi: 'Danh từ', en: 'Noun' }, '呢', '？']]],
+    ex: [{ h: '我是学生，你呢？', p: 'Wǒ shì xuésheng, nǐ ne?', vi: 'Mình là học sinh, còn bạn?', en: "I'm a student, and you?" }]
+  }
+];
+const DIALOGUE = {
+  who: { A: { h: '小月', p: 'Xiǎoyuè' }, B: { h: '大明', p: 'Dàmíng' } },
+  lines: [
+    { s: 'A', h: '你好！', p: 'Nǐ hǎo!', vi: 'Chào bạn!', en: 'Hi!' },
+    { s: 'B', h: '你好！', p: 'Nǐ hǎo!', vi: 'Chào bạn!', en: 'Hi!' },
+    { s: 'A', h: '你叫什么名字？', p: 'Nǐ jiào shénme míngzi?', vi: 'Bạn tên là gì?', en: "What's your name?" },
+    { s: 'B', h: '我叫大明。你呢？', p: 'Wǒ jiào Dàmíng. Nǐ ne?', vi: 'Mình tên là Đại Minh. Còn bạn?', en: "I'm Daming. And you?" },
+    { s: 'A', h: '我叫小月。你是老师吗？', p: 'Wǒ jiào Xiǎoyuè. Nǐ shì lǎoshī ma?', vi: 'Mình là Tiểu Nguyệt. Bạn là giáo viên à?', en: "I'm Xiaoyue. Are you a teacher?" },
+    { s: 'B', h: '不是，我是学生。', p: 'Bú shì, wǒ shì xuésheng.', vi: 'Không, mình là học sinh.', en: "No, I'm a student." },
+    { s: 'A', h: '再见！', p: 'Zàijiàn!', vi: 'Tạm biệt!', en: 'Bye!' },
+    { s: 'B', h: '再见！', p: 'Zàijiàn!', vi: 'Tạm biệt!', en: 'Bye!' }
+  ]
+};
+const WCHARS = [
+  { c: '你', py: [['nǐ', 3]], m: { vi: 'bạn', en: 'you' } },
+  { c: '好', py: [['hǎo', 3]], m: { vi: 'tốt, khỏe', en: 'good' } },
+  { c: '我', py: [['wǒ', 3]], m: { vi: 'tôi', en: 'I, me' } },
+  { c: '是', py: [['shì', 4]], m: { vi: 'là', en: 'to be' } },
+  { c: '人', py: [['rén', 2]], m: { vi: 'người', en: 'person' } },
+  { c: '中', py: [['zhōng', 1]], m: { vi: 'giữa, trung tâm', en: 'middle' } }
+];
+const TABS = [
+  ['pinyin', { vi: 'Pinyin và thanh điệu', en: 'Pinyin and tones' }],
+  ['vocab', { vi: 'Từ vựng', en: 'Vocabulary' }],
+  ['radicals', { vi: 'Bộ thủ', en: 'Radicals' }],
+  ['grammar', { vi: 'Ngữ pháp', en: 'Grammar' }],
+  ['dialogue', { vi: 'Hội thoại', en: 'Dialogue' }],
+  ['writing', { vi: 'Tập viết', en: 'Writing' }]
+];
+
+/* ---------- Phiên luyện tập: mỗi bài = type + dữ liệu, dùng chung 1 engine ---------- */
+const KIND = {
+  mcq: { vi: 'Trắc nghiệm nghĩa', en: 'Meaning' }, tone: { vi: 'Chọn thanh điệu', en: 'Tones' },
+  listen: { vi: 'Nghe và chọn', en: 'Listening' }, order: { vi: 'Sắp xếp câu', en: 'Word order' },
+  match: { vi: 'Ghép cặp', en: 'Matching' }, type: { vi: 'Điền pinyin', en: 'Type the pinyin' },
+  rewrite: { vi: 'Viết lại câu', en: 'Rewrite' }
+};
+function buildSession() {
+  const opts = (list, correct, zh, py) => ({ options: shuffle(list.map((o, i) => ({ o, ok: i === correct }))), optZh: !!zh, optPy: !!py });
+  return [
+    Object.assign({ type: 'mcq', prompt: { vi: 'Từ này nghĩa là gì?', en: 'What does this word mean?' }, hanzi: '谢谢',
+      explain: { vi: '谢谢 xièxie là lời cảm ơn, âm tiết thứ hai đọc thanh nhẹ.', en: '谢谢 xièxie means thank you; the second syllable is neutral tone.' } },
+      opts([{ vi: 'cảm ơn', en: 'thank you' }, { vi: 'tạm biệt', en: 'goodbye' }, { vi: 'xin chào', en: 'hello' }, { vi: 'giáo viên', en: 'teacher' }], 0)),
+    Object.assign({ type: 'tone', prompt: { vi: 'Chọn pinyin đúng của chữ này', en: 'Pick the correct pinyin' }, hanzi: '好',
+      explain: { vi: '好 đọc thanh 3 (hǎo): xuống thấp rồi lên.', en: '好 is 3rd tone (hǎo): dip, then rise.' } },
+      opts(['hǎo', 'hāo', 'háo', 'hào'], 0, false, true)),
+    Object.assign({ type: 'listen', prompt: { vi: 'Nghe và chọn từ bạn nghe được', en: 'Listen and pick what you hear' }, audio: '再见', ansZh: true,
+      explain: { vi: '再见 zàijiàn: hai thanh 4 liền nhau, dứt khoát.', en: '再见 zàijiàn: two crisp 4th tones.' } },
+      opts(['再见', '谢谢', '你好', '老师'], 0, true)),
+    { type: 'order', prompt: { vi: 'Sắp xếp thành câu đúng', en: 'Build the sentence' }, quote: { vi: 'Tôi là học sinh.', en: 'I am a student.' },
+      tiles: ['学生', '我', '老师', '是'], answer: ['我', '是', '学生'], ansZh: true,
+      explain: { vi: 'Trật tự cơ bản: chủ ngữ + 是 + danh từ. 老师 là từ gây nhiễu.', en: 'Basic order: subject + 是 + noun. 老师 is a distractor.' } },
+    { type: 'match', prompt: { vi: 'Ghép chữ Hán với nghĩa', en: 'Match each character to its meaning' },
+      pairs: [['你', { vi: 'bạn', en: 'you' }], ['我', { vi: 'tôi', en: 'I' }], ['好', { vi: 'tốt', en: 'good' }], ['人', { vi: 'người', en: 'person' }], ['是', { vi: 'là', en: 'to be' }]],
+      explain: { vi: 'Mẹo: 你 có bộ nhân đứng 亻, gợi ý nghĩa liên quan đến người.', en: 'Tip: 你 has the person radical 亻.' } },
+    { type: 'type', prompt: { vi: 'Gõ pinyin có thanh điệu', en: 'Type the pinyin with tones' }, hanzi: '你好', letters: 'nihao', tones: [3, 3], display: 'nǐ hǎo',
+      explain: { vi: 'Viết theo thanh gốc là nǐ hǎo, còn khi nói thì đọc thành ní hǎo.', en: 'Written with base tones nǐ hǎo, spoken as ní hǎo.' } },
+    Object.assign({ type: 'mcq', prompt: { vi: 'Chọn chữ Hán có nghĩa này', en: 'Pick the characters for this meaning' }, quote: { vi: 'giáo viên', en: 'teacher' }, ansZh: true,
+      explain: { vi: '老师 lǎoshī: giáo viên. 学生 xuésheng mới là học sinh.', en: '老师 lǎoshī is teacher; 学生 xuésheng is student.' } },
+      opts(['老师', '学生', '名字', '中国'], 0, true)),
+    { type: 'type', prompt: { vi: 'Gõ pinyin có thanh điệu', en: 'Type the pinyin with tones' }, hanzi: '中国', letters: 'zhongguo', tones: [1, 2], display: 'Zhōngguó',
+      explain: { vi: '中 thanh 1, 国 thanh 2. Tên riêng viết hoa chữ cái đầu.', en: '中 is tone 1, 国 is tone 2. Proper nouns are capitalised.' } },
+    { type: 'rewrite', prompt: { vi: 'Viết lại thành câu hỏi có/không', en: 'Rewrite as a yes/no question' }, quote: '你是学生。',
+      tiles: ['吗', '你', '是', '学生', '呢'], answer: ['你', '是', '学生', '吗'], ansZh: true,
+      explain: { vi: 'Giữ nguyên câu, chỉ thêm 吗 vào cuối. 呢 dùng để hỏi ngược lại nên không hợp ở đây.', en: 'Keep the statement and add 吗 at the end. 呢 bounces a question back, so it does not fit.' } }
+  ];
+}
+
+/* ---------- Pinyin: chấp nhận cả dấu thanh, số thanh và kiểu gõ Telex (ả = thanh 3) ---------- */
+const MARKS = {};
+[['a', 'āáǎà'], ['e', 'ēéěè'], ['i', 'īíǐì'], ['o', 'ōóǒò'], ['u', 'ūúǔù'], ['ü', 'ǖǘǚǜ']].forEach(([b, s]) => [...s].forEach((ch, i) => { MARKS[ch] = [b, i + 1]; }));
+[['a', 'ả'], ['e', 'ẻ'], ['i', 'ỉ'], ['o', 'ỏ'], ['u', 'ủ']].forEach(([b, ch]) => { MARKS[ch] = [b, 3]; });
+function parsePinyin(input) {
+  const s = input.normalize('NFC').toLowerCase().replace(/v/g, 'ü');
+  let letters = ''; const tones = [];
+  for (const ch of s) {
+    if (MARKS[ch]) { letters += MARKS[ch][0]; tones.push(MARKS[ch][1]); }
+    else if (/[1-4]/.test(ch)) tones.push(+ch);
+    else if (/[a-zü]/.test(ch)) letters += ch;
+  }
+  return { letters, tones };
+}
+const py = arr => `<span class="py">${arr.map(([s, t]) => `<span class="t${t}">${esc(s)}</span>`).join('')}</span>`;
+
+/* ---------- Phát âm: Web Speech API (bản chính thức: file audio TTS tự sinh) ---------- */
+let zhVoice = null, voicesLoaded = false, warnedVoice = false;
+function loadVoices() {
+  if (!('speechSynthesis' in window)) return;
+  const vs = speechSynthesis.getVoices();
+  if (vs.length) voicesLoaded = true;
+  zhVoice = vs.find(v => /^zh[-_](CN|Hans)/i.test(v.lang)) || vs.find(v => /^(zh|cmn)/i.test(v.lang)) || null;
+}
+if ('speechSynthesis' in window) { loadVoices(); speechSynthesis.onvoiceschanged = loadVoices; }
+function utter(text, pitch = 1) {
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = 'zh-CN'; u.rate = 0.82; u.pitch = pitch;
+  if (zhVoice) u.voice = zhVoice;
+  return u;
+}
+function voiceCheck() {
+  if (!('speechSynthesis' in window)) { toast(tr('Trình duyệt này chưa hỗ trợ đọc văn bản.', 'This browser cannot read text aloud.')); return false; }
+  if (voicesLoaded && !zhVoice && !warnedVoice) {
+    warnedVoice = true;
+    toast(tr('Máy chưa có giọng đọc tiếng Trung nên âm có thể sai. Bản chính thức sẽ dùng audio chuẩn.', 'No Chinese voice on this device, so audio may be off. The full version uses recorded audio.'));
+  }
+  return true;
+}
+function speak(text) { if (!voiceCheck()) return; speechSynthesis.cancel(); speechSynthesis.speak(utter(text)); }
+function stopSpeech() { try { speechSynthesis.cancel(); } catch (e) {} }
+
+let toastT = null;
+function toast(msg) {
+  const t = $('#toast'); t.textContent = msg; t.classList.add('show');
+  clearTimeout(toastT); toastT = setTimeout(() => t.classList.remove('show'), 3200);
+}
+
+/* ---------- XP, chuỗi ngày ---------- */
+function addXP(x) {
+  if (x <= 0) return;
+  const k = dayKey();
+  S.p.days[k] = (S.p.days[k] || 0) + x;
+  S.p.xp += x;
+  if (S.p.lastDay !== k) {
+    const y = dayKey(new Date(Date.now() - 864e5));
+    S.p.streak = S.p.lastDay === y ? S.p.streak + 1 : 1;
+    S.p.lastDay = k;
+  }
+  saveP(); renderTopRight();
+}
+/* Chuỗi bị đứt nếu hôm qua không học: hiển thị 0 nhưng không xoá lịch sử */
+const liveStreak = () => {
+  const k = dayKey(), y = dayKey(new Date(Date.now() - 864e5));
+  return (S.p.lastDay === k || S.p.lastDay === y) ? S.p.streak : 0;
+};
+const isDue = h => !S.srs[h] || S.srs[h].due <= Date.now();
+const dueCount = () => VOCAB.filter(v => isDue(v.h)).length;
+const unitPct = () => Math.round(Object.keys(S.p.seen).length / TABS.length * 60 + (S.p.practiced ? 40 : 0));
+
+/* ---------- Hanzi Writer ---------- */
+const loader = (c, onLoad, onErr) => (CHAR_DATA[c] ? onLoad(CHAR_DATA[c]) : onErr(new Error('Thiếu dữ liệu nét cho ' + c)));
+const gridSvg = () => '<svg class="grid" viewBox="0 0 100 100" aria-hidden="true"><rect x="1" y="1" width="98" height="98" rx="5"/><line x1="0" y1="50" x2="100" y2="50"/><line x1="50" y1="0" x2="50" y2="100"/><line x1="1" y1="1" x2="99" y2="99"/><line x1="99" y1="1" x2="1" y2="99"/></svg>';
+function releaseWriters() {
+  try { S.heroW && S.heroW.pauseAnimation(); } catch (e) {}
+  try { S.writer && S.writer.cancelQuiz(); } catch (e) {}
+  S.heroW = null; S.writer = null;
+}
+function mountHero() {
+  const box = $('#heroW');
+  if (!box || !window.HanziWriter) return;
+  const size = box.offsetWidth || 200;
+  S.heroW = HanziWriter.create(box, '中', {
+    width: size, height: size, padding: 22, showOutline: true,
+    strokeColor: cssv('--ink'), outlineColor: cssv('--line-2'), radicalColor: cssv('--verm'),
+    strokeAnimationSpeed: 0.9, delayBetweenStrokes: 280, delayBetweenLoops: 2600, charDataLoader: loader
+  });
+  if (!reducedMotion()) S.heroW.loopCharacterAnimation();
+}
+function mountWriter() {
+  const box = $('#writeW');
+  if (!box || !window.HanziWriter) return;
+  box.innerHTML = '';
+  const size = box.offsetWidth || 300;
+  S.writer = HanziWriter.create(box, S.wchar, {
+    width: size, height: size, padding: 24, showOutline: true, showCharacter: false,
+    strokeColor: cssv('--ink'), outlineColor: cssv('--line-2'), radicalColor: cssv('--verm'),
+    drawingColor: cssv('--t1'), highlightColor: cssv('--jade'), drawingWidth: Math.max(14, Math.round(size / 18)),
+    showHintAfterMisses: 2, strokeAnimationSpeed: 1, delayBetweenStrokes: 320, charDataLoader: loader
+  });
+}
+function wStatus(msg, cls = '') { const el = $('#wStatus'); if (el) { el.textContent = msg; el.className = 'wstatus ' + cls; } }
+
+/* ---------- Khung: nav + thanh trên ---------- */
+function isDark() {
+  const a = document.documentElement.dataset.theme;
+  if (a) return a === 'dark';
+  return window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches;
+}
+function renderNav() {
+  const items = [
+    ['home', 'home', tr('Trang chủ', 'Home')], ['lessons', 'book', tr('Bài học', 'Lessons')],
+    ['practice', 'target', tr('Luyện tập', 'Practice')], ['cards', 'cards', tr('Thẻ nhớ', 'Flashcards')],
+    ['stats', 'chart', tr('Thống kê', 'Progress')]
+  ];
+  const active = S.route === 'lesson' ? 'lessons' : S.route;
+  const html = items.map(([r, i, l]) => `<button class="navbtn" data-act="nav" data-arg="${r}" ${active === r ? 'aria-current="page"' : ''}>${ic(i)}<span>${l}</span></button>`).join('');
+  $('#sideNav').innerHTML = html;
+  $('#bottomNav').innerHTML = html;
+  $('#sideFoot').textContent = tr('Bản thử nghiệm giai đoạn 0. Tiến độ chỉ lưu trên trình duyệt này.', 'Phase 0 prototype. Progress is saved in this browser only.');
+}
+function renderTopRight() {
+  const st = liveStreak();
+  $('#topRight').innerHTML = `
+    <span class="chip streak" title="${tr('Chuỗi ngày học', 'Day streak')}">${ic('flame')}<span>${st}</span><span class="lbl">${tr('ngày', 'days')}</span></span>
+    <span class="chip xp" title="XP">${ic('bolt')}<span>${S.p.xp}</span><span class="lbl">XP</span></span>
+    <button class="icon-btn" data-act="lang" aria-label="${tr('Chuyển sang tiếng Anh', 'Switch to Vietnamese')}">${S.lang === 'vi' ? 'EN' : 'VI'}</button>
+    <button class="icon-btn" data-act="theme" aria-label="${isDark() ? tr('Bật giao diện sáng', 'Use light theme') : tr('Bật giao diện tối', 'Use dark theme')}">${ic(isDark() ? 'sun' : 'moon')}</button>`;
+}
+
+/* ---------- Views ---------- */
+function renderHome() {
+  const today = S.p.days[dayKey()] || 0, goal = 30;
+  const C = 2 * Math.PI * 26, off = C * (1 - Math.min(1, today / goal));
+  const due = dueCount(), st = liveStreak();
+  view.innerHTML = `
+  <section class="hero">
+    <div>
+      <p class="hello">${tr('Chào bạn, hôm nay học gì nào?', 'Hi there, what shall we learn today?')}</p>
+      <h1>${tr('Mỗi ngày vài nét chữ, mỗi tuần một bài.', 'A few strokes a day, a lesson a week.')}</h1>
+      <div class="hero-actions">
+        <button class="btn" data-act="nav" data-arg="lesson">${ic('play')}${S.p.seen && Object.keys(S.p.seen).length ? tr('Học tiếp bài 1', 'Continue lesson 1') : tr('Bắt đầu bài 1', 'Start lesson 1')}</button>
+        <button class="btn btn-ghost" data-act="nav" data-arg="practice">${tr('Luyện tập nhanh', 'Quick practice')}</button>
+      </div>
+    </div>
+    <figure class="hero-char">
+      <div class="gbox" aria-hidden="true">${gridSvg()}<div class="writer" id="heroW"></div></div>
+      <figcaption><span class="zh" style="font-size:20px">中</span><span class="py t1">zhōng</span><span>${tr('ở giữa', 'middle')}</span></figcaption>
+    </figure>
+  </section>
+  <section class="row3">
+    <div class="card stat">
+      <svg class="ring" viewBox="0 0 60 60" aria-hidden="true"><circle class="bg" cx="30" cy="30" r="26"/><circle class="fg" cx="30" cy="30" r="26" stroke-dasharray="${C.toFixed(1)}" stroke-dashoffset="${off.toFixed(1)}"/></svg>
+      <div><div class="big">${today}<span class="muted" style="font-size:16px;font-weight:600">/${goal} XP</span></div><div class="sub">${tr('Mục tiêu hôm nay', "Today's goal")}</div></div>
+    </div>
+    <div class="card stat">
+      <div class="badge-ic bi-verm">${ic('flame')}</div>
+      <div><div class="big">${st}</div><div class="sub">${st ? tr('ngày học liên tiếp', 'day streak') : tr('Học một bài để bắt đầu chuỗi', 'Finish a session to start a streak')}</div></div>
+    </div>
+    <div class="card stat">
+      <div class="badge-ic bi-sun">${ic('cards')}</div>
+      <div style="flex:1"><div class="big">${due}</div><div class="sub">${tr('thẻ cần ôn hôm nay', 'cards due today')}</div></div>
+      ${due ? `<button class="btn btn-sm" data-act="nav" data-arg="cards">${tr('Ôn ngay', 'Review')}</button>` : ''}
+    </div>
+  </section>
+  <section>
+    <h2 class="sec">${tr('Lộ trình HSK 3.0', 'HSK 3.0 path')}</h2>
+    <div class="levels">
+      ${LEVELS.map((l, i) => i === 0
+        ? `<button class="lvl on" data-act="nav" data-arg="lessons"><span class="tag">${tr('Đang học', 'Current')}</span><div class="n">HSK ${l.n}</div><div class="m">${num(l.words)} ${tr('từ mới', 'new words')}<br>${num(l.chars)} ${tr('chữ Hán', 'characters')}</div></button>`
+        : `<div class="lvl off"><span class="tag">${ic('lock')}${tr('Sắp có', 'Soon')}</span><div class="n">HSK ${l.n}</div><div class="m">${num(l.words)} ${tr('từ mới', 'new words')}<br>${num(l.chars)} ${tr('chữ Hán', 'characters')}</div></div>`).join('')}
+    </div>
+  </section>`;
+  mountHero();
+}
+
+function renderLessons() {
+  const pct = unitPct();
+  view.innerHTML = `
+  <div class="lhead"><h1>HSK 1</h1></div>
+  <p class="lead">${tr('Mỗi bài gồm pinyin, từ vựng, bộ thủ, ngữ pháp, hội thoại và tập viết, sau đó là phần luyện tập tổng hợp.', 'Each lesson covers pinyin, vocabulary, radicals, grammar, dialogue and writing, followed by a mixed practice session.')}</p>
+  <div class="units">
+    ${UNITS.map(u => u.open
+      ? `<button class="unit on" data-act="nav" data-arg="lesson"><span class="zhb">${u.zh}</span><span class="grow"><span class="ut">${tr('Bài', 'Lesson')} ${u.id}: ${L(u.title)}</span><span class="us" style="display:block">${pct}% ${tr('hoàn thành', 'complete')}</span><span class="pbar" style="display:block"><span style="width:${pct}%"></span></span></span><span class="end">${ic('chev')}</span></button>`
+      : `<div class="unit off"><span class="zhb">${u.zh}</span><span class="grow"><span class="ut">${tr('Bài', 'Lesson')} ${u.id}: ${L(u.title)}</span><span class="us" style="display:block">${tr('Mở khóa khi hoàn thành bài trước', 'Unlocks after the previous lesson')}</span></span><span class="end">${ic('lock')}</span></div>`).join('')}
+  </div>`;
+}
+
+function renderLesson() {
+  S.p.seen[S.tab] = 1; saveP();
+  const body = { pinyin: tabPinyin, vocab: tabVocab, radicals: tabRadicals, grammar: tabGrammar, dialogue: tabDialogue, writing: tabWriting }[S.tab]();
+  view.innerHTML = `
+  <div class="lhead">
+    <button class="icon-btn" data-act="nav" data-arg="lessons" aria-label="${tr('Quay lại danh sách bài', 'Back to lessons')}">${ic('back')}</button>
+    <h1>${tr('Bài 1', 'Lesson 1')}: <span class="zh-d">你好</span> ${L(UNITS[0].title)}</h1>
+  </div>
+  <div class="tabs" role="tablist">
+    ${TABS.map(([k, l]) => `<button class="tab" role="tab" data-act="tab" data-arg="${k}" aria-selected="${S.tab === k}">${L(l)}</button>`).join('')}
+  </div>
+  <div role="tabpanel">${body}</div>
+  <div class="cta-end"><p>${tr('Học xong phần lý thuyết? Kiểm tra lại bằng 9 câu luyện tập.', 'Done with the theory? Check yourself with 9 practice questions.')}</p><button class="btn" data-act="nav" data-arg="practice">${tr('Luyện tập bài này', 'Practice this lesson')}</button></div>`;
+  if (S.tab === 'writing') mountWriter();
+}
+
+function tabPinyin() {
+  return `
+  <p class="lead">${tr('Tiếng Trung có 4 thanh chính và 1 thanh nhẹ. Cùng âm "ma" nhưng đổi thanh là đổi nghĩa. Chạm vào từng thẻ để nghe.', 'Mandarin has four main tones and a neutral tone. The same syllable "ma" changes meaning with each tone. Tap a card to listen.')}</p>
+  <div class="tones">
+    ${TONES.map(t => `<button class="tone" data-act="speak" data-arg="${t.h}">
+      <svg class="contour t${t.n}" viewBox="0 0 60 46" aria-hidden="true">${[6, 14.5, 23, 31.5, 40].map(y => `<line class="lv" x1="0" x2="60" y1="${y}" y2="${y}"/>`).join('')}${t.pts ? `<polyline class="cv" points="${t.pts}"/>` : '<circle class="dt" cx="30" cy="31.5" r="5"/>'}</svg>
+      <span class="syl t${t.n}">${t.syl}</span><span class="zh">${t.h}</span>
+      <div class="nm">${L(t.nm)}</div><div class="gl">${L(t.g)}</div></button>`).join('')}
+  </div>
+  <div class="note">
+    <h3>${tr('Hai quy tắc biến điệu gặp ngay ở bài này', 'Two tone-change rules you meet in this lesson')}</h3>
+    <p>${tr('Hai thanh 3 đi liền nhau thì âm đầu đọc thành thanh 2: 你好 viết nǐ hǎo, đọc ní hǎo.', 'Two 3rd tones in a row: the first becomes 2nd tone. 你好 is written nǐ hǎo, said ní hǎo.')}</p>
+    <p>${tr('不 đứng trước thanh 4 thì đọc thành bú: 不是 bú shì, 不客气 bú kèqi.', '不 before a 4th tone becomes bú: 不是 bú shì, 不客气 bú kèqi.')}</p>
+  </div>`;
+}
+function tabVocab() {
+  return `
+  <p class="lead">${tr('Màu pinyin cho biết thanh điệu:', 'Pinyin colour shows the tone:')} <span class="py t1">${tr('thanh 1', 'tone 1')}</span>, <span class="py t2">${tr('thanh 2', 'tone 2')}</span>, <span class="py t3">${tr('thanh 3', 'tone 3')}</span>, <span class="py t4">${tr('thanh 4', 'tone 4')}</span>, <span class="py t5">${tr('thanh nhẹ', 'neutral')}</span>.</p>
+  <div class="vgrid">
+    ${VOCAB.map(v => `<div class="vcard">
+      <button class="icon-btn spk spk-b" data-act="speak" data-arg="${v.h}" aria-label="${tr('Nghe', 'Listen to')} ${v.h}">${ic('volume')}</button>
+      <div class="h" lang="zh-CN">${v.h}</div>${py(v.py)}
+      <div class="m">${esc(L(v))}</div>
+      ${S.lang === 'vi' ? `<div class="hv">${tr('Hán Việt', 'Sino-Vietnamese')}: ${esc(v.hv)}</div>` : ''}
+      ${v.note ? `<div class="nt">${esc(L(v.note))}</div>` : ''}
+    </div>`).join('')}
+  </div>`;
+}
+function tabRadicals() {
+  return `
+  <p class="lead">${tr('Bộ thủ là thành phần gợi nghĩa của chữ. Nhận ra bộ thủ giúp đoán nghĩa và nhớ mặt chữ nhanh hơn.', 'Radicals hint at a character’s meaning. Spotting them helps you guess meanings and remember shapes.')}</p>
+  <div class="vgrid">
+    ${RADICALS.map(r => `<div class="vcard">
+      <div class="rad" lang="zh-CN">${r.r}</div>
+      <div class="m">${esc(L(r.nm))}</div>
+      <div class="hv">${esc(L(r.m))}</div>
+      <div class="rex">${r.ex.map(c => `<span lang="zh-CN">${c}</span>`).join('')}</div>
+    </div>`).join('')}
+  </div>`;
+}
+function tabGrammar() {
+  const chip = x => (typeof x === 'string' ? `<span class="fx k" lang="zh-CN">${x}</span>` : `<span class="fx">${esc(L(x))}</span>`);
+  return GRAMMAR.map(g => `<article class="gblock">
+    <h3>${esc(L(g.t))}</h3><p class="desc">${esc(L(g.d))}</p>
+    ${g.f.map(([lbl, parts]) => `<div class="formula"><span class="fl">${esc(L(lbl))}</span>${parts.map(chip).join('')}</div>`).join('')}
+    <ul class="exs">${g.ex.map(e => `<li><button class="icon-btn spk-b" data-act="speak" data-arg="${esc(e.h)}" aria-label="${tr('Nghe câu', 'Listen')}">${ic('volume')}</button><div><span class="zh" lang="zh-CN">${e.h}</span><span class="p">${esc(e.p)}</span><span class="tr">${esc(L(e))}</span></div></li>`).join('')}</ul>
+  </article>`).join('');
+}
+function tabDialogue() {
+  const w = DIALOGUE.who;
+  return `
+  <p class="lead">${tr('Tiểu Nguyệt và Đại Minh gặp nhau lần đầu. Chạm vào từng câu để nghe, hoặc phát cả đoạn.', 'Xiaoyue and Daming meet for the first time. Tap a line to hear it, or play the whole dialogue.')}</p>
+  <div class="dtools">
+    <button class="btn btn-sm" data-act="playall">${ic('play')}${tr('Phát cả đoạn', 'Play all')}</button>
+    <button class="pill" data-act="togglepy" aria-pressed="${S.showPy}">${ic('eye')}Pinyin</button>
+    <button class="pill" data-act="toggletr" aria-pressed="${S.showTr}">${ic('eye')}${tr('Bản dịch', 'Translation')}</button>
+  </div>
+  <div class="dlg ${S.showPy ? '' : 'hide-py'} ${S.showTr ? '' : 'hide-tr'}" id="dlg">
+    ${DIALOGUE.lines.map((l, i) => `<div class="line ${l.s.toLowerCase()}">
+      <span class="av" title="${w[l.s].p}" lang="zh-CN">${w[l.s].h.slice(-1)}</span>
+      <button class="bubble" data-act="speakline" data-arg="${i}"><span class="zh" lang="zh-CN">${l.h}</span><span class="p">${esc(l.p)}</span><span class="tr">${esc(L(l))}</span></button>
+    </div>`).join('')}
+  </div>`;
+}
+function tabWriting() {
+  const cur = WCHARS.find(w => w.c === S.wchar) || WCHARS[0];
+  const strokes = CHAR_DATA[cur.c] ? CHAR_DATA[cur.c].strokes.length : '?';
+  return `
+  <p class="lead">${tr('Xem thứ tự nét trước, sau đó tự viết bằng chuột hoặc ngón tay. Viết sai hai lần ở cùng một nét thì hệ thống sẽ gợi ý.', 'Watch the stroke order first, then write it yourself with a mouse or finger. Miss a stroke twice and you get a hint.')}</p>
+  <div class="wchars" role="group" aria-label="${tr('Chọn chữ', 'Pick a character')}">
+    ${WCHARS.map(w => `<button class="wchar" data-act="wchar" data-arg="${w.c}" aria-pressed="${w.c === cur.c}" lang="zh-CN">${w.c}${S.p.charsDone[w.c] ? `<span class="dot">${ic('check')}</span>` : ''}</button>`).join('')}
+  </div>
+  <div class="wstage">
+    <div class="gbox lg">${gridSvg()}<div class="writer" id="writeW"></div></div>
+    <div class="winfo">
+      <div class="big-py">${py(cur.py)}</div>
+      <div class="m">${esc(L(cur.m))}</div>
+      <div class="meta">${strokes} ${tr('nét', 'strokes')}. ${tr('Phần tô đỏ là bộ thủ.', 'The red part is the radical.')}</div>
+      <div class="wbtns">
+        <button class="btn btn-ghost btn-sm" data-act="wanim">${ic('play')}${tr('Xem cách viết', 'Show strokes')}</button>
+        <button class="btn btn-sm" data-act="wquiz">${ic('pen')}${tr('Tự viết', 'Write it')}</button>
+        <button class="icon-btn spk-b" data-act="speak" data-arg="${cur.c}" aria-label="${tr('Nghe', 'Listen')}">${ic('volume')}</button>
+      </div>
+      <div class="wstatus" id="wStatus" aria-live="polite"></div>
+    </div>
+  </div>`;
+}
+
+/* ---------- Luyện tập ---------- */
+let P = null;
+const cur = () => P.items[P.i];
+const optLabel = (it, o) => (typeof o.o === 'string' ? o.o : L(o.o));
+function startPractice() {
+  P = { items: buildSession(), i: 0, right: 0, xp: 0, t0: Date.now(), finished: null };
+  initStep();
+}
+function initStep() {
+  const it = cur();
+  Object.assign(P, { sel: null, checked: false, order: [], mistakes: 0, lock: false });
+  if (it.tiles) P.tiles = shuffle(it.tiles);
+  if (it.pairs) P.m = { L: shuffle(it.pairs.map((_, i) => i)), R: shuffle(it.pairs.map((_, i) => i)), sl: null, sr: null, done: [], bad: [] };
+}
+function renderPractice() {
+  if (!P) startPractice();
+  if (P.finished) return renderFinish();
+  const it = cur(), n = P.items.length;
+  let stim = '';
+  if (it.type === 'listen') stim = `<div class="stim"><button class="speaker" data-act="speak" data-arg="${it.audio}" aria-label="${tr('Nghe lại', 'Play again')}">${ic('volume')}</button><span class="hint">${tr('Bấm để nghe lại', 'Tap to replay')}</span></div>`;
+  else if (it.hanzi) stim = `<div class="stim"><span class="zh" lang="zh-CN">${it.hanzi}</span><button class="icon-btn spk-b" data-act="speak" data-arg="${it.hanzi}" aria-label="${tr('Nghe', 'Listen')}">${ic('volume')}</button></div>`;
+  else if (it.quote) stim = `<div class="stim"><span class="quote ${typeof it.quote === 'string' ? 'zh' : ''}">${esc(L(it.quote))}</span></div>`;
+
+  let body = '';
+  if (it.options) {
+    body = `<div class="opts">${it.options.map((o, i) => `<button class="opt ${it.optZh ? 'zh-o' : ''} ${it.optPy ? 'py-o' : ''}" data-act="opt" data-arg="${i}"><span class="k">${i + 1}</span><span>${esc(optLabel(it, o))}</span></button>`).join('')}</div>`;
+  } else if (it.tiles) {
+    body = `<div id="orderBox">${orderHtml()}</div>`;
+  } else if (it.pairs) {
+    body = `<div id="matchBox">${matchHtml()}</div>`;
+  } else if (it.type === 'type') {
+    body = `<label class="sr" for="pyInput">${tr('Pinyin', 'Pinyin')}</label>
+      <input class="inp" id="pyInput" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="${tr('Ví dụ: ni3 hao3 hoặc nǐ hǎo', 'e.g. ni3 hao3 or nǐ hǎo')}">
+      <div class="err" id="pyErr" role="alert"></div>
+      <div class="hint">${tr('Có thể gõ số thanh (1–4) sau mỗi âm tiết, hoặc gõ dấu thanh. Với bàn phím Telex, dấu hỏi (ả) được hiểu là thanh 3.', 'Type tone numbers (1–4) after each syllable, or use tone marks.')}</div>`;
+  }
+
+  view.innerHTML = `
+  <div class="prac">
+    <div class="prac-top">
+      <button class="icon-btn" data-act="nav" data-arg="home" aria-label="${tr('Thoát bài luyện tập', 'Quit practice')}">${ic('x')}</button>
+      <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="${n}" aria-valuenow="${P.i}"><span style="width:${(P.i / n) * 100}%"></span></div>
+      <span class="prac-count">${P.i + 1}/${n}</span>
+    </div>
+    <div class="prac-body">
+      <span class="kind">${esc(L(KIND[it.type]))}</span>
+      <h2 class="prac-q">${esc(L(it.prompt))}</h2>
+      ${stim}${body}
+    </div>
+    <div class="checkbar" id="checkbar">
+      <div class="fb" id="fb" aria-live="polite"></div>
+      <button class="btn" id="checkBtn" data-act="check" ${it.type === 'type' ? '' : 'disabled'}>${tr('Kiểm tra', 'Check')}</button>
+    </div>
+  </div>`;
+  if (it.type === 'listen') setTimeout(() => speak(it.audio), 250);
+  if (it.type === 'type') $('#pyInput').focus();
+}
+function orderHtml() {
+  const dis = P.checked ? 'disabled' : '';
+  return `<div class="aline" aria-label="${tr('Câu trả lời của bạn', 'Your answer')}">${P.order.map((id, pos) => `<button class="tile" data-act="tilerm" data-arg="${pos}" ${dis} lang="zh-CN">${esc(P.tiles[id])}</button>`).join('')}</div>
+  <div class="bank">${P.tiles.map((t, id) => { const used = P.order.includes(id); return `<button class="tile ${used ? 'used' : ''}" data-act="tileadd" data-arg="${id}" ${used || P.checked ? 'disabled' : ''} ${used ? 'aria-hidden="true" tabindex="-1"' : ''} lang="zh-CN">${esc(t)}</button>`; }).join('')}</div>`;
+}
+function matchHtml() {
+  const it = cur(), m = P.m;
+  const cls = (side, i) => {
+    const c = [];
+    if (m.done.includes(i)) c.push('done');
+    if ((side === 'L' ? m.sl : m.sr) === i) c.push('sel');
+    if (m.bad.length && m.bad[side === 'L' ? 0 : 1] === i) c.push('wrong', 'shake');
+    return c.join(' ');
+  };
+  return `<div class="match">
+    <div class="col">${m.L.map(i => `<button class="opt zh-o ${cls('L', i)}" data-act="ml" data-arg="${i}" ${m.done.includes(i) ? 'disabled' : ''} lang="zh-CN">${it.pairs[i][0]}</button>`).join('')}</div>
+    <div class="col">${m.R.map(i => `<button class="opt ${cls('R', i)}" data-act="mr" data-arg="${i}" ${m.done.includes(i) ? 'disabled' : ''}>${esc(L(it.pairs[i][1]))}</button>`).join('')}</div>
+  </div>`;
+}
+function setCheckEnabled(on) { const b = $('#checkBtn'); if (b && !P.checked) b.disabled = !on; }
+function selectOpt(i) {
+  if (!P || P.checked) return;
+  P.sel = i;
+  $$('.opt').forEach((b, j) => b.classList.toggle('sel', j === i));
+  setCheckEnabled(true);
+}
+function tryMatch() {
+  const it = cur(), m = P.m;
+  if (m.sl != null && m.sr != null) {
+    if (m.sl === m.sr) { m.done.push(m.sl); speak(it.pairs[m.sl][0]); m.sl = m.sr = null; }
+    else {
+      P.mistakes++; m.bad = [m.sl, m.sr]; m.sl = m.sr = null; P.lock = true;
+      setTimeout(() => { if (!P) return; m.bad = []; P.lock = false; const box = $('#matchBox'); if (box) box.innerHTML = matchHtml(); }, 500);
+    }
+  }
+  $('#matchBox').innerHTML = matchHtml();
+  if (m.done.length === it.pairs.length) { setCheckEnabled(true); setTimeout(() => { if (P && !P.checked) check(); }, 350); }
+}
+const PRAISE = [{ vi: 'Chính xác!', en: 'Correct!' }, { vi: 'Tuyệt vời!', en: 'Great job!' }, { vi: 'Chuẩn luôn!', en: 'Spot on!' }];
+function check() {
+  const it = cur();
+  let ok = false, ans = '', title = '';
+  if (it.options) {
+    if (P.sel == null) return;
+    ok = it.options[P.sel].ok;
+    ans = optLabel(it, it.options.find(o => o.ok));
+  } else if (it.tiles) {
+    if (!P.order.length) return;
+    ok = P.order.map(id => P.tiles[id]).join('') === it.answer.join('');
+    ans = it.answer.join('') + (it.type === 'rewrite' ? '？' : '。');
+  } else if (it.type === 'type') {
+    const inp = $('#pyInput'), v = inp.value.trim();
+    if (!v) { $('#pyErr').textContent = tr('Nhập pinyin trước khi kiểm tra.', 'Type the pinyin before checking.'); inp.focus(); return; }
+    const r = parsePinyin(v);
+    ok = r.letters === it.letters && r.tones.join() === it.tones.join();
+    if (!ok && r.letters === it.letters) title = tr('Đúng âm, sai thanh điệu', 'Right sounds, wrong tones');
+    ans = it.display; inp.disabled = true;
+  } else if (it.pairs) {
+    ok = P.mistakes === 0;
+    if (!ok) title = tr(`Đã ghép xong, nhưng sai ${P.mistakes} lần`, `All matched, with ${P.mistakes} mistake${P.mistakes > 1 ? 's' : ''}`);
+  }
+  P.checked = true;
+  if (ok) { P.right++; P.xp += 10; }
+  if (it.options) $$('.opt').forEach((b, i) => { b.disabled = true; b.classList.remove('sel'); if (it.options[i].ok) b.classList.add('right'); else if (i === P.sel) b.classList.add('wrong'); });
+  if (it.tiles) $('#orderBox').innerHTML = orderHtml();
+  $('#checkbar').classList.add(ok ? 'ok' : 'bad');
+  const praise = L(PRAISE[Math.floor(Math.random() * PRAISE.length)]);
+  $('#fb').innerHTML = `<strong>${esc(title || (ok ? praise : tr('Chưa đúng rồi', 'Not quite')))}</strong>
+    ${!ok && ans ? `<p>${tr('Đáp án đúng', 'Correct answer')}: <b class="${it.ansZh ? 'zh' : ''}" style="font-size:17px">${esc(ans)}</b></p>` : ''}
+    ${it.explain ? `<p>${esc(L(it.explain))}</p>` : ''}`;
+  const btn = $('#checkBtn');
+  btn.textContent = tr('Tiếp tục', 'Continue'); btn.disabled = false; btn.focus();
+  if (ok && it.tiles) speak(it.answer.join(''));
+}
+function nextStep() {
+  P.i++;
+  if (P.i >= P.items.length) {
+    const n = P.items.length;
+    P.finished = { acc: Math.round(P.right / n * 100), secs: Math.round((Date.now() - P.t0) / 1000) };
+    S.p.answered += n; S.p.correct += P.right; S.p.practiced = true;
+    addXP(P.xp);
+    saveP();
+  } else initStep();
+  renderPractice();
+  window.scrollTo(0, 0);
+}
+function renderFinish() {
+  const f = P.finished, m = Math.floor(f.secs / 60), s = String(f.secs % 60).padStart(2, '0');
+  view.innerHTML = `
+  <div class="done-screen">
+    <div class="zh-d" lang="zh-CN">${f.acc >= 80 ? '棒' : '加油'}</div>
+    <h1>${f.acc >= 80 ? tr('Làm tốt lắm!', 'Nicely done!') : tr('Cố lên, ôn lại chút nữa nhé', 'Keep going, a bit more review')}</h1>
+    <p>${f.acc >= 80 ? tr('棒 bàng nghĩa là "giỏi quá".', '棒 bàng means "awesome".') : tr('加油 jiāyóu nghĩa là "cố lên".', '加油 jiāyóu means "keep it up".')}</p>
+    <div class="dstats">
+      <div class="dstat" style="--c:var(--sun-d)"><div class="l">${tr('XP nhận được', 'XP earned')}</div><div class="v">+${P.xp}</div></div>
+      <div class="dstat" style="--c:var(--jade)"><div class="l">${tr('Độ chính xác', 'Accuracy')}</div><div class="v">${f.acc}%</div></div>
+      <div class="dstat" style="--c:var(--t1)"><div class="l">${tr('Thời gian', 'Time')}</div><div class="v">${m}:${s}</div></div>
+    </div>
+    <div class="done-btns">
+      <button class="btn btn-ghost" data-act="nav" data-arg="practice">${ic('refresh')}${tr('Luyện lại', 'Practice again')}</button>
+      <button class="btn" data-act="nav" data-arg="home">${tr('Về trang chủ', 'Back to home')}</button>
+    </div>
+  </div>`;
+}
+
+/* ---------- Thẻ ghi nhớ (lịch ôn đơn giản; giai đoạn 3 thay bằng FSRS) ---------- */
+let C = null;
+const VMAP = Object.fromEntries(VOCAB.map(v => [v.h, v]));
+function startCards() { C = { queue: VOCAB.filter(v => isDue(v.h)).map(v => v.h), flipped: false, reviewed: 0 }; }
+function ivl(g, s) { const r = s.reps || 0; return { again: 60e3, hard: 6 * 60e3, good: 864e5 * 2 ** r, easy: 864e5 * 4 * 2 ** r }[g]; }
+function fmtIvl(ms) {
+  const m = ms / 60e3;
+  if (m < 60) return m <= 1 ? tr('<1 phút', '<1 min') : `${Math.round(m)} ${tr('phút', 'min')}`;
+  return `${Math.round(ms / 864e5)} ${tr('ngày', 'd')}`;
+}
+function cardCtl() {
+  if (!C.flipped) return `<button class="btn btn-block" data-act="flip">${tr('Lật thẻ', 'Show answer')}</button>`;
+  const s = S.srs[C.queue[0]] || {};
+  const b = (g, cls, l) => `<button class="btn ${cls}" data-act="rate" data-arg="${g}">${l}<small>${fmtIvl(ivl(g, s))}</small></button>`;
+  return `<div class="rates">${b('again', 'r-again', tr('Quên', 'Again'))}${b('hard', 'r-hard', tr('Khó', 'Hard'))}${b('good', '', tr('Nhớ', 'Good'))}${b('easy', 'r-easy', tr('Dễ', 'Easy'))}</div>`;
+}
+function renderCards() {
+  if (!C) startCards();
+  const head = `<div class="lhead"><h1>${tr('Thẻ ghi nhớ', 'Flashcards')}</h1></div>
+  <p class="lead">${tr('Nhìn chữ, tự nhớ cách đọc và nghĩa rồi lật thẻ. Mức bạn chọn quyết định khi nào thẻ quay lại.', 'Look at the word, recall the reading and meaning, then flip. Your rating decides when the card comes back.')}</p>`;
+  if (!C.queue.length) {
+    const next = Math.min(...VOCAB.map(v => (S.srs[v.h] ? S.srs[v.h].due : Infinity)));
+    view.innerHTML = head + `<div class="card empty">
+      <div class="zh-d" lang="zh-CN">好</div>
+      <h2 class="sec" style="margin-top:12px">${tr('Đã ôn xong các thẻ đến hạn', 'All due cards reviewed')}</h2>
+      <p>${C.reviewed ? tr(`Bạn vừa ôn ${C.reviewed} lượt. `, `You just did ${C.reviewed} reviews. `) : ''}${isFinite(next) ? tr('Thẻ tiếp theo đến hạn sau ', 'Next card is due in ') + fmtIvl(Math.max(0, next - Date.now())) + '.' : ''}</p>
+      <button class="btn btn-ghost" data-act="cardsall">${ic('refresh')}${tr('Ôn lại toàn bộ', 'Review all again')}</button>
+    </div>`;
+    return;
+  }
+  const v = VMAP[C.queue[0]];
+  view.innerHTML = head + `<div class="fc-wrap">
+    <div class="fc-meta"><span>${tr('Còn lại', 'Left')}: ${C.queue.length}</span><span>${tr('Đã ôn', 'Done')}: ${C.reviewed}</span></div>
+    <button class="fc ${C.flipped ? 'flip' : ''}" data-act="flip" aria-label="${tr('Lật thẻ', 'Flip card')}">
+      <div class="fc-in">
+        <div class="face"><span class="h" lang="zh-CN">${v.h}</span><span class="tap">${tr('Chạm để lật', 'Tap to flip')}</span></div>
+        <div class="face back"><span class="h" lang="zh-CN">${v.h}</span>${py(v.py)}<span class="m">${esc(L(v))}</span>${S.lang === 'vi' ? `<span class="hv">${esc(v.hv)}</span>` : ''}</div>
+      </div>
+    </button>
+    <div id="fcCtl">${cardCtl()}</div>
+    <p class="fc-note">${tr('Lịch ôn ở bản thử nghiệm là ước lượng đơn giản; bản chính thức dùng thuật toán FSRS.', 'Intervals here are a simple estimate; the full version uses FSRS.')}</p>
+  </div>`;
+}
+function rateCard(g) {
+  const h = C.queue.shift(), s = Object.assign({ reps: 0, lapses: 0 }, S.srs[h]);
+  s.due = Date.now() + ivl(g, s);
+  if (g === 'again') { s.lapses++; s.reps = 0; C.queue.splice(Math.min(3, C.queue.length), 0, h); }
+  else s.reps++;
+  S.srs[h] = s; store.set('srs', S.srs);
+  C.reviewed++; C.flipped = false;
+  addXP(g === 'again' ? 0 : 2);
+  renderCards();
+}
+
+/* ---------- Thống kê ---------- */
+function renderStats() {
+  const days = [];
+  for (let i = 6; i >= 0; i--) { const d = new Date(Date.now() - i * 864e5); days.push({ k: dayKey(d), d }); }
+  const vals = days.map(x => S.p.days[x.k] || 0), max = Math.max(30, ...vals);
+  const wd = S.lang === 'vi' ? ['CN', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7'] : ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+  const learned = Object.values(S.srs).filter(s => s.reps > 0).length;
+  const acc = S.p.answered ? Math.round(S.p.correct / S.p.answered * 100) + '%' : '–';
+  const stat = (i, c, v, l) => `<div class="card stat"><div class="badge-ic ${c}">${ic(i)}</div><div><div class="big">${v}</div><div class="sub">${l}</div></div></div>`;
+  const done = Object.keys(S.p.charsDone);
+  view.innerHTML = `
+  <div class="lhead"><h1>${tr('Thống kê học tập', 'Your progress')}</h1></div>
+  <div class="sgrid">
+    ${stat('flame', 'bi-verm', liveStreak(), tr('ngày học liên tiếp', 'day streak'))}
+    ${stat('bolt', 'bi-sun', S.p.xp, tr('tổng XP', 'total XP'))}
+    ${stat('cards', 'bi-jade', `${learned}/${VOCAB.length}`, tr('từ đã nhớ', 'words remembered'))}
+    ${stat('target', 'bi-blue', acc, tr('độ chính xác bài tập', 'practice accuracy'))}
+  </div>
+  <div class="card">
+    <h2 class="sec">${tr('XP trong 7 ngày qua', 'XP over the last 7 days')}</h2>
+    <div class="chart" role="img" aria-label="${tr('Biểu đồ XP 7 ngày', '7-day XP chart')}: ${vals.join(', ')}">
+      ${days.map((x, i) => `<div class="colb ${i === 6 ? 'today' : ''}"><span class="v">${vals[i]}</span><div class="bw"><div class="b" style="height:${Math.max(3, vals[i] / max * 100)}%"></div></div><span class="d">${i === 6 ? tr('Nay', 'Today') : wd[x.d.getDay()]}</span></div>`).join('')}
+    </div>
+  </div>
+  <div class="card" style="margin-top:16px">
+    <h2 class="sec">${tr('Chữ đã tự viết đúng', 'Characters written')}</h2>
+    ${done.length ? `<div class="chars-done">${done.map(c => `<span lang="zh-CN">${c}</span>`).join('')}</div>` : `<p class="muted">${tr('Chưa có chữ nào. Vào phần Tập viết của bài 1 để bắt đầu.', 'None yet. Open Writing in lesson 1 to start.')}</p>`}
+    <button class="btn btn-ghost btn-sm" data-act="reset">${tr('Xóa dữ liệu học thử', 'Reset demo progress')}</button>
+  </div>`;
+}
+
+/* ---------- Router ---------- */
+const VIEWS = { home: renderHome, lessons: renderLessons, lesson: renderLesson, practice: renderPractice, cards: renderCards, stats: renderStats };
+function render(opts = {}) {
+  releaseWriters();
+  document.body.classList.toggle('focus', S.route === 'practice');
+  renderNav(); renderTopRight();
+  (VIEWS[S.route] || renderHome)();
+  if (!opts.keepScroll) { window.scrollTo(0, 0); view.focus({ preventScroll: true }); }
+}
+function go(r) {
+  stopSpeech();
+  if (r === 'practice') P = null;
+  if (r === 'cards') C = null;
+  S.route = r;
+  render();
+}
+
+/* ---------- Event delegation ---------- */
+const ACT = {
+  nav: go,
+  lang() { S.lang = S.lang === 'vi' ? 'en' : 'vi'; store.set('lang', S.lang); document.documentElement.lang = S.lang; render({ keepScroll: true }); },
+  theme() {
+    const next = isDark() ? 'light' : 'dark';
+    S.theme = next; store.set('theme', next);
+    document.documentElement.dataset.theme = next;
+    render({ keepScroll: true }); /* vẽ lại Hanzi Writer với màu mới */
+  },
+  speak(a) { speak(a); },
+  tab(a) { S.tab = a; stopSpeech(); render({ keepScroll: true }); },
+  speakline(a) { speak(DIALOGUE.lines[+a].h); },
+  playall() {
+    if (!voiceCheck()) return;
+    speechSynthesis.cancel();
+    const bubbles = $$('#dlg .bubble');
+    DIALOGUE.lines.forEach((l, i) => {
+      const u = utter(l.h, l.s === 'A' ? 1.2 : 0.85);
+      u.onstart = () => bubbles.forEach((b, j) => b.classList.toggle('playing', i === j));
+      if (i === DIALOGUE.lines.length - 1) u.onend = () => bubbles.forEach(b => b.classList.remove('playing'));
+      speechSynthesis.speak(u);
+    });
+  },
+  togglepy(_, b) { S.showPy = !S.showPy; b.setAttribute('aria-pressed', S.showPy); $('#dlg').classList.toggle('hide-py', !S.showPy); },
+  toggletr(_, b) { S.showTr = !S.showTr; b.setAttribute('aria-pressed', S.showTr); $('#dlg').classList.toggle('hide-tr', !S.showTr); },
+  wchar(a) { S.wchar = a; render({ keepScroll: true }); },
+  wanim() {
+    if (!S.writer) return;
+    try { S.writer.cancelQuiz(); } catch (e) {}
+    S.writer.showOutline();
+    S.writer.animateCharacter({ onComplete: () => wStatus(tr('Giờ thử tự viết nhé.', 'Now try writing it yourself.')) });
+    wStatus(tr('Quan sát thứ tự nét…', 'Watch the stroke order…'));
+  },
+  wquiz() {
+    if (!S.writer) return;
+    const c = S.wchar, total = CHAR_DATA[c].strokes.length;
+    S.writer.hideCharacter();
+    wStatus(tr(`Viết nét 1/${total}`, `Stroke 1/${total}`));
+    S.writer.quiz({
+      onCorrectStroke: d => wStatus(d.strokesRemaining ? tr(`Tốt! Viết nét ${d.strokeNum + 2}/${total}`, `Good! Stroke ${d.strokeNum + 2}/${total}`) : '', 'ok'),
+      onMistake: d => wStatus(d.mistakesOnStroke >= 2 ? tr('Nhìn gợi ý rồi viết lại nét này.', 'Follow the hint and try again.') : tr('Chưa đúng nét, thử lại.', 'Not that stroke, try again.'), 'bad'),
+      onComplete: d => {
+        wStatus(d.totalMistakes ? tr(`Hoàn thành, sai ${d.totalMistakes} lần.`, `Done with ${d.totalMistakes} mistake(s).`) : tr('Hoàn hảo, không sai nét nào!', 'Perfect, no mistakes!'), 'ok');
+        if (!S.p.charsDone[c]) { S.p.charsDone[c] = 1; saveP(); addXP(5); toast('+5 XP'); const btn = $(`.wchar[data-arg="${c}"]`); if (btn && !btn.querySelector('.dot')) btn.insertAdjacentHTML('beforeend', `<span class="dot">${ic('check')}</span>`); }
+      }
+    });
+  },
+  opt(a) { selectOpt(+a); },
+  tileadd(a) { if (P.checked || P.order.includes(+a)) return; P.order.push(+a); speak(P.tiles[+a]); $('#orderBox').innerHTML = orderHtml(); setCheckEnabled(true); },
+  tilerm(a) { if (P.checked) return; P.order.splice(+a, 1); $('#orderBox').innerHTML = orderHtml(); setCheckEnabled(P.order.length > 0); },
+  ml(a) { if (P.checked || P.lock) return; P.m.sl = +a; tryMatch(); },
+  mr(a) { if (P.checked || P.lock) return; P.m.sr = +a; tryMatch(); },
+  check() { if (P.checked) nextStep(); else check(); },
+  flip() {
+    if (!C || !C.queue.length) return;
+    C.flipped = !C.flipped;
+    $('.fc').classList.toggle('flip', C.flipped);
+    $('#fcCtl').innerHTML = cardCtl();
+    if (C.flipped) speak(C.queue[0]);
+  },
+  rate(a) { rateCard(a); },
+  cardsall() { Object.values(S.srs).forEach(s => { s.due = 0; }); store.set('srs', S.srs); C = null; renderCards(); },
+  reset(_, b) {
+    if (!b.dataset.armed) { b.dataset.armed = '1'; b.textContent = tr('Bấm lần nữa để xóa hẳn', 'Click again to confirm'); b.classList.add('btn-verm'); return; }
+    S.p = JSON.parse(JSON.stringify(DEFAULT_P)); S.srs = {};
+    store.del('progress'); store.del('srs');
+    toast(tr('Đã xóa dữ liệu học thử.', 'Demo progress cleared.'));
+    render();
+  }
+};
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-act]');
+  if (!b || b.disabled) return;
+  const fn = ACT[b.dataset.act];
+  if (fn) fn(b.dataset.arg, b, e);
+});
+document.addEventListener('input', e => { if (e.target.id === 'pyInput') { const er = $('#pyErr'); if (er) er.textContent = ''; } });
+document.addEventListener('keydown', e => {
+  if (S.route !== 'practice' || !P || P.finished) return;
+  const tag = (e.target.tagName || '').toLowerCase();
+  if (tag === 'button') return; /* Enter trên nút đã tự click */
+  if (e.key === 'Enter') { const btn = $('#checkBtn'); if (btn && !btn.disabled) { e.preventDefault(); btn.click(); } return; }
+  if (tag === 'input') return;
+  const it = cur();
+  if (it.options && !P.checked && /^[1-9]$/.test(e.key) && +e.key <= it.options.length) selectOpt(+e.key - 1);
+});
+/* Theo dõi đổi theme hệ thống khi người dùng chưa chọn */
+if (window.matchMedia) {
+  const mq = matchMedia('(prefers-color-scheme: dark)');
+  const onChange = () => { if (!S.theme && S.route !== 'practice') render({ keepScroll: true }); };
+  mq.addEventListener ? mq.addEventListener('change', onChange) : mq.addListener(onChange);
+}
+
+/* ---------- Khởi động ---------- */
+if (S.theme) document.documentElement.dataset.theme = S.theme;
+document.documentElement.lang = S.lang;
+if (!window.HanziWriter) console.error('Hanzi Writer chưa nạp được');
+render();
+})();
+</script>
+</body>
+</html>

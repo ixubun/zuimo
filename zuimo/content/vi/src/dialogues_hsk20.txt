@@ -1,0 +1,249 @@
+# ZUIMO – hội thoại và bài tập tự biên soạn, giáo trình HSK 2.0 quyển 1
+# Chỉ dùng từ của bài hiện tại và các bài trước (kiểm tra bằng check_dialogues.py).
+# Cú pháp:
+#   ## <phiên bản>-<bài>
+#   @ <bối cảnh>                         bắt đầu một đoạn hội thoại
+#   <người nói>: <câu tiếng Trung> | <bản dịch>
+#   >fill <câu có ___> || <bản dịch> || <đáp án đúng> | <nhiễu> | <nhiễu>
+#   >order <các thẻ cách nhau bởi dấu cách, thẻ nhiễu có dấu +> || <bản dịch>
+#   >trans <câu tiếng Việt> || <câu đúng> | <nhiễu> | <nhiễu>
+#   >q <câu hỏi đọc hiểu> || <đáp án đúng> | <nhiễu> | <nhiễu>
+
+## 20-1
+@ Buổi sáng ở cổng trường.
+A: 你好！ | Chào bạn!
+B: 你好！ | Chào bạn!
+老师: 你们好！ | Chào các em!
+A: 您好！ | Em chào thầy ạ!
+@ Trên hành lang, A vô ý va vào B.
+A: 对不起！ | Xin lỗi!
+B: 没关系。 | Không sao đâu.
+>fill 你___！ || Chào bạn! || 好 | 们 | 你
+>fill 对不起！——没___。 || Xin lỗi! – Không sao. || 关系 | 你好 | 你们
+>trans Chào các bạn! || 你们好！ | 你好们！ | 好你们！
+>order 你们 好 +对不起 || Chào các bạn!
+>q Lỡ va vào người khác thì nên nói gì? || 对不起 | 没关系 | 你们好
+
+## 20-2
+@ B nhặt giúp A món đồ bị rơi.
+A: 谢谢你！ | Cảm ơn bạn!
+B: 不客气。 | Không có gì.
+A: 对不起，对不起！ | Xin lỗi, xin lỗi nhé!
+B: 没关系。 | Không sao.
+@ Tan học.
+A: 再见！ | Tạm biệt!
+B: 再见！ | Tạm biệt!
+>fill 谢谢你！——不___。 || Cảm ơn bạn! – Không có gì. || 客气 | 再见 | 好
+>fill ___见！ || Tạm biệt! || 再 | 不 | 谢
+>trans Không có gì. || 不客气。 | 不谢谢。 | 没客气。
+>order 谢谢 你 +不 || Cảm ơn bạn!
+>q Người khác nói “谢谢你！”, bạn đáp thế nào? || 不客气。 | 没关系。 | 再见。
+
+## 20-3
+@ Ngày đầu nhập học, thầy giáo hỏi chuyện một sinh viên mới.
+老师: 你好！你叫什么名字？ | Chào em! Em tên là gì?
+李月: 老师好！我叫李月。 | Em chào thầy! Em tên là Lý Nguyệt.
+老师: 你是学生吗？ | Em là sinh viên à?
+李月: 是，我是学生。 | Vâng, em là sinh viên.
+老师: 你是美国人吗？ | Em là người Mỹ à?
+李月: 不是，我是中国人。 | Không ạ, em là người Trung Quốc.
+>fill 你叫___名字？ || Bạn tên là gì? || 什么 | 吗 | 是
+>fill 你是学生___？ || Bạn là sinh viên à? || 吗 | 什么 | 叫
+>order 我 是 中国 人 +吗 || Tôi là người Trung Quốc.
+>trans Tôi không phải giáo viên. || 我不是老师。 | 我是不老师。 | 不我是老师。
+>q Lý Nguyệt là người nước nào? || Trung Quốc | Mỹ | Không được nhắc đến
+
+## 20-4
+@ Lý Nguyệt cho bạn xem ảnh.
+A: 她是谁？ | Cô ấy là ai?
+李月: 她是我的汉语老师。 | Cô ấy là giáo viên tiếng Trung của mình.
+A: 她是哪国人？ | Cô ấy là người nước nào?
+李月: 她是中国人。你呢？你是哪国人？ | Cô ấy là người Trung Quốc. Còn bạn? Bạn là người nước nào?
+A: 我是美国人。他是谁？ | Mình là người Mỹ. Anh ấy là ai?
+李月: 他是我的同学，他是我的好朋友。 | Anh ấy là bạn cùng lớp, là bạn thân của mình.
+>fill 她是___？——她是我的汉语老师。 || Cô ấy là ai? – Cô ấy là giáo viên tiếng Trung của tôi. || 谁 | 哪 | 呢
+>fill 我是中国人，你___？ || Tôi là người Trung Quốc, còn bạn? || 呢 | 吗 | 谁
+>order 他 是 哪 国 人 +呢 || Anh ấy là người nước nào?
+>trans Anh ấy là bạn học của tôi. || 他是我的同学。 | 他是同学的我。 | 我的是他同学。
+>q Giáo viên tiếng Trung của Lý Nguyệt là người nước nào? || Trung Quốc | Mỹ | Không rõ
+
+## 20-5
+@ Lý Nguyệt hỏi thăm gia đình thầy giáo.
+李月: 老师，您家有几口人？ | Thưa thầy, nhà thầy có mấy người ạ?
+老师: 我家有三口人。 | Nhà tôi có ba người.
+李月: 您有女儿吗？ | Thầy có con gái không ạ?
+老师: 有。我女儿今年八岁了。 | Có. Con gái tôi năm nay tám tuổi rồi.
+李月: 老师，您今年多大？ | Thưa thầy, năm nay thầy bao nhiêu tuổi ạ?
+老师: 我今年三十四岁。 | Năm nay tôi ba mươi tư tuổi.
+>fill 你家有___口人？ || Nhà bạn có mấy người? || 几 | 多 | 大
+>fill 你今年多___？ || Năm nay bạn bao nhiêu tuổi? || 大 | 几 | 岁
+>order 她 女儿 今年 二十 岁 了 +几 || Con gái cô ấy năm nay hai mươi tuổi rồi.
+>trans Nhà tôi có năm người. || 我家有五口人。 | 我家五口有人。 | 我有家五口人。
+>q Con gái của thầy giáo năm nay mấy tuổi? || 8 tuổi | 34 tuổi | 3 tuổi
+
+## 20-6
+@ Ở lớp tiếng Trung.
+A: 你会说汉语吗？ | Bạn biết nói tiếng Trung không?
+B: 我会说汉语。 | Mình biết nói tiếng Trung.
+A: 你会写汉字吗？“家”字怎么写？ | Bạn biết viết chữ Hán không? Chữ “家” viết thế nào?
+B: 我会写，我写。 | Mình biết viết, để mình viết cho.
+@ Nói chuyện về món ăn.
+A: 你妈妈会做中国菜吗？ | Mẹ bạn biết nấu món Trung Quốc không?
+B: 会，我妈妈做的中国菜很好吃。 | Có, món Trung Quốc mẹ mình nấu rất ngon.
+>fill 你会___汉语吗？ || Bạn biết nói tiếng Trung không? || 说 | 读 | 做
+>fill “家”字___写？ || Chữ “家” viết thế nào? || 怎么 | 什么 | 几
+>order 我 妈妈 会 做 中国 菜 +很 || Mẹ tôi biết nấu món Trung Quốc.
+>trans Cô ấy không biết viết chữ Hán. || 她不会写汉字。 | 她会不写汉字。 | 她不写会汉字。
+>q Món Trung Quốc mẹ của B nấu thế nào? || Rất ngon | Không ngon | Không được nhắc đến
+
+## 20-7
+@ Hai bạn nói chuyện ở sân trường.
+A: 请问，今天几号？ | Cho hỏi, hôm nay ngày mấy?
+B: 今天九月一号。 | Hôm nay ngày 1 tháng 9.
+A: 今天星期几？ | Hôm nay thứ mấy?
+B: 今天星期三。 | Hôm nay thứ Tư.
+A: 明天你去学校吗？ | Ngày mai bạn có đến trường không?
+B: 去。我去学校看书。你呢？ | Có. Mình đến trường đọc sách. Còn bạn?
+A: 我明天去老师家。 | Ngày mai mình đến nhà thầy giáo.
+>fill 今天几___？——今天九月一号。 || Hôm nay ngày mấy? – Hôm nay ngày 1 tháng 9. || 号 | 岁 | 口
+>fill 明天星期___？ || Ngày mai thứ mấy? || 几 | 什么 | 谁
+>order 我 去 学校 看 书 +昨天 || Tôi đến trường đọc sách.
+>trans Hôm qua là thứ Hai. || 昨天星期一。 | 星期一昨天。 | 昨天一星期。
+>q Ngày mai B đến trường để làm gì? || Đọc sách | Gặp thầy giáo | Không đến trường
+
+## 20-8
+@ Ở nhà hàng.
+A: 你想喝什么？ | Bạn muốn uống gì?
+B: 我想喝茶。 | Mình muốn uống trà.
+A: 你想吃什么？ | Bạn muốn ăn gì?
+B: 我想吃米饭。 | Mình muốn ăn cơm.
+@ Buổi chiều ở cửa hàng.
+A: 你好！这个杯子多少钱？ | Chào anh! Cái cốc này bao nhiêu tiền?
+B: 二十八块。 | Hai mươi tám đồng.
+A: 那个杯子呢？ | Còn cái cốc kia?
+B: 那个十五块。 | Cái kia mười lăm đồng.
+A: 我想买那个。 | Tôi muốn mua cái kia.
+>fill 这个杯子___钱？ || Cái cốc này bao nhiêu tiền? || 多少 | 几 | 什么
+>fill 我想买一___杯子。 || Tôi muốn mua một cái cốc. || 个 | 口 | 块
+>order 我 想 去 商店 买 杯子 +多少 || Tôi muốn đi cửa hàng mua cốc.
+>trans Cái cốc kia mười lăm đồng. || 那个杯子十五块。 | 那个杯子块十五。 | 杯子那个十五块。
+>q Người mua đã chọn cái cốc giá bao nhiêu? || 15 đồng | 28 đồng | 50 đồng
+
+## 20-9
+@ Ở nhà bạn.
+A: 你的小猫呢？ | Con mèo nhỏ của bạn đâu rồi?
+B: 在那儿，在椅子下面。 | Ở kia kìa, dưới gầm ghế.
+A: 你的狗呢？ | Còn con chó của bạn đâu?
+B: 我的狗在我爸爸那儿。 | Con chó của mình ở chỗ bố mình.
+@ Lý Nguyệt hỏi chuyện thầy giáo.
+李月: 老师，您儿子在哪儿工作？ | Thưa thầy, con trai thầy làm việc ở đâu ạ?
+老师: 他在医院工作。 | Nó làm việc ở bệnh viện.
+李月: 他是医生吗？ | Anh ấy là bác sĩ ạ?
+老师: 是，他是医生。 | Đúng, nó là bác sĩ.
+>fill 你的猫___？——在椅子下面。 || Con mèo của bạn đâu rồi? – Ở dưới gầm ghế. || 呢 | 吗 | 哪
+>fill 你爸爸___哪儿工作？ || Bố bạn làm việc ở đâu? || 在 | 是 | 有
+>order 我 儿子 在 医院 工作 +哪儿 || Con trai tôi làm việc ở bệnh viện.
+>trans Con chó ở dưới gầm ghế. || 狗在椅子下面。 | 狗椅子在下面。 | 在狗椅子下面。
+>q Con mèo nhỏ đang ở đâu? || Dưới gầm ghế | Ở bệnh viện | Ở chỗ bố
+
+## 20-10
+@ Trong phòng học.
+王方: 我能坐这儿吗？ | Mình ngồi đây được không?
+谢朋: 能，请坐。 | Được, mời ngồi.
+王方: 谢谢！你的桌子上有什么？ | Cảm ơn! Trên bàn của bạn có gì thế?
+谢朋: 桌子上有一个电脑和一本书。 | Trên bàn có một cái máy tính và một quyển sách.
+王方: 你的杯子呢？ | Còn cốc của bạn đâu?
+谢朋: 在电脑后面。 | Ở phía sau máy tính.
+王方: 前面有人吗？ | Phía trước có người không?
+谢朋: 前面没有人。 | Phía trước không có ai.
+>fill 桌子上___一本书。 || Trên bàn có một quyển sách. || 有 | 在 | 是
+>fill 我___坐这儿吗？ || Tôi ngồi đây được không? || 能 | 和 | 本
+>order 桌子 上 有 电脑 和 书 +在 || Trên bàn có máy tính và sách.
+>trans Mời ngồi. || 请坐。 | 坐请。 | 请能坐。
+>q Cái cốc của Tạ Bằng ở đâu? || Phía sau máy tính | Trên ghế | Trong cửa hàng
+
+## 20-11
+@ Giờ ra chơi.
+A: 现在几点？ | Bây giờ mấy giờ?
+B: 现在十点十分。 | Bây giờ là mười giờ mười phút.
+A: 中午我们去吃饭，好吗？ | Trưa nay chúng mình đi ăn cơm nhé?
+B: 好。你什么时候回家？ | Được. Khi nào bạn về nhà?
+A: 我下午五点回家。 | Năm giờ chiều mình về nhà.
+B: 我们明天去看电影，好吗？ | Mai chúng mình đi xem phim nhé?
+A: 好！三点前我在学校。 | Được! Trước ba giờ mình ở trường.
+@ Hỏi chỗ ở.
+A: 你住哪儿？ | Bạn sống ở đâu?
+B: 我住在北京。 | Mình sống ở Bắc Kinh.
+>fill 现在___点？ || Bây giờ mấy giờ? || 几 | 多 | 什么
+>fill 你什么___回家？ || Khi nào bạn về nhà? || 时候 | 现在 | 中午
+>order 我 下午 五 点 回 家 +前 || Năm giờ chiều tôi về nhà.
+>trans Trước ba giờ tôi ở trường. || 三点前我在学校。 | 我在学校三点前。 | 前三点我在学校。
+>q Lúc bắt đầu hội thoại là mấy giờ? || 10 giờ 10 phút | 5 giờ chiều | 3 giờ
+
+## 20-12
+@ Nói chuyện thời tiết.
+A: 明天天气怎么样？ | Thời tiết ngày mai thế nào?
+B: 明天会下雨。 | Ngày mai trời sẽ mưa.
+A: 今天太热了！ | Hôm nay nóng quá!
+B: 是，今天太热了。我想喝水。 | Ừ, nóng quá. Mình muốn uống nước.
+@ A đến thăm chị Vương.
+A: 王小姐，你身体怎么样？ | Chị Vương, sức khỏe chị thế nào?
+王小姐: 我身体很好，谢谢！ | Tôi khỏe lắm, cảm ơn em!
+A: 请吃些水果。 | Mời chị ăn chút hoa quả.
+王小姐: 谢谢你！你明天来吗？ | Cảm ơn em! Mai em có đến không?
+A: 明天会下雨，我不来了。 | Mai trời mưa, em không đến nữa.
+>fill 明天天气___？ || Thời tiết ngày mai thế nào? || 怎么样 | 什么 | 几
+>fill 今天___热了！ || Hôm nay nóng quá! || 太 | 很 | 多
+>order 明天 会 下 雨 +太 || Ngày mai trời sẽ mưa.
+>trans Tôi thích ăn hoa quả. || 我爱吃水果。 | 我吃爱水果。 | 水果爱我吃。
+>q Vì sao ngày mai A không đến? || Trời sẽ mưa | Trời quá nóng | A bị ốm
+
+## 20-13
+@ Gọi điện thoại.
+A: 喂，大卫在吗？ | A lô, David có ở đó không?
+B: 在，他在学做中国菜呢。 | Có, anh ấy đang học nấu món Trung Quốc.
+A: 他喜欢做中国菜吗？ | Anh ấy thích nấu món Trung Quốc à?
+B: 很喜欢。你下午给他打电话吧。 | Thích lắm. Chiều bạn gọi điện cho anh ấy nhé.
+A: 好，谢谢！ | Được, cảm ơn!
+@ Buổi sáng ở nhà.
+A: 你在看电视吗？ | Bạn đang xem ti vi à?
+B: 没有，我在学习呢。 | Không, mình đang học.
+A: 大卫呢？ | Còn David?
+B: 他在睡觉呢。 | Anh ấy đang ngủ.
+>fill 他___学做中国菜呢。 || Anh ấy đang học nấu món Trung Quốc. || 在 | 是 | 有
+>fill ___，是大卫吗？ || A lô, có phải David không? || 喂 | 吧 | 呢
+>order 我 在 看 电视 呢 +吧 || Tôi đang xem ti vi.
+>trans Chúng ta đi xem phim nhé. || 我们去看电影吧。 | 我们吧去看电影。 | 吧我们去看电影。
+>q Muốn nói chuyện với David, A nên làm gì? || Gọi điện buổi chiều | Đến nhà ngay | Gọi lúc sáng
+
+## 20-14
+@ Ở nhà.
+A: 张先生，你看见我女儿了吗？ | Anh Trương, anh có thấy con gái tôi không?
+张先生: 看见了，她去商店买东西了。 | Có thấy, cô bé đi cửa hàng mua đồ rồi.
+A: 她买了什么？ | Nó đã mua gì?
+张先生: 她买了一点儿苹果，也买了不少衣服。 | Cô bé mua ít táo, còn mua khá nhiều quần áo.
+A: 这些衣服都很漂亮啊！ | Những bộ quần áo này đều đẹp quá!
+@ A hỏi về chồng mình.
+张先生: 你先生呢？ | Chồng chị đâu?
+A: 他开车去学校了，二十分钟后回来。 | Anh ấy lái xe đến trường rồi, hai mươi phút nữa về.
+>fill 她买___不少衣服。 || Cô ấy đã mua khá nhiều quần áo. || 了 | 呢 | 吗
+>fill 这些衣服___很漂亮。 || Những bộ quần áo này đều rất đẹp. || 都 | 和 | 太
+>order 他 二十 分钟 后 回来 +了 || Hai mươi phút nữa anh ấy về.
+>trans Tôi không nhìn thấy anh ấy. || 我没看见他。 | 我不看见了他。 | 我看见没他。
+>q Con gái của A đi đâu? || Đi cửa hàng mua đồ | Đến trường | Đi xem phim
+
+## 20-15
+@ Gặp nhau ở khách sạn.
+A: 认识你很高兴！ | Rất vui được làm quen với bạn!
+B: 认识你我也很高兴！ | Mình cũng rất vui được làm quen!
+A: 你是什么时候来北京的？ | Bạn đến Bắc Kinh lúc nào?
+B: 我是昨天来的。 | Mình đến hôm qua.
+A: 你是怎么来的？ | Bạn đến bằng gì?
+B: 我是坐飞机来的。 | Mình đến bằng máy bay.
+A: 你是坐出租车来饭店的吗？ | Bạn đi taxi đến khách sạn à?
+B: 是，我和我的大学同学一起来的。 | Đúng, mình đi cùng bạn đại học.
+>fill 我是坐飞机来___。 || Tôi đến bằng máy bay. || 的 | 了 | 吗
+>fill ___你很高兴！ || Rất vui được làm quen với bạn! || 认识 | 听 | 看见
+>order 我 是 昨天 来 的 +了 || Tôi đến hôm qua.
+>trans Hôm nay là ngày 1 tháng 9 năm 2026. || 今天是二〇二六年九月一号。 | 今天是九月一号二〇二六年。 | 二〇二六年今天是九月一号。
+>q B đến Bắc Kinh bằng phương tiện gì? || Máy bay | Taxi | Tàu hỏa

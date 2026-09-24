@@ -1,0 +1,232 @@
+# sinh tự động bởi compile_vi.py – không sửa tay
+桌子上	trên bàn
+树下	dưới gốc cây
+房间里	trong phòng
+门外	ngoài cửa
+楼前	trước tòa nhà
+门后	sau cửa
+桌子上边	phía trên bàn
+书包里边	bên trong cặp sách
+饭店的前边	phía trước nhà hàng
+图书馆的北边	phía bắc thư viện
+东边的车站	bến xe phía đông
+南边的房子	ngôi nhà phía nam
+书在桌子上。	Sách ở trên bàn.
+手机在书包里。	Điện thoại ở trong cặp sách.
+房间里没有人。	Trong phòng không có ai.
+他去东边的车站。	Anh ấy đi đến bến xe phía đông.
+我不会说中文。	Tôi không biết nói tiếng Trung.
+明天你能来吗？	Ngày mai bạn đến được không?
+我想学中文。	Tôi muốn học tiếng Trung.
+他要去书店。	Anh ấy muốn đi hiệu sách.
+他多大？	Anh ấy bao nhiêu tuổi?
+你们班有多少个学生？	Lớp các bạn có bao nhiêu học sinh?
+现在几点？	Bây giờ là mấy giờ?
+你喜欢哪个电影？	Bạn thích bộ phim nào?
+你们去哪儿？	Các bạn đi đâu?
+车站在哪里？	Bến xe ở đâu?
+你们班有哪些国家的学生？	Lớp các bạn có học sinh đến từ những nước nào?
+你买什么？	Bạn mua gì?
+谁是老师？	Ai là giáo viên?
+你怎么去医院？	Bạn đến bệnh viện bằng cách nào?
+你好，我要两个本子。	Chào bạn, tôi muốn mua hai quyển vở.
+您好！	Xin chào (ông, bà)!
+他想喝水。	Anh ấy muốn uống nước.
+她很高。	Cô ấy rất cao.
+我们去书店，你们去哪儿？	Chúng tôi đi hiệu sách, còn các bạn đi đâu?
+他们是学生。	Họ là học sinh.
+她们是我的同学。	Các cô ấy là bạn học của tôi.
+这是谁的手机？	Đây là điện thoại của ai?
+她喜欢那个书包。	Cô ấy thích cái cặp sách kia.
+这儿很好。	Ở đây rất tốt.
+我去那儿学习。	Tôi đến đó học.
+你坐这里，弟弟坐那里。	Bạn ngồi đây, em trai ngồi kia.
+这些书很新。	Những quyển sách này rất mới.
+那些东西都很贵。	Những thứ kia đều rất đắt.
+你还要别的东西吗？	Bạn còn cần thứ gì khác không?
+有的同学在休息，有的同学在看书。	Có bạn đang nghỉ ngơi, có bạn đang đọc sách.
+五	năm
+十五	mười lăm
+一百一十五	một trăm mười lăm
+六	sáu
+二百六（十）	hai trăm sáu mươi
+二百零六	hai trăm linh sáu
+十二	mười hai
+二十	hai mươi
+二百	hai trăm
+两百	hai trăm
+两个人	hai người
+两本书	hai quyển sách
+八点半	tám giờ rưỡi
+半个小时	nửa tiếng
+两杯牛奶	hai cốc sữa
+三本书	ba quyển sách
+四个学生	bốn học sinh
+五家商店	năm cửa hàng
+六间房子	sáu gian phòng
+三口人	ba người (trong gia đình)
+七块面包	bảy miếng bánh mì
+我非常喜欢这本书。	Tôi rất thích quyển sách này.
+那个本子很好看。	Quyển vở kia rất đẹp.
+这里太冷了。	Ở đây lạnh quá.
+你的房间真干净！	Phòng của bạn sạch thật!
+我最喜欢打球。	Tôi thích chơi bóng nhất.
+同学们都很认真。	Các bạn trong lớp đều rất chăm chỉ.
+我们常一块儿玩儿。	Chúng tôi thường chơi cùng nhau.
+明天他们一起去图书馆。	Ngày mai họ cùng đi thư viện.
+医生马上来。	Bác sĩ đến ngay.
+老师，我先说吧。	Thưa thầy, em nói trước nhé.
+他有时晚上上课。	Có hôm anh ấy học vào buổi tối.
+我在看电视呢。	Tôi đang xem ti vi.
+你等一下儿，他正吃饭呢。	Bạn đợi một chút, anh ấy đang ăn cơm.
+他们正在唱歌。	Họ đang hát.
+他常去饭店吃饭。	Anh ấy thường đi ăn ở nhà hàng.
+她常常不吃早饭。	Cô ấy thường không ăn sáng.
+今天的电影太好看了，我们明天再去看吧。	Phim hôm nay hay quá, mai chúng ta lại đi xem nhé.
+他要去上海，还要去北京。	Anh ấy sẽ đi Thượng Hải, còn đi cả Bắc Kinh nữa.
+他是学生，我也是学生。	Anh ấy là học sinh, tôi cũng là học sinh.
+你别进来。	Bạn đừng vào.
+今天不热。	Hôm nay không nóng.
+他昨天没上课。	Hôm qua anh ấy không đi học.
+我今天没有吃早饭。	Hôm nay tôi chưa ăn sáng.
+我们从星期一到星期五工作。	Chúng tôi làm việc từ thứ Hai đến thứ Sáu.
+你从哪儿来？	Bạn từ đâu đến?
+哥哥在北京学中文。	Anh trai học tiếng Trung ở Bắc Kinh.
+他在手机上看电影。	Anh ấy xem phim trên điện thoại.
+他跟老师请假了。	Anh ấy đã xin thầy cho nghỉ.
+我没和姐姐一起去中国。	Tôi không đi Trung Quốc cùng chị gái.
+哥哥比弟弟高。	Anh trai cao hơn em trai.
+这个房间比那个房间大。	Phòng này rộng hơn phòng kia.
+爸爸跟妈妈都不在家。	Bố và mẹ đều không có nhà.
+你喝茶还是喝水？	Bạn uống trà hay uống nước?
+我和弟弟都学习中文。	Tôi và em trai đều học tiếng Trung.
+你的衣服很好看。	Quần áo của bạn rất đẹp.
+他高兴地说：“我明天回家。”	Anh ấy vui vẻ nói: "Ngày mai tôi về nhà."
+他买了一本书。/他没买书。	Anh ấy đã mua một quyển sách. / Anh ấy không mua sách.
+我写了两个汉字。/我没写汉字。	Tôi đã viết hai chữ Hán. / Tôi chưa viết chữ Hán nào.
+我们走吧。	Chúng ta đi thôi.
+我累了。	Tôi mệt rồi.
+她是医生吗？	Cô ấy là bác sĩ à?
+他是哪国人呢？	Anh ấy là người nước nào nhỉ?
+我在看书呢。	Tôi đang đọc sách.
+一个	một cái
+两杯	hai cốc
+三本	ba quyển
+四包	bốn gói
+五块	năm miếng; năm đồng
+衣服很好看。	Quần áo rất đẹp.
+他在看电视。	Anh ấy đang xem ti vi.
+这个房间很干净。	Căn phòng này rất sạch.
+他病了。	Anh ấy bị ốm rồi.
+我们学中文。	Chúng tôi học tiếng Trung.
+今天不冷。	Hôm nay không lạnh.
+这个菜很好吃。	Món này rất ngon.
+他吃面包。	Anh ấy ăn bánh mì.
+妈妈来看我了。	Mẹ đến thăm tôi rồi.
+她买了一个手机。	Cô ấy đã mua một chiếc điện thoại.
+他在看中文书。	Anh ấy đang đọc sách tiếng Trung.
+新书包很好看。	Cặp sách mới rất đẹp.
+我喜欢干净的房间。	Tôi thích căn phòng sạch sẽ.
+她看了两本书。	Cô ấy đã đọc hai quyển sách.
+他不吃包子。	Anh ấy không ăn bánh bao.
+这个房间非常干净。	Căn phòng này vô cùng sạch sẽ.
+你认真写！	Bạn viết cẩn thận vào!
+他十点睡觉。	Anh ấy đi ngủ lúc mười giờ.
+我们下午去吧。	Chiều nay chúng ta đi nhé.
+她在网上买了两本书。	Cô ấy đã mua hai quyển sách trên mạng.
+哥哥从北京回来了。	Anh trai đã từ Bắc Kinh về rồi.
+我买一个面包。	Tôi mua một cái bánh mì.
+他不去医院。	Anh ấy không đi bệnh viện.
+房间很干净。	Căn phòng rất sạch.
+这个学生最认真。	Học sinh này chăm chỉ nhất.
+下雨了。	Trời mưa rồi.
+车！	Xe kìa!
+妈妈做晚饭。	Mẹ nấu bữa tối.
+我不喜欢看电视。	Tôi không thích xem ti vi.
+他是老师吗？	Anh ấy là giáo viên à?
+那儿现在热吗？	Bây giờ ở đó có nóng không?
+谁跟你一起去书店？	Ai đi hiệu sách cùng bạn?
+你想买什么？	Bạn muốn mua gì?
+你爸爸是老师还是医生？	Bố bạn là giáo viên hay bác sĩ?
+你们坐火车去还是坐飞机去？	Các bạn đi tàu hỏa hay đi máy bay?
+你喝不喝牛奶？	Bạn có uống sữa không?
+你吃没吃早饭？	Bạn đã ăn sáng chưa?
+你吃早饭了没有？	Bạn ăn sáng chưa?
+今天冷不冷？	Hôm nay có lạnh không?
+这个房间干净不干净？	Căn phòng này có sạch không?
+请进！	Mời vào!
+别说了！	Đừng nói nữa!
+今天太热了！	Hôm nay nóng quá!
+这水果真好吃！	Hoa quả này ngon thật!
+他是我的老师。	Ông ấy là thầy giáo của tôi.
+这是他的书。	Đây là sách của anh ấy.
+花是白的。	Hoa màu trắng.
+衣服是干净的。	Quần áo là đồ sạch.
+车站东边是一个学校。	Phía đông bến xe là một trường học.
+教学楼西边不是图书馆。	Phía tây tòa giảng đường không phải là thư viện.
+我有很多书。	Tôi có rất nhiều sách.
+他没有哥哥。	Anh ấy không có anh trai.
+一个星期有七天。	Một tuần có bảy ngày.
+房间里有两张桌子。	Trong phòng có hai cái bàn.
+房间里没有桌子。	Trong phòng không có bàn.
+我朋友比我高。	Bạn tôi cao hơn tôi.
+这个手机比那个贵。	Chiếc điện thoại này đắt hơn chiếc kia.
+昨天没有今天热。	Hôm qua không nóng bằng hôm nay.
+这个书包没有那个好看。	Cặp sách này không đẹp bằng cái kia.
+我喜欢看电视，弟弟喜欢打球。	Tôi thích xem ti vi, em trai thích chơi bóng.
+他有一个哥哥，没有姐姐。	Anh ấy có một anh trai, không có chị gái.
+他一边走路，一边唱歌。	Anh ấy vừa đi bộ vừa hát.
+哥哥一边看电视，一边吃东西。	Anh trai vừa xem ti vi vừa ăn.
+我喜欢唱歌，弟弟也喜欢唱歌。	Tôi thích hát, em trai cũng thích hát.
+这个房间很大，也很干净。	Căn phòng này rộng, lại còn sạch sẽ.
+她病了。/她没病。	Cô ấy ốm rồi. / Cô ấy không ốm.
+雨小了。/雨没小。	Mưa nhỏ đi rồi. / Mưa chưa nhỏ đi.
+他吃早饭了。/他没吃早饭。	Anh ấy ăn sáng rồi. / Anh ấy chưa ăn sáng.
+他买了两个面包。/他没买面包。	Anh ấy đã mua hai cái bánh mì. / Anh ấy không mua bánh mì.
+我喝了很多水。/我没喝水。	Tôi đã uống nhiều nước. / Tôi chưa uống nước.
+孩子在睡觉，你别说话。	Con đang ngủ, bạn đừng nói chuyện.
+外边正在下雨。	Bên ngoài đang mưa.
+你等一下儿，他在打电话呢。	Bạn đợi một chút, anh ấy đang gọi điện thoại.
+老师进来的时候，我正听歌呢。	Lúc thầy giáo bước vào, tôi đang nghe nhạc.
+同学们正在考试呢。	Các bạn đang làm bài thi.
+我没看电视，看书呢。	Tôi không xem ti vi, tôi đang đọc sách.
+甲：你在做什么？	A: Bạn đang làm gì thế?
+乙：我洗衣服呢。	B: Tôi đang giặt quần áo.
+九块三（毛）（9.30元）	chín đồng ba hào (9,30 tệ)
+十五块六毛三（分）（15.63元）	mười lăm đồng sáu hào ba xu (15,63 tệ)
+二十五块零八（分）（25.08元）	hai mươi lăm đồng linh tám xu (25,08 tệ)
+一百五十（元）一百五十（块）（150元）	một trăm năm mươi tệ (150 tệ)
+一百零五（元）一百零五（块）（105元）	một trăm linh năm tệ (105 tệ)
+2020年12月25日	ngày 25 tháng 12 năm 2020
+七月十号	ngày 10 tháng 7
+星期一	thứ Hai
+星期二	thứ Ba
+星期三	thứ Tư
+星期四	thứ Năm
+星期五	thứ Sáu
+星期六	thứ Bảy
+星期日/星期天	Chủ nhật
+两点（2:00）	hai giờ (2:00)
+两点二十五（分）（2:25）	hai giờ hai mươi lăm phút (2:25)
+三点零五（分）（3:05）	ba giờ năm phút (3:05)
+五点半（5:30）	năm giờ rưỡi (5:30)
+差两分八点（7:58）	tám giờ kém hai phút (7:58)
+这包子好吃吗？	Bánh bao này có ngon không?
+你哥哥多大？	Anh trai bạn bao nhiêu tuổi?
+车上有多少个人？	Trên xe có bao nhiêu người?
+你家有几口人？	Nhà bạn có mấy người?
+她是哪国人？	Cô ấy là người nước nào?
+我们在哪儿见面？	Chúng ta gặp nhau ở đâu?
+你去哪里了？	Bạn đã đi đâu vậy?
+你看了哪些书	Bạn đã đọc những quyển sách nào?
+你星期天做什么？	Chủ nhật bạn làm gì?
+谁要喝茶？	Ai muốn uống trà?
+这个字怎么读？	Chữ này đọc thế nào?
+她妈妈是老师还是医生？	Mẹ cô ấy là giáo viên hay bác sĩ?
+你喝水还是喝牛奶？	Bạn uống nước hay uống sữa?
+这本书贵不贵？	Quyển sách này có đắt không?
+电影好看不好看？	Phim có hay không?
+你吃不吃包子？	Bạn có ăn bánh bao không?
+他去没去图书馆？	Anh ấy đã đi thư viện chưa?
+他回家了没有？	Anh ấy về nhà chưa?
+你饿了没有？	Bạn đói chưa?

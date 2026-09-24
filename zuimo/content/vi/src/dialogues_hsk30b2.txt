@@ -1,0 +1,256 @@
+# ZUIMO – hội thoại và bài tập tự biên soạn, giáo trình HSK 3.0 quyển 2 (新HSK教程 2)
+# Chỉ dùng từ của quyển 1 và các bài đã học của quyển 2. Nhân vật: 小语, 李文, 王老师 (cô Vương), 小雪 (từ bài 6).
+
+## 30b2-1
+@ Lý Văn kể về bữa tối hôm qua.
+小语: 昨天你去哪儿了？ | Hôm qua bạn đi đâu thế?
+李文: 我的中国朋友请我们吃了北京烤鸭。 | Bạn Trung Quốc của mình mời bọn mình ăn vịt quay Bắc Kinh.
+小语: 你们是在哪儿吃的？ | Các bạn ăn ở đâu?
+李文: 是在西安饭店吃的。这是我第一次吃北京烤鸭。 | Ăn ở khách sạn Tây An. Đây là lần đầu mình ăn vịt quay Bắc Kinh.
+小语: 你的朋友是做什么的？ | Bạn của bạn làm nghề gì?
+李文: 她是老师，有时也帮我学中文。 | Cô ấy là giáo viên, đôi khi còn giúp mình học tiếng Trung.
+@ Lý Văn nhờ Tiểu Ngữ giúp.
+李文: 不好意思，你能帮个忙吗？这个字的意思我不懂。 | Ngại quá, bạn giúp mình một chút được không? Nghĩa của chữ này mình không hiểu.
+小语: 没问题，我给你介绍一下。 | Không vấn đề, để mình giải thích cho bạn.
+>fill 你是新来的同学___？ || Bạn là học sinh mới đến phải không? || 吧 | 呢 | 了
+>fill 我们是在西安饭店吃___。 || Chúng tôi ăn ở khách sạn Tây An. || 的 | 了 | 吗
+>order 她 请 我们 吃 了 北京烤鸭 +让 || Cô ấy mời chúng tôi ăn vịt quay Bắc Kinh.
+>trans Mẹ bảo tôi về nhà sớm một chút. || 妈妈让我早点儿回家。 | 妈妈我让早点儿回家。 | 让妈妈我早点儿回家。
+>q Lý Văn ăn vịt quay ở đâu? || Khách sạn Tây An | Ở nhà | Đại học Bắc Kinh
+
+## 30b2-2
+@ Hai bạn đi thăm Đại học Bắc Kinh.
+小语: 我们怎么去北京大学？坐公交车吗？ | Chúng ta đến Đại học Bắc Kinh bằng gì? Đi xe buýt à?
+李文: 车站很远，还是打车去北大吧。 | Bến xe xa lắm, hay là bắt taxi đến Bắc Đại đi.
+小语: 好啊。北京大学有多少学生？ | Được thôi. Đại học Bắc Kinh có bao nhiêu sinh viên?
+李文: 我在网上看了，有四万多个学生，也有很多外国学生。 | Mình xem trên mạng rồi, có hơn bốn vạn sinh viên, cũng có nhiều sinh viên nước ngoài.
+小语: 学校里有多少间教室？ | Trong trường có bao nhiêu phòng học?
+李文: 我不知道，但教室很多。 | Mình không biết, nhưng phòng học nhiều lắm.
+@ Trước khi vào tham quan.
+小语: 李文，你过来一下！ | Lý Văn, bạn lại đây một chút!
+李文: 你看，我在网上买了票。 | Bạn xem này, mình mua vé trên mạng rồi.
+>fill ___打车去北大吧。 || Hay là bắt taxi đến Bắc Đại đi. || 还是 | 但 | 别
+>fill 北京大学有两万___个学生。 || Đại học Bắc Kinh có hơn hai vạn sinh viên. || 多 | 几 | 远
+>order 我 在 网上 买 了 票 +别 || Tôi đã mua vé trên mạng.
+>trans Trường chúng tôi có rất nhiều sinh viên nước ngoài. || 我们学校有很多外国学生。 | 我们学校很多有外国学生。 | 外国学生我们学校有很多了。
+>q Vì sao hai bạn quyết định bắt taxi? || Bến xe quá xa | Xe buýt quá đông | Taxi rẻ hơn
+
+## 30b2-3
+@ Lý Văn chuẩn bị đi Tây An.
+小语: 你为什么想去西安旅游？ | Vì sao bạn muốn đi du lịch Tây An?
+李文: 我朋友说西安很不错，吃的东西也很多。 | Bạn mình bảo Tây An rất tuyệt, đồ ăn cũng nhiều.
+小语: 你自己去吗？ | Bạn tự đi một mình à?
+李文: 我和姐姐一起去。 | Mình đi cùng chị gái.
+@ Buổi tối ở khách sạn Tây An.
+姐姐: 这么晚了，你还出去吗？ | Muộn thế này rồi, em còn ra ngoài à?
+李文: 我出去买点儿水就回来。 | Em ra ngoài mua ít nước rồi về ngay.
+姐姐: 你看看，东西都拿了吗？ | Em xem lại xem, đồ đã cầm đủ chưa?
+李文: 拿了。你累了，先洗洗手休息吧。 | Cầm rồi. Chị mệt rồi, rửa tay rồi nghỉ ngơi đi.
+>fill 我没看___这个字。 || Tôi đọc không hiểu chữ này. || 懂 | 完 | 送
+>fill 你看___这本书。 || Bạn xem thử quyển sách này. || 看 | 完 | 回
+>order 我 出去 买 点儿 水 就 回来 +为什么 || Tôi ra ngoài mua ít nước rồi về ngay.
+>trans Muộn thế này rồi, bạn còn ra ngoài à? || 这么晚了，你还出去吗？ | 这么晚了，你出去还吗？ | 晚这么了，你还出去吗？
+>q Lý Văn đi Tây An cùng ai? || Chị gái | Tiểu Ngữ | Một mình
+
+## 30b2-4
+@ Ở trung tâm thương mại.
+小语: 你去过这个商场吗？ | Bạn đến trung tâm thương mại này bao giờ chưa?
+李文: 去过，这里的东西不错。我们进去看看吧。 | Đến rồi, đồ ở đây khá tốt. Chúng ta vào xem đi.
+小语: 这条红色的裤子怎么样？ | Chiếc quần màu đỏ này thế nào?
+李文: 你穿红色的很好看。 | Bạn mặc màu đỏ rất đẹp.
+小语: 黑色的呢？ | Còn màu đen?
+李文: 黑色的更好看，你试试吧。 | Màu đen còn đẹp hơn, bạn thử đi.
+@ Chọn cặp sách.
+小语: 因为我没有书包，所以我想买一个。 | Vì mình không có cặp sách nên mình muốn mua một cái.
+李文: 这个绿色的和那个白色的，你喜欢什么颜色？ | Cái màu xanh lá này và cái màu trắng kia, bạn thích màu nào?
+小语: 我过去看看。 | Để mình qua đó xem.
+>fill 你去___西安吗？ || Bạn đã từng đến Tây An chưa? || 过 | 了 | 吗
+>fill 因为下雨，___我们没去商场。 || Vì trời mưa nên chúng tôi không đi trung tâm thương mại. || 所以 | 因为 | 还是
+>order 你 穿 红色 的 很 好看 +条 || Bạn mặc màu đỏ rất đẹp.
+>trans Chiếc quần này là của tôi. || 这条裤子是我的。 | 这个裤子条是我的。 | 这条是我的裤子的。
+>q Vì sao Tiểu Ngữ muốn mua cặp sách? || Chưa có cặp sách | Cặp sách cũ bị hỏng | Thích màu xanh lá
+
+## 30b2-5
+@ Lý Văn lần đầu đến nhà bạn Trung Quốc.
+朋友: 你来了！快进来！ | Bạn đến rồi! Vào nhanh đi!
+李文: 你好！这是给你爷爷奶奶的礼物。 | Chào bạn! Đây là quà tặng ông bà bạn.
+朋友: 谢谢！我爷爷奶奶在下面，一会儿就上来。 | Cảm ơn! Ông bà mình đang ở dưới nhà, lát nữa sẽ lên.
+李文: 我下去跟他们说“你好”吧。 | Để mình xuống chào ông bà.
+朋友: 你等一会儿，奶奶正在做面呢。 | Bạn đợi một lát, bà đang nấu mì.
+@ Lúc ra về.
+朋友: 都十点了，你住的酒店远吗？ | Đã mười giờ rồi, khách sạn bạn ở có xa không?
+李文: 不远，我走回去。 | Không xa, mình đi bộ về.
+>fill 你快进___！ || Bạn vào nhanh đi! (người nói đang ở trong nhà) || 来 | 去 | 上
+>fill ___十点了，我们走吧。 || Đã mười giờ rồi, chúng ta đi thôi. || 都 | 就 | 跟
+>order 奶奶 正在 做 面 呢 +跟 || Bà đang nấu mì.
+>trans Ông tôi đã về nhà rồi. || 我爷爷回家来了。 | 我爷爷来回家了。 | 我爷爷回来家了。
+>q Lý Văn mang quà tặng ai? || Ông bà của bạn | Bạn của mình | Mẹ của bạn
+
+## 30b2-6
+@ Sinh nhật Tiểu Tuyết.
+李文: 小雪，生日快乐！这是给你的礼物。 | Tiểu Tuyết, chúc mừng sinh nhật! Đây là quà tặng bạn.
+小雪: 谢谢！我可以打开看看吗？ | Cảm ơn! Mình mở ra xem được không?
+李文: 可以！ | Được chứ!
+小雪: 是画笔！我很喜欢画画儿。 | Là bút vẽ! Mình rất thích vẽ tranh.
+小语: 我们还买了蛋糕、水果什么的。 | Bọn mình còn mua bánh ngọt, hoa quả, vân vân.
+小雪: 你们真好！今天我过得高高兴兴的。 | Các bạn tốt quá! Hôm nay mình vui lắm.
+@ Bữa tiệc sinh nhật.
+小语: 桌子上有鱼、有肉，你别忘了吃蛋糕。 | Trên bàn có cá, có thịt, bạn đừng quên ăn bánh nhé.
+李文: 吃完了，我觉得很舒服。 | Ăn xong mình thấy dễ chịu lắm.
+>fill 她高兴___打开了礼物。 || Cô ấy vui vẻ mở món quà. || 地 | 的 | 过
+>fill 我买了蛋糕、水果___。 || Tôi mua bánh ngọt, hoa quả, vân vân. || 什么的 | 一会儿 | 一起
+>order 大家 高高兴兴 地 唱 +的 || Mọi người vui vẻ ca hát.
+>trans Đừng quên ăn bánh nhé. || 别忘了吃蛋糕。 | 别了忘吃蛋糕。 | 忘别了吃蛋糕。
+>q Lý Văn tặng Tiểu Tuyết món quà gì? || Bút vẽ | Bánh ngọt | Hoa quả
+
+## 30b2-7
+@ Tiểu Ngữ hỏi về sở thích.
+小语: 你有什么爱好？ | Bạn có sở thích gì?
+李文: 我喜欢运动，篮球打得很好。 | Mình thích thể thao, chơi bóng rổ rất giỏi.
+小语: 你从什么时候开始打篮球？ | Bạn bắt đầu chơi bóng rổ từ khi nào?
+李文: 从小学开始。我一下课就去打球。 | Từ tiểu học. Cứ tan học là mình đi chơi bóng.
+小语: 你会游泳吗？ | Bạn biết bơi không?
+李文: 会，但是我游得不快。 | Biết, nhưng mình bơi không nhanh.
+@ Buổi sáng.
+小语: 你每天早上跑步吗？ | Sáng nào bạn cũng chạy bộ à?
+李文: 对，我往前跑，跑到学校就回来。 | Ừ, mình chạy thẳng về phía trước, đến trường thì quay về.
+>fill 他篮球打___很好。 || Anh ấy chơi bóng rổ rất giỏi. || 得 | 的 | 地
+>fill 他一下课___去打球。 || Anh ấy vừa tan học là đi chơi bóng. || 就 | 还 | 都
+>order 我 游 得 不 快 +从 || Tôi bơi không nhanh.
+>trans Anh ấy đá bóng rất giỏi. || 他足球踢得很好。 | 他足球踢很好得。 | 他踢得足球很好。
+>q Lý Văn bắt đầu chơi bóng rổ từ khi nào? || Từ tiểu học | Từ đại học | Từ năm ngoái
+
+## 30b2-8
+@ Người chồng quên sinh nhật vợ.
+妻子: 今天是几月几号？你记得吗？ | Hôm nay là ngày mấy tháng mấy? Anh có nhớ không?
+丈夫: 今天……是星期五？ | Hôm nay… là thứ Sáu à?
+妻子: 你忘了，今天是我的生日！ | Anh quên rồi, hôm nay là sinh nhật em!
+丈夫: 不好意思！虽然我忘了，但是我在饭馆点了你爱吃的菜。 | Xin lỗi em! Tuy anh quên, nhưng anh đã gọi sẵn món em thích ở nhà hàng rồi.
+妻子: 真的？那我们晚上去看爱情片吧。 | Thật à? Vậy tối nay mình đi xem phim tình cảm nhé.
+丈夫: 好。这是给你的花和手表。 | Được. Đây là hoa và đồng hồ tặng em.
+妻子: 这个手表比我的那个漂亮！ | Chiếc đồng hồ này đẹp hơn chiếc của em!
+@ Trong nhà hàng.
+丈夫: 你坐左边还是右边？ | Em ngồi bên trái hay bên phải?
+妻子: 右边吧，右边比左边有意思，可以看外面。 | Bên phải đi, bên phải thú vị hơn, có thể nhìn ra ngoài.
+>fill 这个手表___那个漂亮。 || Chiếc đồng hồ này đẹp hơn chiếc kia. || 比 | 对 | 跟
+>fill 虽然你忘了，___我记得。 || Tuy bạn quên nhưng tôi vẫn nhớ. || 但是 | 所以 | 因为
+>order 我 妻子 比 我 小 两 岁 +但是 || Vợ tôi kém tôi hai tuổi.
+>trans Chiếc bánh này ngon hơn chiếc kia. || 这个蛋糕比那个好吃。 | 这个蛋糕好吃比那个。 | 比那个这个蛋糕好吃。
+>q Hôm nay là ngày gì của người vợ? || Sinh nhật | Ngày cưới | Ngày Tết
+
+## 30b2-9
+@ Lý Văn đi mua trà sữa.
+小语: 你去哪儿？ | Bạn đi đâu thế?
+李文: 我去买杯奶茶。奶茶店离这儿很近，走路五分钟。 | Mình đi mua cốc trà sữa. Tiệm trà sữa cách đây rất gần, đi bộ năm phút.
+小语: 你不喝咖啡了？ | Bạn không uống cà phê nữa à?
+李文: 奶茶没有咖啡那么贵。我喝咖啡喝了一周了。 | Trà sữa không đắt bằng cà phê. Mình uống cà phê cả tuần rồi.
+@ Trước cửa tiệm trà sữa.
+小语: 门口那个男孩儿是谁？个子真高！ | Cậu bé ở cửa là ai vậy? Cao thật!
+李文: 是我弟弟，他比我高。 | Là em trai mình, nó cao hơn mình.
+小语: 你等了他多长时间？ | Bạn đợi cậu ấy bao lâu rồi?
+李文: 我等了他十分钟。他的手机坏了。 | Mình đợi nó mười phút rồi. Điện thoại của nó bị hỏng.
+>fill 奶茶___咖啡那么贵。 || Trà sữa không đắt bằng cà phê. || 没有 | 比 | 离
+>fill 奶茶店___这儿很近。 || Tiệm trà sữa cách đây rất gần. || 离 | 从 | 往
+>order 我 等 了 他 十 分钟 +离 || Tôi đã đợi anh ấy mười phút.
+>trans Nhà tôi cách trường rất gần. || 我家离学校很近。 | 我家学校离很近。 | 离我家学校很近。
+>q Điện thoại của em trai Lý Văn làm sao? || Bị hỏng | Bị mất | Rất đắt
+
+## 30b2-10
+@ Chuẩn bị thi.
+小语: 就要考试了，你准备好了吗？ | Sắp thi rồi, bạn chuẩn bị xong chưa?
+李文: 还没有。考试是明天还是后天？ | Chưa. Thi vào ngày mai hay ngày kia?
+小语: 后天。 | Ngày kia.
+李文: 老师说题很多。你能帮我看看这些词吗？ | Cô giáo bảo đề nhiều lắm. Bạn giúp mình xem những từ này được không?
+小语: 好，这个词你写错了。 | Được, từ này bạn viết sai rồi.
+李文: 你别笑我！ | Bạn đừng cười mình!
+@ Ngày khai giảng.
+小语: 快要开学了，教室的门开了吗？ | Sắp khai giảng rồi, cửa phòng học mở chưa?
+李文: 开了，我坐在后面。 | Mở rồi, mình ngồi ở phía sau.
+>fill 就要考试___。 || Sắp thi rồi. || 了 | 吗 | 的
+>fill 考试是明天___后天？ || Thi vào ngày mai hay ngày kia? || 还是 | 和 | 但是
+>order 明天 就要 开学 了 +还是 || Ngày mai là khai giảng rồi.
+>trans Bài thi này có rất nhiều câu. || 这个考试题很多。 | 这个很多考试题。 | 题这个考试很多。
+>q Khi nào thi? || Ngày kia | Ngày mai | Hôm nay
+
+## 30b2-11
+@ Lý Văn bị ốm.
+小语: 你怎么了？ | Bạn sao thế?
+李文: 我头疼，不想动。 | Mình đau đầu, không muốn cử động.
+小语: 你吃药了吗？ | Bạn uống thuốc chưa?
+李文: 还没有。家里没有药了。 | Chưa. Ở nhà hết thuốc rồi.
+小语: 我去药店给你买。你在家等着。 | Mình đi hiệu thuốc mua cho bạn. Bạn ở nhà đợi nhé.
+@ Trước khi Tiểu Ngữ đi.
+李文: 路上车很多，你慢点儿走。 | Trên đường xe đông, bạn đi chậm thôi.
+小语: 知道了。你最喜欢吃什么？我给你买。 | Biết rồi. Bạn thích ăn gì nhất? Mình mua cho.
+李文: 我最喜欢吃中国菜。 | Mình thích ăn món Trung Quốc nhất.
+>fill 你在家等___。 || Bạn ở nhà đợi nhé. || 着 | 过 | 地
+>fill 我___喜欢吃中国菜。 || Tôi thích ăn món Trung Quốc nhất. || 最 | 多 | 更
+>order 他 笑 着 说 我 没事 +最 || Anh ấy cười nói: "Tôi không sao."
+>trans Cửa đang mở. || 门开着。 | 门着开。 | 开门着。
+>q Tiểu Ngữ đi đâu? || Hiệu thuốc | Bệnh viện | Siêu thị
+
+## 30b2-12
+@ Nói chuyện thời tiết.
+小语: 这里比北京冷多了！ | Ở đây lạnh hơn Bắc Kinh nhiều!
+李文: 是啊，今天是阴天，昨天是晴天，昨天比今天还热。 | Ừ, hôm nay trời âm u, hôm qua trời nắng, hôm qua còn ấm hơn hôm nay.
+小语: 你从小在北京住吗？ | Bạn sống ở Bắc Kinh từ nhỏ à?
+李文: 对。小时候我家在一个很高的楼里，楼下就是地铁站。 | Ừ. Hồi nhỏ nhà mình ở trong một tòa nhà rất cao, dưới nhà là ga tàu điện ngầm.
+@ Hai bạn hẹn nhau ở ga tàu điện ngầm.
+小语: 你在做什么？ | Bạn đang làm gì?
+李文: 我正在地铁站等你呢。外面太冷了。 | Mình đang đợi bạn ở ga tàu điện ngầm. Ngoài trời lạnh quá.
+小语: 你跑得比我快，你先走吧。 | Bạn chạy nhanh hơn mình, bạn đi trước đi.
+>fill 这里比北京冷___了。 || Ở đây lạnh hơn Bắc Kinh nhiều. || 多 | 很 | 最
+>fill 他跑___比我快。 || Anh ấy chạy nhanh hơn tôi. || 得 | 的 | 着
+>order 今天 比 昨天 更 冷 +很 || Hôm nay còn lạnh hơn hôm qua.
+>trans Hồi nhỏ tôi sống ở Bắc Kinh. || 小时候我住在北京。 | 我住小时候在北京。 | 北京小时候我住在。
+>q Hồi nhỏ, dưới tòa nhà của Lý Văn có gì? || Ga tàu điện ngầm | Siêu thị | Trường học
+
+## 30b2-13
+@ Nói chuyện về lớp tiếng Trung.
+小语: 你们班的中文老师是谁？ | Giáo viên tiếng Trung lớp bạn là ai?
+李文: 是王老师，她教我们中文。我们都爱上她的课。 | Là cô Vương, cô dạy chúng mình tiếng Trung. Bọn mình đều thích học giờ của cô.
+小语: 中文课有意思吗？ | Giờ tiếng Trung có thú vị không?
+李文: 很有意思。王老师告诉我们很多中国的事情。 | Rất thú vị. Cô Vương kể cho chúng mình nhiều chuyện về Trung Quốc.
+小语: 你的中文跟你同学一样好吗？ | Tiếng Trung của bạn có giỏi bằng các bạn cùng lớp không?
+李文: 我没有他们那么好，但是我希望新年的时候能说得跟他们一样好。 | Mình không giỏi bằng họ, nhưng mình hi vọng đến năm mới có thể nói giỏi như họ.
+@ Tìm nhà vệ sinh.
+小语: 请问，洗手间在哪儿？ | Cho hỏi, nhà vệ sinh ở đâu?
+李文: 在上面，教室里面没有。 | Ở tầng trên, trong phòng học không có.
+>fill 王老师教___中文。 || Cô Vương dạy chúng tôi tiếng Trung. || 我们 | 给 | 跟
+>fill 我的笔跟你的___。 || Bút của tôi giống bút của bạn. || 一样 | 那样 | 可能
+>order 他 跟 我 一样 高 +那样 || Anh ấy cao bằng tôi.
+>trans Anh ấy tặng tôi một quyển sách. || 他送了我一本书。 | 他送了一本书我。 | 他我送了一本书。
+>q Cô Vương dạy môn gì? || Tiếng Trung | Tiếng Anh | Toán
+
+## 30b2-14
+@ Sắp đến Tết.
+小语: 过年你回家吗？ | Tết bạn có về nhà không?
+李文: 不回。一个人过年多没意思啊！ | Không về. Một mình đón Tết chán biết bao!
+小语: 来我朋友家过年吧。她家的房子很大，前面站着很多小孩儿。 | Đến nhà bạn mình đón Tết đi. Nhà cô ấy rộng lắm, phía trước có rất nhiều trẻ con đang đứng chơi.
+李文: 你朋友姓什么？ | Bạn của bạn họ gì?
+小语: 姓王，是一位很漂亮的女孩儿，眼睛大大的，很喜欢跳舞。 | Họ Vương, là một cô gái rất xinh, mắt to tròn, rất thích nhảy múa.
+@ Đến nhà bạn.
+小语: 你看，她从房间里走出来了。 | Bạn xem, cô ấy từ trong phòng đi ra rồi.
+李文: 我的包还在车上，我去拿过来。 | Túi của mình còn trên xe, để mình đi lấy qua.
+>fill 一个人过年___没意思啊！ || Một mình đón Tết chán biết bao! || 多 | 最 | 很
+>fill 门口___着一个小孩儿。 || Ở cửa có một đứa bé đang đứng. || 站 | 有 | 是
+>order 前面 站 着 很多 小孩儿 +位 || Phía trước có rất nhiều trẻ con đang đứng.
+>trans Anh ấy từ trên lầu đi xuống. || 他从楼上走下来了。 | 他从楼上下来走了。 | 他走从楼上下来了。
+>q Người bạn của Tiểu Ngữ họ gì? || Vương | Lý | Trương
+
+## 30b2-15
+@ Lý Văn muốn đến Trung Quốc lần nữa.
+小语: 你出过国吗？ | Bạn đã từng ra nước ngoài chưa?
+李文: 出过。高中的时候我去过一次中国，我想再去一次。 | Đã từng. Hồi cấp ba mình đến Trung Quốc một lần, mình muốn đi thêm lần nữa.
+小语: 你买机票了吗？ | Bạn mua vé máy bay chưa?
+李文: 买了。网上要写姓名什么的。 | Mua rồi. Trên mạng phải điền họ tên các thứ.
+小语: 你想去哪儿？ | Bạn muốn đi đâu?
+李文: 颐和园。门票不贵，我在网上看过，那儿有很多鸟。 | Di Hòa Viên. Vé vào cửa không đắt, mình xem trên mạng rồi, ở đó có rất nhiều chim.
+@ Ngày khởi hành.
+小语: 你几点出门？路上车多，机场好像很远。 | Mấy giờ bạn ra khỏi nhà? Trên đường xe đông, sân bay hình như xa lắm.
+李文: 七点。飞机十点飞，坐车有一个小时。 | Bảy giờ. Máy bay mười giờ cất cánh, đi xe mất khoảng một tiếng.
+>fill 我去过两___中国。 || Tôi đã đến Trung Quốc hai lần. || 次 | 个 | 位
+>fill 我想再去___中国。 || Tôi muốn đến Trung Quốc thêm một lần nữa. || 一次 | 一下 | 一会儿
+>order 我 见 过 她 一 次 +位 || Tôi đã gặp cô ấy một lần.
+>trans Đi xe mất khoảng một tiếng. || 坐车有一个小时。 | 坐车一个小时有。 | 有坐车一个小时。
+>q Lý Văn muốn đến đâu ở Trung Quốc? || Di Hòa Viên | Tây An | Đại học Bắc Kinh

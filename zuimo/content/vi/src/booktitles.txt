@@ -1,0 +1,61 @@
+# Tên bài tiếng Việt do ZUIMO dịch. khoá: phiên bản-bài ‖ tiếng Việt ‖ tiếng Anh
+20-1 ‖ Xin chào! ‖ Hello!
+20-2 ‖ Cảm ơn bạn! ‖ Thank you!
+20-3 ‖ Bạn tên là gì? ‖ What's your name?
+20-4 ‖ Cô ấy là giáo viên tiếng Trung của tôi. ‖ She is my Chinese teacher.
+20-5 ‖ Con gái cô ấy năm nay hai mươi tuổi. ‖ Her daughter is twenty this year.
+20-6 ‖ Tôi biết nói tiếng Trung. ‖ I can speak Chinese.
+20-7 ‖ Hôm nay ngày mấy? ‖ What's the date today?
+20-8 ‖ Tôi muốn uống trà. ‖ I'd like some tea.
+20-9 ‖ Con trai bạn làm việc ở đâu? ‖ Where does your son work?
+20-10 ‖ Tôi ngồi đây được không? ‖ May I sit here?
+20-11 ‖ Bây giờ là mấy giờ? ‖ What time is it now?
+20-12 ‖ Thời tiết ngày mai thế nào? ‖ What will the weather be like tomorrow?
+20-13 ‖ Anh ấy đang học nấu món Trung Quốc. ‖ He is learning to cook Chinese food.
+20-14 ‖ Cô ấy đã mua khá nhiều quần áo. ‖ She bought quite a lot of clothes.
+20-15 ‖ Tôi đến bằng máy bay. ‖ I came by plane.
+30-1 ‖ Chào AI Tiểu Ngữ! ‖ Hello, AI Xiaoyu!
+30-2 ‖ Tôi tên là Lý Văn ‖ My name is Li Wen
+30-3 ‖ Tôi là người Trung Quốc ‖ I'm Chinese
+30-4 ‖ Tôi có hai đứa con ‖ I have two children
+30-5 ‖ Hôm nay tôi nghỉ ‖ I'm off today
+30-6 ‖ Số điện thoại của bạn là bao nhiêu? ‖ What's your cell phone number?
+30-7 ‖ Sáu giờ rưỡi tối tôi tan làm ‖ I'll finish work at 6:30 in the evening
+30-8 ‖ Bố tôi cũng làm việc ở bệnh viện ‖ My father also works at a hospital
+30-9 ‖ Sáng mai tôi học ở trường ‖ I'll be studying at school tomorrow morning
+30-10 ‖ Táo ở đây rẻ thật! ‖ The apples here are really affordable!
+30-11 ‖ Tôi đang học đại học ‖ I'm studying at university
+30-12 ‖ Hôm qua tuyết rơi ‖ It snowed yesterday
+30-13 ‖ Cho tôi một cốc trà ‖ I'll have a cup of tea, please
+30-14 ‖ Tôi đã xem một bộ phim ‖ I watched a movie
+30-15 ‖ Hẹn gặp ở sân bay Đại Hưng! ‖ See you at Daxing Airport!
+20b2-1 ‖ Tháng chín đi du lịch Bắc Kinh là đẹp nhất. ‖ September is the best time to visit Beijing.
+20b2-2 ‖ Mỗi ngày tôi dậy lúc sáu giờ. ‖ I get up at six every day.
+20b2-3 ‖ Cái màu đỏ bên trái là của tôi. ‖ The red one on the left is mine.
+20b2-4 ‖ Công việc này là anh ấy giới thiệu giúp tôi. ‖ He introduced me to this job.
+20b2-5 ‖ Mua bộ này đi. ‖ Let's just buy this one.
+20b2-6 ‖ Sao bạn không ăn nữa? ‖ Why aren't you eating anymore?
+20b2-7 ‖ Nhà bạn có xa công ty không? ‖ Is your home far from the office?
+20b2-8 ‖ Để tôi nghĩ đã rồi nói với bạn. ‖ Let me think and tell you later.
+20b2-9 ‖ Nhiều bài quá, tôi làm không xong. ‖ Too many questions, I didn't finish.
+20b2-10 ‖ Đừng tìm nữa, điện thoại ở trên bàn kìa. ‖ Stop looking, the phone is on the table.
+20b2-11 ‖ Anh ấy lớn hơn tôi ba tuổi. ‖ He is three years older than me.
+20b2-12 ‖ Bạn mặc ít quá. ‖ You're wearing too little.
+20b2-13 ‖ Cửa đang mở. ‖ The door is open.
+20b2-14 ‖ Bạn đã xem bộ phim đó chưa? ‖ Have you seen that movie?
+20b2-15 ‖ Sắp đến năm mới rồi. ‖ The New Year is coming.
+30b2-1 ‖ Cô ấy mời chúng tôi ăn vịt quay Bắc Kinh ‖ She treated us to Peking Duck
+30b2-2 ‖ Hay là bắt taxi đến Đại học Bắc Kinh đi ‖ Let's take a taxi to Peking University instead
+30b2-3 ‖ Tôi muốn đi du lịch Tây An ‖ I want to visit Xi'an
+30b2-4 ‖ Bạn mặc màu đỏ rất đẹp ‖ You look pretty good in red
+30b2-5 ‖ Lần đầu đến nhà bạn Trung Quốc ‖ Visiting a Chinese friend's home for the first time
+30b2-6 ‖ Tiểu Tuyết, chúc mừng sinh nhật! ‖ Happy birthday, Xiaoxue!
+30b2-7 ‖ Anh ấy chơi bóng rổ rất giỏi ‖ He plays basketball very well
+30b2-8 ‖ Dù bạn quên, nhưng tôi vẫn nhớ ‖ Even though you forgot, I remembered
+30b2-9 ‖ Tôi đi mua cốc trà sữa ‖ I'm going to buy a cup of bubble tea
+30b2-10 ‖ Sắp thi rồi ‖ The exam is coming
+30b2-11 ‖ Tôi thích ăn món Trung Quốc nhất ‖ I like Chinese food the most
+30b2-12 ‖ Ở đây lạnh hơn Bắc Kinh nhiều ‖ It's much colder here than in Beijing
+30b2-13 ‖ Chúng tôi thích học tiếng Trung ‖ We love attending Chinese class
+30b2-14 ‖ Một mình đón Tết thật buồn ‖ It's boring to celebrate the Spring Festival alone
+30b2-15 ‖ Tôi muốn đến Trung Quốc thêm lần nữa ‖ I want to go to China again

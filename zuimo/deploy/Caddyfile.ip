@@ -1,0 +1,11 @@
+# Chế độ theo IP (tạm thời, khi DNS chưa trỏ về VPS): chỉ HTTP, không xin chứng chỉ.
+{
+	admin 127.0.0.1:2019
+	auto_https off
+}
+
+import /etc/caddy/site.caddy
+
+:80 {
+	import zuimo_site
+}

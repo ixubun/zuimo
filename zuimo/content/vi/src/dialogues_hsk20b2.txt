@@ -1,0 +1,250 @@
+# ZUIMO – hội thoại và bài tập tự biên soạn, giáo trình HSK 2.0 quyển 2 (HSK标准教程 2)
+# Chỉ dùng từ của quyển 1 và các bài đã học của quyển 2. Cú pháp: xem dialogues_hsk20.txt
+
+## 20b2-1
+@ Vương Phương và Tạ Bằng bàn chuyện du lịch.
+王方: 你觉得什么时候去北京旅游最好？ | Bạn thấy lúc nào đi du lịch Bắc Kinh là đẹp nhất?
+谢朋: 九月去北京旅游最好。 | Tháng chín đi du lịch Bắc Kinh là đẹp nhất.
+王方: 为什么？ | Tại sao?
+谢朋: 九月北京的天气不冷也不热。 | Tháng chín thời tiết Bắc Kinh không lạnh cũng không nóng.
+王方: 我也想去，我们一起去吧！ | Mình cũng muốn đi, chúng mình cùng đi nhé!
+@ Lý Nguyệt dắt chó đi dạo.
+大卫: 这是你的新狗吗？它叫什么名字？ | Đây là chó mới của bạn à? Nó tên là gì?
+李月: 它叫花花。你看，它的眼睛很漂亮。 | Nó tên là Hoa Hoa. Bạn xem, mắt nó rất đẹp.
+大卫: 你喜欢什么运动？ | Bạn thích môn thể thao nào?
+李月: 我最喜欢踢足球。明天我要去踢足球。 | Mình thích đá bóng nhất. Ngày mai mình sẽ đi đá bóng.
+>fill 九月去北京旅游___好。 || Tháng chín đi du lịch Bắc Kinh là đẹp nhất. || 最 | 也 | 要
+>fill 我___想去北京旅游。 || Tôi cũng muốn đi du lịch Bắc Kinh. || 也 | 最 | 它
+>order 我 最 喜欢 踢足球 +也 || Tôi thích đá bóng nhất.
+>trans Bạn thấy lúc nào đi Bắc Kinh là tốt nhất? || 你觉得什么时候去北京最好？ | 你什么时候觉得最好去北京？ | 最好你觉得什么时候去北京？
+>q Vì sao tháng chín đi Bắc Kinh là đẹp nhất? || Thời tiết không nóng không lạnh | Có nhiều bạn bè | Vé máy bay rẻ
+
+## 20b2-2
+@ Lý Nguyệt hỏi thăm David.
+李月: 你身体怎么样？你是不是生病了？ | Sức khỏe bạn thế nào? Có phải bạn bị ốm không?
+大卫: 是，我昨天出院了，现在每天吃药。 | Ừ, hôm qua mình xuất viện, bây giờ ngày nào cũng uống thuốc.
+李月: 你要多休息。 | Bạn phải nghỉ ngơi nhiều vào.
+大卫: 我知道。医生说我每天早上要跑步。 | Mình biết. Bác sĩ nói sáng nào mình cũng phải chạy bộ.
+李月: 你每天几点起床？ | Mỗi ngày bạn dậy lúc mấy giờ?
+大卫: 我每天六点起床。 | Mỗi ngày mình dậy lúc sáu giờ.
+@ Nói chuyện về một người bạn cùng lớp.
+王方: 你的同学多高？ | Bạn cùng lớp của bạn cao bao nhiêu?
+谢朋: 一米八。他很忙，没有时间跑步。 | Một mét tám. Cậu ấy rất bận, không có thời gian chạy bộ.
+>fill 我___天六点起床。 || Mỗi ngày tôi dậy lúc sáu giờ. || 每 | 多 | 高
+>fill 你是不___生病了？ || Có phải bạn bị ốm không? || 是 | 吗 | 要
+>order 你 要 多 休息 +每 || Bạn phải nghỉ ngơi nhiều vào.
+>trans Bạn cao bao nhiêu? || 你多高？ | 你高多？ | 多你高？
+>q Sáng nào bác sĩ cũng bảo David làm gì? || Chạy bộ | Uống trà | Đi học
+
+## 20b2-3
+@ Vương Phương đến nhà Lý Nguyệt.
+王方: 这是谁的手表？ | Đây là đồng hồ của ai?
+李月: 左边那个红色的是我的，是我丈夫送我的。 | Cái màu đỏ bên trái là của mình, chồng mình tặng.
+王方: 真漂亮！多少钱？ | Đẹp thật! Bao nhiêu tiền?
+李月: 一千多块。 | Hơn một nghìn đồng.
+王方: 旁边那个粉色的呢？ | Còn cái màu hồng bên cạnh?
+李月: 那个是我女儿的。 | Cái đó là của con gái mình.
+@ Buổi sáng ở nhà Lý Nguyệt.
+丈夫: 你看一下今天的报纸。 | Em xem báo hôm nay một chút đi.
+李月: 好。我的牛奶呢？ | Vâng. Sữa của em đâu?
+丈夫: 在房间里。 | Ở trong phòng.
+>fill 左边那个红色___是我的。 || Cái màu đỏ bên trái là của tôi. || 的 | 了 | 吗
+>fill 你看___今天的报纸。 || Bạn xem báo hôm nay một chút. || 一下 | 真 | 送
+>order 这 个 手表 真 漂亮 +一下 || Chiếc đồng hồ này đẹp thật.
+>trans Chồng tôi tặng tôi một chiếc đồng hồ. || 我丈夫送我一个手表。 | 我丈夫一个手表送我。 | 送我丈夫一个手表我。
+>q Chiếc đồng hồ màu hồng là của ai? || Con gái Lý Nguyệt | Chồng Lý Nguyệt | Vương Phương
+
+## 20b2-4
+@ Sinh nhật Vương Phương.
+谢朋: 王方，生日快乐！这是给你的。 | Vương Phương, chúc mừng sinh nhật! Cái này tặng bạn.
+王方: 谢谢！我非常喜欢。 | Cảm ơn! Mình rất thích.
+谢朋: 听说你开始工作了？ | Nghe nói bạn đi làm rồi à?
+王方: 是，我已经工作两个月了。 | Ừ, mình đi làm được hai tháng rồi.
+谢朋: 这个工作是谁介绍的？ | Công việc này là ai giới thiệu?
+王方: 是我爸爸的朋友帮我介绍的。 | Là bạn của bố mình giới thiệu giúp mình.
+@ Hẹn đón buổi tối.
+王方: 晚上我回家的时候，你来接我吧。 | Tối lúc mình về nhà, bạn đến đón mình nhé.
+谢朋: 好。我问一下，你在哪儿工作？ | Được. Cho mình hỏi, bạn làm việc ở đâu?
+王方: 在医院，工作的时间很长。 | Ở bệnh viện, thời gian làm việc rất dài.
+>fill 这个工作是他帮我介绍___。 || Công việc này là anh ấy giới thiệu giúp tôi. || 的 | 了 | 吗
+>fill 我___工作两个月了。 || Tôi đã đi làm được hai tháng rồi. || 已经 | 非常 | 开始
+>order 生日 快乐 +已经 || Chúc mừng sinh nhật!
+>trans Lúc tôi về nhà đã chín giờ tối rồi. || 我回家的时候已经晚上九点了。 | 我回家已经的时候晚上九点了。 | 的时候我回家已经晚上九点了。
+>q Vương Phương làm việc ở đâu? || Bệnh viện | Trường học | Cửa hàng
+
+## 20b2-5
+@ Lý Nguyệt và Vương Phương đi mua quần áo.
+李月: 这件衣服怎么样？ | Chiếc áo này thế nào?
+王方: 还不错，就是有点儿大。 | Cũng khá được, chỉ hơi rộng một chút.
+李月: 我觉得可以，就买这件吧。 | Mình thấy được, mua luôn chiếc này đi.
+王方: 好。我们去外面喝咖啡吧。 | Được. Chúng ta ra ngoài uống cà phê nhé.
+@ Nói chuyện kỳ thi.
+李月: 你准备考试了吗？ | Bạn chuẩn bị thi chưa?
+王方: 还没有。考试以后我们去吃鱼，对吧？ | Chưa. Thi xong chúng ta đi ăn cá, đúng không?
+李月: 对！ | Đúng!
+>fill ___买这件吧。 || Mua luôn chiếc này đi. || 就 | 还 | 对
+>fill 这件衣服___点儿大。 || Chiếc áo này hơi rộng. || 有 | 很 | 吧
+>order 我们 去 外面 喝 咖啡 吧 +就 || Chúng ta ra ngoài uống cà phê nhé.
+>trans Chiếc áo này cũng khá ổn. || 这件衣服还不错。 | 这件衣服不错还。 | 还这件衣服不错。
+>q Hai bạn định làm gì sau kỳ thi? || Đi ăn cá | Đi uống cà phê | Đi mua áo
+
+## 20b2-6
+@ Bữa trưa ở nhà David.
+姐姐: 你怎么不吃了？ | Sao em không ăn nữa?
+大卫: 因为羊肉面条不好吃，所以我不想吃了。 | Vì mì thịt dê không ngon nên em không muốn ăn nữa.
+姐姐: 那你想吃什么？ | Thế em muốn ăn gì?
+大卫: 我想吃米饭。 | Em muốn ăn cơm.
+@ Nói chuyện thể thao.
+王方: 你经常运动吗？ | Bạn có hay tập thể thao không?
+谢朋: 我天天打篮球，也经常游泳。 | Ngày nào mình cũng chơi bóng rổ, cũng hay đi bơi.
+王方: 你怎么去？ | Bạn đi bằng gì?
+谢朋: 我开车去。 | Mình lái xe đi.
+>fill 你___不吃了？ || Sao bạn không ăn nữa? || 怎么 | 什么 | 因为
+>fill 因为下雨，___我们没去游泳。 || Vì trời mưa nên chúng tôi không đi bơi. || 所以 | 因为 | 经常
+>order 他 天天 打篮球 +所以 || Ngày nào anh ấy cũng chơi bóng rổ.
+>trans Chiếc áo nào cũng rất đẹp. || 这些衣服件件都很漂亮。 | 这些衣服都件件很漂亮。 | 件件这些衣服很漂亮都。
+>q Vì sao David không ăn nữa? || Mì thịt dê không ngon | Cậu ấy đã no | Cậu ấy phải đi chơi bóng
+
+## 20b2-7
+@ Lý Nguyệt hỏi Vương Phương về đường đi làm.
+李月: 你家离公司远吗？ | Nhà bạn có xa công ty không?
+王方: 不太远，坐公共汽车二十分钟就到了。 | Không xa lắm, đi xe buýt hai mươi phút là đến.
+李月: 你几点出门？ | Mấy giờ bạn ra khỏi nhà?
+王方: 八点。路上车很多，公共汽车很慢。 | Tám giờ. Trên đường xe rất đông, xe buýt đi chậm lắm.
+@ David vội ra sân bay.
+谢朋: 你怎么还在教室？ | Sao bạn vẫn còn ở trong lớp?
+大卫: 我要去机场。机场离这儿远吗？ | Mình phải ra sân bay. Sân bay cách đây có xa không?
+谢朋: 很远，开车要一个小时呢。你快走吧！ | Xa lắm, lái xe mất một tiếng đấy. Bạn đi nhanh lên!
+>fill 你家___公司远吗？ || Nhà bạn có xa công ty không? || 离 | 到 | 走
+>fill 他怎么___在教室？ || Sao anh ấy vẫn còn ở trong lớp? || 还 | 就 | 快
+>order 坐 公共汽车 二十 分钟 就 到 了 +离 || Đi xe buýt hai mươi phút là đến.
+>trans Sân bay cách đây rất xa. || 机场离这儿很远。 | 这儿离很远机场。 | 机场很远离这儿。
+>q Từ lớp học ra sân bay lái xe mất bao lâu? || Một tiếng | Hai mươi phút | Tám tiếng
+
+## 20b2-8
+@ Lý Nguyệt đi mua áo.
+服务员: 您好，您要找什么？ | Chào chị, chị tìm gì ạ?
+李月: 我想买一件衣服。 | Tôi muốn mua một chiếc áo.
+服务员: 这件白的怎么样？ | Chiếc màu trắng này thế nào ạ?
+李月: 有点儿贵。有黑的吗？ | Hơi đắt. Có màu đen không?
+服务员: 有，您等等，我去找找。 | Có ạ, chị đợi một chút, tôi đi tìm.
+@ Hẹn đi xem phim.
+王方: 明天我们一起去看电影，好吗？ | Mai chúng mình cùng đi xem phim nhé?
+谢朋: 让我想想再告诉你。明天我有事情。 | Để mình nghĩ đã rồi nói với bạn. Mai mình có việc.
+>fill 让我想想___告诉你。 || Để tôi nghĩ đã rồi nói với bạn. || 再 | 就 | 还
+>fill 明天我们去看电影，___吗？ || Mai chúng ta đi xem phim, được không? || 好 | 贵 | 让
+>order 妈妈 让 我 去 买 东西 +再 || Mẹ bảo tôi đi mua đồ.
+>trans Bạn đợi một chút. || 你等等。 | 你等一等等。 | 等你等。
+>q Lý Nguyệt hỏi mua áo màu gì? || Màu đen | Màu trắng | Màu đỏ
+
+## 20b2-9
+@ Sau giờ học.
+大卫: 今天的题你都做完了吗？ | Các bài hôm nay bạn làm xong hết chưa?
+李月: 题太多，我没做完。 | Nhiều bài quá, mình làm không xong.
+大卫: 你有问题吗？ | Bạn có chỗ nào chưa hiểu không?
+李月: 第一题我没看懂，你能帮我吗？ | Câu thứ nhất mình đọc không hiểu, bạn giúp mình được không?
+大卫: 好。你看，这个字你写错了。 | Được. Bạn xem, chữ này bạn viết sai rồi.
+@ Nói chuyện sở thích.
+王方: 你喜欢跳舞吗？ | Bạn thích nhảy không?
+谢朋: 喜欢，我从九岁开始学跳舞。我希望每天都能跳舞。 | Thích, mình học nhảy từ năm chín tuổi. Mình mong ngày nào cũng được nhảy.
+>fill 题太多，我没做___。 || Nhiều bài quá, tôi làm không xong. || 完 | 错 | 懂
+>fill 我___九点开始上班。 || Tôi bắt đầu làm việc từ chín giờ. || 从 | 离 | 到
+>order 第一 题 我 没 看 懂 +完 || Câu thứ nhất tôi đọc không hiểu.
+>trans Bạn viết sai chữ này rồi. || 这个字你写错了。 | 这个字你错写了。 | 你这个字了写错。
+>q Tạ Bằng học nhảy từ khi nào? || Từ năm chín tuổi | Từ năm ngoái | Từ tháng chín
+
+## 20b2-10
+@ Anh trai Lý Nguyệt tìm điện thoại.
+哥哥: 我的手机呢？ | Điện thoại của anh đâu rồi?
+李月: 别找了，手机在桌子上呢。 | Đừng tìm nữa, điện thoại ở trên bàn kìa.
+哥哥: 谢谢！你正在做什么？ | Cảm ơn! Em đang làm gì thế?
+李月: 我正在洗西瓜。你别看手机了，来帮助我吧。 | Em đang rửa dưa hấu. Anh đừng xem điện thoại nữa, qua giúp em đi.
+哥哥: 好。西瓜对身体很好。 | Được. Dưa hấu tốt cho sức khỏe lắm.
+@ Buổi sáng trước giờ học.
+妈妈: 快吃鸡蛋，九点有课。 | Ăn trứng nhanh lên, chín giờ có tiết học đấy.
+李月: 知道了，我快吃完了。 | Con biết rồi, con sắp ăn xong rồi.
+>fill ___找了，手机在桌子上呢。 || Đừng tìm nữa, điện thoại ở trên bàn kìa. || 别 | 不 | 没
+>fill 西瓜___身体很好。 || Dưa hấu rất tốt cho sức khỏe. || 对 | 在 | 给
+>order 我 正在 洗 西瓜 +别 || Tôi đang rửa dưa hấu.
+>trans Đừng xem ti vi nữa. || 不要看电视了。 | 不要看了电视。 | 看电视不要了。
+>q Điện thoại của anh trai ở đâu? || Trên bàn | Trong phòng | Dưới gầm ghế
+
+## 20b2-11
+@ Lý Nguyệt xem ảnh của Vương Phương.
+李月: 右边那个唱歌的男孩子是谁？ | Cậu bé đang hát bên phải là ai?
+王方: 他是我朋友的孩子。 | Cậu ấy là con của bạn mình.
+李月: 他多大了？ | Cậu ấy bao nhiêu tuổi rồi?
+王方: 十岁。他比我女儿大三岁。 | Mười tuổi. Cậu ấy lớn hơn con gái mình ba tuổi.
+李月: 他姓什么？ | Cậu ấy họ gì?
+王方: 他姓张，去年来北京了。 | Cậu ấy họ Trương, năm ngoái đến Bắc Kinh.
+@ Chọn cốc ở cửa hàng.
+谢朋: 这个杯子比那个便宜。 | Cái cốc này rẻ hơn cái kia.
+大卫: 那个可能好一点儿。 | Cái kia có lẽ tốt hơn một chút.
+谢朋: 别说话了，我们买这个吧。 | Đừng nói nữa, mua cái này đi.
+>fill 他___我大三岁。 || Anh ấy lớn hơn tôi ba tuổi. || 比 | 对 | 从
+>fill 明天___下雨。 || Ngày mai có thể mưa. || 可能 | 已经 | 正在
+>order 这 个 杯子 比 那 个 便宜 +可能 || Cái cốc này rẻ hơn cái kia.
+>trans Người đang hát kia là bạn tôi. || 唱歌的那个人是我朋友。 | 那个人唱歌是的我朋友。 | 唱歌那个的人是我朋友。
+>q Con của bạn Vương Phương họ gì? || Trương | Vương | Lý
+
+## 20b2-12
+@ Ngày tuyết rơi.
+妻子: 外面下雪了，你穿得太少了。 | Ngoài trời có tuyết, anh mặc ít quá.
+张先生: 今天冷吗？ | Hôm nay lạnh không?
+妻子: 零下五度，比昨天冷多了。 | Âm năm độ, lạnh hơn hôm qua nhiều.
+张先生: 那我再穿一件衣服。 | Vậy anh mặc thêm một chiếc áo.
+@ Em trai đến chơi.
+弟弟: 我能进来吗？ | Em vào được không?
+李月: 进来吧！你家离这儿近吗？ | Vào đi! Nhà em có gần đây không?
+弟弟: 很近，我走得很快，十分钟就到了。 | Rất gần, em đi nhanh lắm, mười phút là đến.
+>fill 你穿___太少了。 || Bạn mặc ít quá. || 得 | 的 | 了
+>fill 今天比昨天冷___了。 || Hôm nay lạnh hơn hôm qua nhiều. || 多 | 很 | 太
+>order 他 走 得 很 快 +比 || Anh ấy đi rất nhanh.
+>trans Hôm nay lạnh hơn hôm qua một chút. || 今天比昨天冷一点儿。 | 今天比昨天很冷。 | 今天冷比昨天一点儿。
+>q Hôm đó nhiệt độ là bao nhiêu? || Âm năm độ | Năm độ | Mười độ
+
+## 20b2-13
+@ David hỏi đường đến khách sạn.
+大卫: 请问，去宾馆怎么走？ | Cho hỏi, đến khách sạn đi thế nào?
+杨笑笑: 一直往前走，到路口往右走。 | Cứ đi thẳng, đến ngã rẽ thì rẽ phải.
+大卫: 谢谢！你不是我们班的同学吗？ | Cảm ơn! Chẳng phải bạn học cùng lớp với mình sao?
+杨笑笑: 是啊，我叫杨笑笑。 | Đúng rồi, mình là Dương Tiếu Tiếu.
+@ Trong lớp học.
+李月: 门开着呢，老师来了吗？ | Cửa đang mở, cô giáo đến chưa?
+王方: 来了。你看，老师手里拿着一个铅笔，笑着说话呢。 | Đến rồi. Bạn xem, cô giáo tay cầm bút chì, vừa cười vừa nói.
+>fill 门开___呢。 || Cửa đang mở. || 着 | 了 | 得
+>fill 一直___前走。 || Cứ đi thẳng về phía trước. || 往 | 从 | 离
+>order 他 手 里 拿 着 一 个 铅笔 +往 || Trong tay anh ấy đang cầm một chiếc bút chì.
+>trans Chẳng phải bạn quen cô ấy sao? || 你不是认识她吗？ | 你认识不是她吗？ | 不是你认识她吗了？
+>q Đến ngã rẽ thì đi thế nào? || Rẽ phải | Rẽ trái | Quay lại
+
+## 20b2-14
+@ Nói chuyện về một bộ phim.
+李月: 你看过那个电影吗？ | Bạn đã xem bộ phim đó chưa?
+谢朋: 看过，我看过两次。 | Xem rồi, mình xem hai lần.
+李月: 有意思吗？ | Có hay không?
+谢朋: 非常有意思。虽然有点儿长，但是我很喜欢。 | Rất hay. Tuy hơi dài nhưng mình rất thích.
+李月: 我还没看过。明天天晴，我们去外面玩儿吧。 | Mình chưa xem. Mai trời nắng, chúng ta ra ngoài chơi nhé.
+@ David hỏi nghĩa một chữ.
+大卫: 这个字是什么意思？ | Chữ này nghĩa là gì?
+王方: 是“百”，一百的百。 | Là chữ "bách", một trăm.
+>fill 你看___那个电影吗？ || Bạn đã xem bộ phim đó chưa? || 过 | 着 | 得
+>fill ___有点儿长，但是我很喜欢。 || Tuy hơi dài nhưng tôi rất thích. || 虽然 | 因为 | 可能
+>order 这 个 电影 我 看 过 两 次 +着 || Bộ phim này tôi đã xem hai lần.
+>trans Tôi chưa từng đến Bắc Kinh. || 我没去过北京。 | 我不去过北京。 | 我没去北京过。
+>q Tạ Bằng đã xem bộ phim mấy lần? || Hai lần | Một lần | Chưa xem
+
+## 20b2-15
+@ Sắp Tết, David nói chuyện với em gái.
+妹妹: 新年就要到了，你买票了吗？ | Sắp đến năm mới rồi, anh mua vé chưa?
+大卫: 买了，十二月三十日的火车票。 | Mua rồi, vé tàu ngày 30 tháng 12.
+妹妹: 你几点去火车站？ | Mấy giờ anh ra ga?
+大卫: 早上七点。都九点了，我们睡觉吧。 | Bảy giờ sáng. Đã chín giờ rồi, chúng ta đi ngủ thôi.
+@ Chúc Tết.
+李月: 大家新年快乐！ | Chúc mọi người năm mới vui vẻ!
+王方: 新年快乐！今天是阴天，明天会更冷。 | Năm mới vui vẻ! Hôm nay trời âm u, mai sẽ còn lạnh hơn.
+>fill 新年就___到了。 || Sắp đến năm mới rồi. || 要 | 会 | 能
+>fill ___十二点了，快睡觉吧。 || Đã mười hai giờ rồi, ngủ nhanh đi. || 都 | 就 | 再
+>order 火车 快 要 开 了 +都 || Tàu sắp chạy rồi.
+>trans Chúc mọi người năm mới vui vẻ! || 大家新年快乐！ | 大家快乐新年！ | 快乐新年大家！
+>q David đi tàu vào ngày nào? || Ngày 30 tháng 12 | Ngày 1 tháng 1 | Ngày 13 tháng 12

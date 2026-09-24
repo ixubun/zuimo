@@ -1,0 +1,7 @@
+# Thêm vào ~/.ssh/config trên máy của bạn
+Host zuimo
+    HostName 45.66.128.86
+    Port 1812
+    User zuimo
+    IdentityFile ~/.ssh/zuimo_ed25519
+    ServerAliveInterval 30
