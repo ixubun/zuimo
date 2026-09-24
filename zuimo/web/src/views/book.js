@@ -4,7 +4,7 @@ import { BOOKS, HMAP, hasStroke, verName } from '../content/data.js';
 import { $, $$, esc, view } from '../core/dom.js';
 import { ic } from '../core/icons.js';
 import { S, saveP, store } from '../core/state.js';
-import { L, num, shuffle, tr } from '../core/util.js';
+import { L, shuffle, tr } from '../core/util.js';
 import { buildWordSession } from '../features/level-session.js';
 import { py } from '../features/pinyin.js';
 import { speak, utter, voiceCheck } from '../features/speech.js';
@@ -21,10 +21,6 @@ function renderBookList() {
   <div class="lhead"><h1>${tr('Bài học theo giáo trình', 'Textbook lessons')}</h1></div>
   ${verSeg()}
   ${booksOfVer().length > 1 ? `<div class="seggroup" role="group" aria-label="${tr('Chọn quyển', 'Choose a book')}">${booksOfVer().map(l => `<button class="seg" data-act="booklv" data-arg="${l}" aria-pressed="${S.bookLv === l}">${tr('Quyển', 'Book')} ${l}</button>`).join('')}</div>` : ''}
-  <p class="vernote">${esc(B.title)}: ${B.lessons.length} ${tr('bài', 'lessons')}, ${num(B.lessons.reduce((a, L) => a + coreCount(L), 0))} ${tr('từ mới', 'new words')}. ${ver === '20'
-    ? tr('Theo đề cương HSK 2.0, học kỹ phát âm và chữ Hán trong từng bài.', 'HSK 2.0 syllabus, with pronunciation and character work in every lesson.')
-    : tr('Theo đề cương HSK 3.0 áp dụng từ 07/2026.', 'HSK 3.0 syllabus, effective July 2026.')}
-    ${tr('Hội thoại và bài tập trên ZUIMO do ZUIMO tự biên soạn theo từ mới và ngữ pháp của từng bài.', 'Dialogues and exercises are written by ZUIMO for each lesson.')}</p>
   <div class="units">
     ${S.bookLv === 1 ? `<button class="unit on" data-act="nav" data-arg="lesson"><span class="zhb">入门</span><span class="grow"><span class="ut">${tr('Nhập môn: thanh điệu, bộ thủ và tập viết', 'Starter: tones, radicals and writing')}</span><span class="us" style="display:block">${tr('Bài mẫu ZUIMO, dùng được cho cả hai giáo trình', 'ZUIMO sample lesson for both textbooks')}</span></span><span class="end">${ic('chev')}</span></button>` : ''}
     ${B.lessons.map(L => {
